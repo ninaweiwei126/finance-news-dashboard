@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-08-25 16:06:20",
+  "generated_at": "2026-08-25 16:14:57",
   "title": "2026-08-25 全球市场金融资讯日报",
   "market_overview": [
     {
@@ -46,9 +46,9 @@
       "symbol": "^HSI",
       "name_cn": "恒生指数",
       "name_en": "Hang Seng",
-      "price": 25501.8,
-      "change_pct": -0.06,
-      "change": -15.53,
+      "price": 25503.81,
+      "change_pct": -0.05,
+      "change": -13.52,
       "verified": true,
       "sources": [
         "tencent",
@@ -59,9 +59,9 @@
       "symbol": "^HSCE",
       "name_cn": "国企指数",
       "name_en": "HSCEI",
-      "price": 8443.52,
-      "change_pct": -0.33,
-      "change": -27.84,
+      "price": 8444.09,
+      "change_pct": -0.32,
+      "change": -27.27,
       "verified": true,
       "sources": [
         "tencent",
@@ -176,23 +176,6 @@
     },
     {
       "rank": 3,
-      "title": "A股成交额下半年新低！三大指数午后一度翻红 调整已近尾声？",
-      "summary": "8月25日，市场午后震荡回升，沪指小幅飘红。截至收盘，沪指涨0.19%，深成指跌0.35%，创业板指跌1.00%。板块来看，创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹，零售、旅游等消费股强势。下跌方面，贵金属、锂矿等资源股大幅回调。全市场超4200股上涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿。",
-      "time": "2026-08-25 15:31:54",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202608253852768611.html",
-      "related_symbols": [
-        "399006.SZ"
-      ],
-      "related_names": [
-        "创业板指"
-      ],
-      "score": 5.48,
-      "verified": true
-    },
-    {
-      "rank": 4,
       "title": "亚马逊在美大幅上调多款硬件设备售价 部分产品涨幅达60%",
       "summary": "【亚马逊在美大幅上调多款硬件设备售价 部分产品涨幅达60%】据悉，亚马逊旗下流媒体设备Fire TV、智能音响Echo、电子书阅读器Kindle和路由器品牌Eero等多款产品调价，其中平价智能音响Echo Dot的价格从49.99美元上涨至79.99美元，涨幅高达60%。",
       "time": "2026-08-25 15:34:05",
@@ -205,11 +188,11 @@
       "related_names": [
         "亚马逊"
       ],
-      "score": 6.48,
+      "score": 6.47,
       "verified": true
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美股大型科技股盘前普涨 SK海力士涨2%",
       "summary": "【美股大型科技股盘前普涨 SK海力士涨2%】美股大型科技股盘前普涨，SK海力士涨2%，美光科技涨1%，英伟达涨0.9%，SpaceX涨0.8%，特斯拉涨0.6%，Meta涨0.4%，亚马逊涨0.2%，谷歌A持平，微软跌0.1%，苹果跌0.3%。",
       "time": "2026-08-25 16:02:39",
@@ -235,6 +218,27 @@
         "美光",
         "英伟达",
         "特斯拉"
+      ],
+      "score": 9.49,
+      "verified": true
+    },
+    {
+      "rank": 5,
+      "title": "8月25日港股收盘：恒指跌0.02% 恒生科技指数跌0.12%",
+      "summary": "【8月25日港股收盘：恒指跌0.02% 恒生科技指数跌0.12%】恒生指数收报25511.1点，跌6.23点，跌幅0.02%；恒生科技指数收报4588.54点，跌5.5点，跌幅0.12%。恒生指数成分股中药明生物、联想集团、药明康德涨幅居前，美团-W、东方海外国际、紫金矿业跌幅靠前。",
+      "time": "2026-08-25 16:10:14",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202608253852806571.html",
+      "related_symbols": [
+        "3690.HK",
+        "601899.SS",
+        "^HSI"
+      ],
+      "related_names": [
+        "美团-w",
+        "紫金矿业",
+        "恒生指数"
       ],
       "score": 9.5,
       "verified": true
@@ -307,7 +311,7 @@
         {
           "symbol": "9988.HK",
           "name_cn": "阿里巴巴-W",
-          "change_pct": 1.16
+          "change_pct": 0.98
         },
         {
           "symbol": "0941.HK",
@@ -317,24 +321,29 @@
         {
           "symbol": "1024.HK",
           "name_cn": "快手-W",
-          "change_pct": 0.85
+          "change_pct": 0.73
         },
         {
           "symbol": "0700.HK",
           "name_cn": "腾讯控股",
-          "change_pct": 0.32
+          "change_pct": 0.36
         }
       ],
       "top_losers": [
         {
           "symbol": "3690.HK",
           "name_cn": "美团-W",
-          "change_pct": -6.47
+          "change_pct": -6.59
         },
         {
           "symbol": "2020.HK",
           "name_cn": "安踏体育",
-          "change_pct": -0.96
+          "change_pct": -1.24
+        },
+        {
+          "symbol": "9618.HK",
+          "name_cn": "京东集团-SW",
+          "change_pct": -0.44
         },
         {
           "symbol": "2318.HK",
@@ -344,12 +353,7 @@
         {
           "symbol": "1299.HK",
           "name_cn": "友邦保险",
-          "change_pct": -0.34
-        },
-        {
-          "symbol": "9618.HK",
-          "name_cn": "京东集团-SW",
-          "change_pct": -0.26
+          "change_pct": -0.4
         }
       ]
     },
@@ -1236,9 +1240,9 @@
         "tags": [
           "科技"
         ],
-        "price": 441.4,
-        "change": 1.4,
-        "change_pct": 0.32,
+        "price": 441.6,
+        "change": 1.6,
+        "change_pct": 0.36,
         "high": 444.6,
         "low": 438.0,
         "open": 440.0,
@@ -1265,9 +1269,9 @@
         "tags": [
           "科技"
         ],
-        "price": 113.8,
-        "change": 1.3,
-        "change_pct": 1.16,
+        "price": 113.6,
+        "change": 1.1,
+        "change_pct": 0.98,
         "high": 115.0,
         "low": 112.2,
         "open": 114.8,
@@ -1294,9 +1298,9 @@
         "tags": [
           "科技"
         ],
-        "price": 77.35,
-        "change": -5.35,
-        "change_pct": -6.47,
+        "price": 77.25,
+        "change": -5.45,
+        "change_pct": -6.59,
         "high": 83.2,
         "low": 77.1,
         "open": 82.9,
@@ -1323,9 +1327,9 @@
         "tags": [
           "科技"
         ],
-        "price": 27.78,
-        "change": -0.04,
-        "change_pct": -0.14,
+        "price": 27.88,
+        "change": 0.06,
+        "change_pct": 0.22,
         "high": 28.48,
         "low": 27.64,
         "open": 28.32,
@@ -1381,9 +1385,9 @@
         "tags": [
           "金融"
         ],
-        "price": 74.35,
-        "change": -0.25,
-        "change_pct": -0.34,
+        "price": 74.3,
+        "change": -0.3,
+        "change_pct": -0.4,
         "high": 75.75,
         "low": 73.55,
         "open": 75.75,
@@ -1468,9 +1472,9 @@
         "tags": [
           "科技"
         ],
-        "price": 113.0,
-        "change": -0.3,
-        "change_pct": -0.26,
+        "price": 112.8,
+        "change": -0.5,
+        "change_pct": -0.44,
         "high": 115.4,
         "low": 112.8,
         "open": 114.5,
@@ -1497,9 +1501,9 @@
         "tags": [
           "科技"
         ],
-        "price": 33.3,
-        "change": 0.28,
-        "change_pct": 0.85,
+        "price": 33.26,
+        "change": 0.24,
+        "change_pct": 0.73,
         "high": 33.52,
         "low": 33.04,
         "open": 33.2,
@@ -1526,9 +1530,9 @@
         "tags": [
           "金融"
         ],
-        "price": 417.4,
-        "change": -0.4,
-        "change_pct": -0.1,
+        "price": 417.2,
+        "change": -0.6,
+        "change_pct": -0.14,
         "high": 420.4,
         "low": 415.6,
         "open": 418.2,
@@ -1555,9 +1559,9 @@
         "tags": [
           "消费"
         ],
-        "price": 72.0,
-        "change": -0.7,
-        "change_pct": -0.96,
+        "price": 71.8,
+        "change": -0.9,
+        "change_pct": -1.24,
         "high": 73.2,
         "low": 71.35,
         "open": 72.7,
@@ -1584,9 +1588,9 @@
         "tags": [
           "指数"
         ],
-        "price": 25501.8,
-        "change": -15.53,
-        "change_pct": -0.06,
+        "price": 25503.81,
+        "change": -13.52,
+        "change_pct": -0.05,
         "high": 25676.77,
         "low": 25403.44,
         "open": 25634.22,
@@ -1613,9 +1617,9 @@
         "tags": [
           "指数"
         ],
-        "price": 8443.52,
-        "change": -27.84,
-        "change_pct": -0.33,
+        "price": 8444.09,
+        "change": -27.27,
+        "change_pct": -0.32,
         "high": 8508.28,
         "low": 8415.95,
         "open": 8500.51,
@@ -2338,7 +2342,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-08-25 16:07:14",
+    "generated_at": "2026-08-25 16:16:20",
     "date": "2026-08-24",
     "macro_overlay": {
       "risk": 0.483,
@@ -2669,8 +2673,8 @@
   "verification_stats": {
     "quotes_total": 65,
     "quotes_verified": 65,
-    "news_total": 54,
-    "news_verified": 54
+    "news_total": 57,
+    "news_verified": 57
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",

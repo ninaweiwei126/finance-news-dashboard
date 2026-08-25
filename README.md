@@ -56,7 +56,11 @@ python3 scripts/backfill_history.py --from-year 2015
 python3 run_daily.py
 
 # 3) 本地预览
-bash scripts/serve.sh          # http://localhost:8000/web/
+bash scripts/serve.sh          # http://localhost:8000/web/  （日报）
+                               # http://localhost:8000/web/dashboard.html（信号看板）
+
+# 4)（可选）重新运行回测
+python3 scripts/run_backtest.py
 ```
 
 > 纯 Python 标准库，无需 pip 安装（仅东财 K 线回退路径用到系统自带 curl）。
@@ -109,6 +113,10 @@ data/history/klines/       # 每标的一个 JSON（NVDA/GOOGL/CRCL/SNDK/SPX/NDX
 data/signals/latest.json    # 最新持仓信号（前端看板后续读取）
 data/backtest/latest.json   # 回测结果（策略 vs 买入持有 + 归因）
 web/                       # 前端（design-tokens + 模板）
+  index.html                #   资讯日报页（指数/行情/Top5/成交额）
+  dashboard.html            #   持仓信号看板（宏观+美债+持仓+回测准确率）
+  css/dashboard.css         #   看板页样式
+  js/dashboard.js           #   看板页渲染（读 data/signals、data/backtest、data/history/macro）
 design-tokens.md           # 设计规范（CSS 变量唯一事实来源）
 ```
 

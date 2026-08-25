@@ -85,7 +85,7 @@
       <div class="macro-card">
         <div class="label">10Y 美债收益率</div>
         <div class="value">${fmtNum(t10, 2)}<span class="unit">%</span></div>
-        <div class="delta ${riskCls(t10Level).replace("risk-", "") === "extreme" ? "" : ""}">${t10Level}区间</div>
+        <div class="delta">${t10Level}区间</div>
         <div class="extra">${comps.yield_speed ? "⚠ 收益率急涨" : "变化速度正常"}</div>
       </div>
       <div class="macro-card">
@@ -153,7 +153,7 @@
         </div>
         <div>
           <div class="chart-title">收益率曲线（${latest} <b style="color:#3b82f6">●</b> / 一个月前 <b style="color:#94a3b8">●</b>）</div>
-          <div class="chart">${curvePolyline(curveLatest, "#3b82f6")}${curveOld ? curvePolyline(curveOld, "#94a3b8", true) : ""}</div>
+          <div class="chart curve">${curvePolyline(curveLatest, "#3b82f6")}${curveOld ? curvePolyline(curveOld, "#94a3b8", true) : ""}</div>
           <div class="chart-legend">${curveKeys.filter((_, i) => i % 2 === 0 || curveKeys[i] === "1Y").map((k) => `<span>${k}</span>`).join("")}</div>
         </div>
       </div>`;
