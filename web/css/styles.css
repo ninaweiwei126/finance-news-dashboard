@@ -1,0 +1,186 @@
+/* 布局与组件样式：只引用 design-tokens.css 的变量 */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  color: var(--color-text);
+  background:
+    radial-gradient(1200px 500px at 80% -10%, var(--color-accent-soft), transparent 60%),
+    linear-gradient(160deg, var(--color-bg-grad-1), var(--color-bg-grad-2));
+  min-height: 100vh;
+  transition: background var(--transition), color var(--transition);
+}
+
+a { color: var(--color-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-4); }
+
+/* ---------- 顶栏 ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, var(--color-bg) 78%, transparent);
+  border-bottom: 1px solid var(--color-border);
+}
+.topbar-inner {
+  height: var(--header-height);
+  display: flex; align-items: center; gap: var(--space-4);
+}
+.brand { display: flex; align-items: center; gap: var(--space-2); font-weight: 700; font-size: var(--text-lg); }
+.brand .logo {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--color-accent), #7c3aed);
+  display: grid; place-items: center; color: #fff; font-size: 15px;
+}
+.topbar-right { margin-left: auto; display: flex; align-items: center; gap: var(--space-3); }
+.date-chip {
+  font-size: var(--text-sm); color: var(--color-text-muted);
+  border: 1px solid var(--color-border); border-radius: var(--radius-pill);
+  padding: 4px 12px;
+}
+.icon-btn {
+  background: var(--color-surface-2); border: 1px solid var(--color-border);
+  color: var(--color-text); border-radius: var(--radius-md);
+  padding: 6px 10px; cursor: pointer; font-size: var(--text-sm);
+  transition: all var(--transition);
+}
+.icon-btn:hover { background: var(--color-surface-3); }
+
+/* ---------- 指数横条 ---------- */
+.indices {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-3); margin: var(--space-5) 0 var(--space-4);
+}
+.index-card {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: var(--radius-md); padding: var(--space-3) var(--space-4);
+  box-shadow: var(--shadow-card);
+}
+.index-card .name { font-size: var(--text-sm); color: var(--color-text-muted); }
+.index-card .val { font-size: var(--text-lg); font-weight: 700; font-family: var(--font-mono); margin-top: 2px; }
+.index-card .pct { font-size: var(--text-sm); font-family: var(--font-mono); font-weight: 600; }
+
+/* ---------- 主网格 ---------- */
+.grid-main {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: var(--space-5); align-items: start;
+}
+@media (max-width: 900px) { .grid-main { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+.card-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-4) var(--space-5); border-bottom: 1px solid var(--color-border);
+}
+.card-title { font-size: var(--text-lg); font-weight: 700; }
+.card-sub { font-size: var(--text-sm); color: var(--color-text-muted); }
+
+/* ---------- Top5 时间线 ---------- */
+.timeline { padding: var(--space-4) var(--space-5); display: flex; flex-direction: column; }
+.tl-item {
+  position: relative; padding: 0 0 var(--space-5) var(--space-6);
+  border-left: 2px solid var(--color-border);
+}
+.tl-item:last-child { border-left-color: transparent; padding-bottom: 0; }
+.tl-item::before {
+  content: ""; position: absolute; left: -7px; top: 4px;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--color-accent); border: 2px solid var(--color-bg);
+}
+.tl-item .tl-time {
+  font-family: var(--font-mono); font-size: var(--text-xs);
+  color: var(--color-text-faint); letter-spacing: 0.3px;
+}
+.tl-item .tl-rank {
+  display: inline-block; min-width: 22px; text-align: center;
+  background: var(--color-accent-soft); color: var(--color-accent);
+  border-radius: var(--radius-pill); font-size: var(--text-xs); font-weight: 700;
+  padding: 2px 6px; margin-right: var(--space-2);
+}
+.tl-item h3 { font-size: var(--text-md); margin: var(--space-1) 0 var(--space-2); line-height: 1.5; }
+.tl-item p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; }
+.tl-meta { margin-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+.tag {
+  font-size: var(--text-xs); border-radius: var(--radius-pill);
+  padding: 2px 8px; border: 1px solid var(--color-border); color: var(--color-text-muted);
+}
+.tag.src { color: var(--color-accent); border-color: var(--color-accent); }
+
+/* ---------- 行情表 ---------- */
+.tabs { display: flex; gap: var(--space-2); padding: var(--space-3) var(--space-5) 0; }
+.tab {
+  background: transparent; border: none; color: var(--color-text-muted);
+  font-size: var(--text-sm); padding: 8px 14px; cursor: pointer;
+  border-radius: var(--radius-md) var(--radius-md) 0 0; font-weight: 600;
+  border: 1px solid transparent; border-bottom: none;
+}
+.tab.active { background: var(--color-surface-2); color: var(--color-text); border-color: var(--color-border); }
+.table-wrap { overflow-x: auto; padding: 0 var(--space-3) var(--space-3); }
+table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+th {
+  text-align: left; color: var(--color-text-faint); font-weight: 500;
+  padding: 10px var(--space-3); border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+td { padding: 10px var(--space-3); border-bottom: 1px solid var(--color-border); white-space: nowrap; }
+tr:hover td { background: var(--color-surface-2); }
+td.num, th.num { text-align: right; font-family: var(--font-mono); }
+.stock-name { font-weight: 600; }
+.stock-sym { color: var(--color-text-faint); font-size: var(--text-xs); font-family: var(--font-mono); }
+.pct-up { color: var(--color-up); }
+.pct-down { color: var(--color-down); }
+.pct-flat { color: var(--color-flat); }
+.badge-verified { color: var(--color-ok); font-size: var(--text-xs); }
+.badge-single { color: var(--color-warn); font-size: var(--text-xs); }
+
+/* ---------- 涨跌幅榜 ---------- */
+.movers-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+}
+@media (max-width: 900px) { .movers-grid { grid-template-columns: 1fr; } }
+.mover-list { display: flex; flex-direction: column; gap: var(--space-2); }
+.mover {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--text-sm); padding: 6px 10px; border-radius: var(--radius-sm);
+  background: var(--color-surface-2);
+}
+.mover .m-name { font-weight: 600; }
+.mover .m-val { font-family: var(--font-mono); font-weight: 700; }
+
+/* ---------- 数据源状态 ---------- */
+.footer {
+  margin-top: var(--space-6); padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-border);
+}
+.src-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-3); }
+.src-card {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: var(--radius-md); padding: var(--space-3) var(--space-4);
+}
+.src-card .s-name { font-weight: 700; font-size: var(--text-sm); }
+.src-card .s-status { font-size: var(--text-sm); margin-top: 2px; }
+.ok { color: var(--color-ok); }
+.err { color: var(--color-danger); }
+.deg { color: var(--color-warn); }
+.foot-note { margin-top: var(--space-4); font-size: var(--text-xs); color: var(--color-text-faint); line-height: 1.7; }
+
+/* ---------- 状态/空态 ---------- */
+.loading, .empty { text-align: center; padding: var(--space-6); color: var(--color-text-muted); }
+.spinner {
+  width: 26px; height: 26px; margin: 0 auto var(--space-3);
+  border: 3px solid var(--color-border); border-top-color: var(--color-accent);
+  border-radius: 50%; animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.hidden { display: none !important; }

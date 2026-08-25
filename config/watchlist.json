@@ -1,0 +1,650 @@
+{
+  "meta": {
+    "title": "全球市场核心观察清单",
+    "updated": "2026-08-25"
+  },
+  "indices": [
+    {
+      "secid": "1.000001",
+      "symbol": "000001.SS",
+      "name_cn": "上证指数",
+      "name_en": "SSE Composite",
+      "market": "cn",
+      "currency": "CNY"
+    },
+    {
+      "secid": "0.399001",
+      "symbol": "399001.SZ",
+      "name_cn": "深证成指",
+      "name_en": "SZSE Component",
+      "market": "cn",
+      "currency": "CNY"
+    },
+    {
+      "secid": "0.399006",
+      "symbol": "399006.SZ",
+      "name_cn": "创业板指",
+      "name_en": "ChiNext",
+      "market": "cn",
+      "currency": "CNY"
+    },
+    {
+      "secid": "100.HSI",
+      "symbol": "^HSI",
+      "name_cn": "恒生指数",
+      "name_en": "Hang Seng",
+      "market": "hk",
+      "currency": "HKD"
+    },
+    {
+      "secid": "100.HSCEI",
+      "symbol": "^HSCE",
+      "name_cn": "国企指数",
+      "name_en": "HSCEI",
+      "market": "hk",
+      "currency": "HKD"
+    },
+    {
+      "secid": "100.NDX",
+      "symbol": "^NDX",
+      "name_cn": "纳斯达克100",
+      "name_en": "Nasdaq 100",
+      "market": "us",
+      "currency": "USD"
+    },
+    {
+      "secid": "100.SPX",
+      "symbol": "^GSPC",
+      "name_cn": "标普500",
+      "name_en": "S&P 500",
+      "market": "us",
+      "currency": "USD"
+    },
+    {
+      "secid": "100.DJI",
+      "symbol": "^DJI",
+      "name_cn": "道琼斯",
+      "name_en": "Dow Jones",
+      "market": "us",
+      "currency": "USD"
+    }
+  ],
+  "stocks": {
+    "us": [
+      {
+        "secid": "105.AAPL",
+        "symbol": "AAPL",
+        "name_cn": "苹果",
+        "name_en": "Apple",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.MSFT",
+        "symbol": "MSFT",
+        "name_cn": "微软",
+        "name_en": "Microsoft",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.NVDA",
+        "symbol": "NVDA",
+        "name_cn": "英伟达",
+        "name_en": "NVIDIA",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.GOOGL",
+        "symbol": "GOOGL",
+        "name_cn": "谷歌",
+        "name_en": "Alphabet",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.AMZN",
+        "symbol": "AMZN",
+        "name_cn": "亚马逊",
+        "name_en": "Amazon",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.META",
+        "symbol": "META",
+        "name_cn": "Meta",
+        "name_en": "Meta Platforms",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.TSLA",
+        "symbol": "TSLA",
+        "name_cn": "特斯拉",
+        "name_en": "Tesla",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.AVGO",
+        "symbol": "AVGO",
+        "name_cn": "博通",
+        "name_en": "Broadcom",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.ORCL",
+        "symbol": "ORCL",
+        "name_cn": "甲骨文",
+        "name_en": "Oracle",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.NFLX",
+        "symbol": "NFLX",
+        "name_cn": "奈飞",
+        "name_en": "Netflix",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.AMD",
+        "symbol": "AMD",
+        "name_cn": "超威半导体",
+        "name_en": "AMD",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.TSM",
+        "symbol": "TSM",
+        "name_cn": "台积电(ADR)",
+        "name_en": "TSMC ADR",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.V",
+        "symbol": "V",
+        "name_cn": "维萨",
+        "name_en": "Visa",
+        "currency": "USD",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "105.JPM",
+        "symbol": "JPM",
+        "name_cn": "摩根大通",
+        "name_en": "JPMorgan",
+        "currency": "USD",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "105.WMT",
+        "symbol": "WMT",
+        "name_cn": "沃尔玛",
+        "name_en": "Walmart",
+        "currency": "USD",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "105.XOM",
+        "symbol": "XOM",
+        "name_cn": "埃克森美孚",
+        "name_en": "Exxon Mobil",
+        "currency": "USD",
+        "tags": [
+          "能源"
+        ]
+      },
+      {
+        "secid": "105.JNJ",
+        "symbol": "JNJ",
+        "name_cn": "强生",
+        "name_en": "Johnson & Johnson",
+        "currency": "USD",
+        "tags": [
+          "医疗"
+        ]
+      },
+      {
+        "secid": "105.PG",
+        "symbol": "PG",
+        "name_cn": "宝洁",
+        "name_en": "Procter & Gamble",
+        "currency": "USD",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "105.KO",
+        "symbol": "KO",
+        "name_cn": "可口可乐",
+        "name_en": "Coca-Cola",
+        "currency": "USD",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "105.DIS",
+        "symbol": "DIS",
+        "name_cn": "迪士尼",
+        "name_en": "Disney",
+        "currency": "USD",
+        "tags": [
+          "传媒"
+        ]
+      },
+      {
+        "secid": "105.INTC",
+        "symbol": "INTC",
+        "name_cn": "英特尔",
+        "name_en": "Intel",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.QCOM",
+        "symbol": "QCOM",
+        "name_cn": "高通",
+        "name_en": "Qualcomm",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.MU",
+        "symbol": "MU",
+        "name_cn": "美光",
+        "name_en": "Micron",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "105.CIRC",
+        "symbol": "CIRC",
+        "name_cn": "Circle",
+        "name_en": "Circle Internet Group",
+        "currency": "USD",
+        "tags": [
+          "金融科技"
+        ]
+      },
+      {
+        "secid": "105.SNDK",
+        "symbol": "SNDK",
+        "name_cn": "闪迪",
+        "name_en": "SanDisk",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ]
+      }
+    ],
+    "hk": [
+      {
+        "secid": "116.00700",
+        "symbol": "0700.HK",
+        "name_cn": "腾讯控股",
+        "name_en": "Tencent",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.09988",
+        "symbol": "9988.HK",
+        "name_cn": "阿里巴巴-W",
+        "name_en": "Alibaba",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.03690",
+        "symbol": "3690.HK",
+        "name_cn": "美团-W",
+        "name_en": "Meituan",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.01810",
+        "symbol": "1810.HK",
+        "name_cn": "小米集团-W",
+        "name_en": "Xiaomi",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.00941",
+        "symbol": "0941.HK",
+        "name_cn": "中国移动",
+        "name_en": "China Mobile",
+        "currency": "HKD",
+        "tags": [
+          "通信"
+        ]
+      },
+      {
+        "secid": "116.01299",
+        "symbol": "1299.HK",
+        "name_cn": "友邦保险",
+        "name_en": "AIA",
+        "currency": "HKD",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "116.02318",
+        "symbol": "2318.HK",
+        "name_cn": "中国平安",
+        "name_en": "Ping An",
+        "currency": "HKD",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "116.09999",
+        "symbol": "9999.HK",
+        "name_cn": "网易-S",
+        "name_en": "NetEase",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.09618",
+        "symbol": "9618.HK",
+        "name_cn": "京东集团-SW",
+        "name_en": "JD.com",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.01024",
+        "symbol": "1024.HK",
+        "name_cn": "快手-W",
+        "name_en": "Kuaishou",
+        "currency": "HKD",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "116.00388",
+        "symbol": "0388.HK",
+        "name_cn": "香港交易所",
+        "name_en": "HKEX",
+        "currency": "HKD",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "116.02020",
+        "symbol": "2020.HK",
+        "name_cn": "安踏体育",
+        "name_en": "ANTA Sports",
+        "currency": "HKD",
+        "tags": [
+          "消费"
+        ]
+      }
+    ],
+    "cn": [
+      {
+        "secid": "1.600519",
+        "symbol": "600519.SS",
+        "name_cn": "贵州茅台",
+        "name_en": "Kweichow Moutai",
+        "currency": "CNY",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "1.601318",
+        "symbol": "601318.SS",
+        "name_cn": "中国平安",
+        "name_en": "Ping An",
+        "currency": "CNY",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "1.600036",
+        "symbol": "600036.SS",
+        "name_cn": "招商银行",
+        "name_en": "China Merchants Bank",
+        "currency": "CNY",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "0.300750",
+        "symbol": "300750.SZ",
+        "name_cn": "宁德时代",
+        "name_en": "CATL",
+        "currency": "CNY",
+        "tags": [
+          "新能源"
+        ]
+      },
+      {
+        "secid": "0.002594",
+        "symbol": "002594.SZ",
+        "name_cn": "比亚迪",
+        "name_en": "BYD",
+        "currency": "CNY",
+        "tags": [
+          "新能源"
+        ]
+      },
+      {
+        "secid": "0.000858",
+        "symbol": "000858.SZ",
+        "name_cn": "五粮液",
+        "name_en": "Wuliangye",
+        "currency": "CNY",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "1.601899",
+        "symbol": "601899.SS",
+        "name_cn": "紫金矿业",
+        "name_en": "Zijin Mining",
+        "currency": "CNY",
+        "tags": [
+          "资源"
+        ]
+      },
+      {
+        "secid": "1.601012",
+        "symbol": "601012.SS",
+        "name_cn": "隆基绿能",
+        "name_en": "LONGi",
+        "currency": "CNY",
+        "tags": [
+          "新能源"
+        ]
+      },
+      {
+        "secid": "1.600030",
+        "symbol": "600030.SS",
+        "name_cn": "中信证券",
+        "name_en": "CITIC Securities",
+        "currency": "CNY",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "0.000333",
+        "symbol": "000333.SZ",
+        "name_cn": "美的集团",
+        "name_en": "Midea",
+        "currency": "CNY",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "0.002415",
+        "symbol": "002415.SZ",
+        "name_cn": "海康威视",
+        "name_en": "Hikvision",
+        "currency": "CNY",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "1.688981",
+        "symbol": "688981.SS",
+        "name_cn": "中芯国际",
+        "name_en": "SMIC",
+        "currency": "CNY",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "1.601138",
+        "symbol": "601138.SS",
+        "name_cn": "工业富联",
+        "name_en": "Foxconn Industrial",
+        "currency": "CNY",
+        "tags": [
+          "科技"
+        ]
+      },
+      {
+        "secid": "0.300059",
+        "symbol": "300059.SZ",
+        "name_cn": "东方财富",
+        "name_en": "East Money",
+        "currency": "CNY",
+        "tags": [
+          "金融"
+        ]
+      },
+      {
+        "secid": "1.600900",
+        "symbol": "600900.SS",
+        "name_cn": "长江电力",
+        "name_en": "Yangtze Power",
+        "currency": "CNY",
+        "tags": [
+          "公用"
+        ]
+      },
+      {
+        "secid": "1.601088",
+        "symbol": "601088.SS",
+        "name_cn": "中国神华",
+        "name_en": "China Shenhua",
+        "currency": "CNY",
+        "tags": [
+          "能源"
+        ]
+      },
+      {
+        "secid": "1.601857",
+        "symbol": "601857.SS",
+        "name_cn": "中国石油",
+        "name_en": "PetroChina",
+        "currency": "CNY",
+        "tags": [
+          "能源"
+        ]
+      },
+      {
+        "secid": "1.600276",
+        "symbol": "600276.SS",
+        "name_cn": "恒瑞医药",
+        "name_en": "Hengrui Pharma",
+        "currency": "CNY",
+        "tags": [
+          "医疗"
+        ]
+      },
+      {
+        "secid": "0.000651",
+        "symbol": "000651.SZ",
+        "name_cn": "格力电器",
+        "name_en": "Gree Electric",
+        "currency": "CNY",
+        "tags": [
+          "消费"
+        ]
+      },
+      {
+        "secid": "0.002475",
+        "symbol": "002475.SZ",
+        "name_cn": "立讯精密",
+        "name_en": "Luxshare",
+        "currency": "CNY",
+        "tags": [
+          "科技"
+        ]
+      }
+    ]
+  }
+}

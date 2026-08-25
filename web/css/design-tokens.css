@@ -1,0 +1,92 @@
+/* ============================================================
+   Design Tokens — 金融资讯日报
+   规范文档见项目根目录 design-tokens.md（唯一事实来源）。
+   模板只引用变量，不写死颜色。
+   ============================================================ */
+
+:root {
+  /* ---- 色板：深色数据面板（默认） ---- */
+  --color-bg: #0b1220;            /* 页面背景 */
+  --color-bg-grad-1: #0b1220;     /* 背景渐变起始 */
+  --color-bg-grad-2: #0f1a30;     /* 背景渐变结束 */
+  --color-surface: #111a2c;       /* 卡片表面 */
+  --color-surface-2: #1a2740;     /* 卡片内嵌/表头 */
+  --color-surface-3: #223355;     /* 悬停/选中 */
+  --color-border: #243250;        /* 边框 */
+  --color-border-strong: #31456e; /* 强调边框 */
+
+  --color-text: #e8edf6;          /* 主文本 */
+  --color-text-muted: #93a3c0;    /* 次要文本 */
+  --color-text-faint: #5d7091;    /* 弱文本 */
+  --color-text-on-accent: #ffffff;
+
+  --color-accent: #3b82f6;        /* 品牌主色 */
+  --color-accent-soft: rgba(59, 130, 246, 0.14);
+
+  /* 涨跌色：遵循 A 股习惯（红涨绿跌） */
+  --color-up: #ef4444;            /* 涨 */
+  --color-up-soft: rgba(239, 68, 68, 0.12);
+  --color-down: #22c55e;          /* 跌 */
+  --color-down-soft: rgba(34, 197, 94, 0.12);
+  --color-flat: #94a3b8;          /* 平 */
+
+  --color-warn: #f59e0b;          /* 警示/待核 */
+  --color-warn-soft: rgba(245, 158, 11, 0.12);
+  --color-ok: #22c55e;            /* 通过 */
+  --color-danger: #ef4444;        /* 失败 */
+
+  /* ---- 字体 ---- */
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+
+  /* ---- 字号 ---- */
+  --text-xs: 11px;
+  --text-sm: 13px;
+  --text-md: 15px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+
+  /* ---- 间距 ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* ---- 圆角 ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* ---- 阴影/动效 ---- */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-pop: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --transition: 0.18s ease;
+
+  /* ---- 布局 ---- */
+  --max-width: 1200px;
+  --header-height: 64px;
+}
+
+/* ---- 浅色主题：通过 [data-theme="light"] 覆盖 ---- */
+[data-theme="light"] {
+  --color-bg: #f3f5f9;
+  --color-bg-grad-1: #f3f5f9;
+  --color-bg-grad-2: #e8edf6;
+  --color-surface: #ffffff;
+  --color-surface-2: #f0f3f9;
+  --color-surface-3: #e4eaf4;
+  --color-border: #dbe2ee;
+  --color-border-strong: #c2cde0;
+  --color-text: #17233d;
+  --color-text-muted: #55637f;
+  --color-text-faint: #8b98b3;
+  --color-accent: #2563eb;
+  --color-accent-soft: rgba(37, 99, 235, 0.1);
+  --shadow-card: 0 1px 2px rgba(20, 30, 60, 0.06), 0 8px 24px rgba(20, 30, 60, 0.08);
+  --shadow-pop: 0 4px 12px rgba(20, 30, 60, 0.12);
+}
