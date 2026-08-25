@@ -41,6 +41,10 @@
 | `--color-warn-soft` | `rgba(245,158,11,.12)` | 同左 | 警示浅底 |
 | `--color-ok` | `#22c55e` | 同左 | 核实通过 |
 | `--color-danger` | `#ef4444` | 同左 | 核实失败 |
+| `--color-morning` | `#3b82f6` | 同左 | 成交额追踪·上午段 |
+| `--color-morning-soft` | `rgba(59,130,246,.16)` | 同左 | 上午段浅底 |
+| `--color-afternoon` | `#8b5cf6` | 同左 | 成交额追踪·下午段 |
+| `--color-afternoon-soft` | `rgba(139,92,246,.18)` | 同左 | 下午段浅底 |
 
 ### 2.2 字体
 

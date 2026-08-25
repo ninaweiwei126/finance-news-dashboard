@@ -6,6 +6,7 @@
 ## 功能
 
 - 📈 8 大指数快照（上证 / 深证 / 创业板 / 恒生 / 国企 / 纳指100 / 标普500 / 道指）
+- 💰 A股成交额追踪：沪市 / 深市 / 创业板 / 两市合计，分**上午 / 下午 / 全天**三段，每日两次更新（11:35、15:05）
 - 🏢 55 只核心股票（美股科技+蓝筹 23、港股 12、A股 20），含价格、涨跌幅、成交量、市值、PE
 - 📰 多源新闻采集：东方财富要闻 + 7x24 快讯、Yahoo Finance、Investing.com RSS
 - ✅ 信息核实：价格/涨跌幅合理性检查 + 多源一致性校验 + 新闻时效校验；每条附 `verified` 状态
@@ -42,13 +43,18 @@ bash scripts/serve.sh          # http://localhost:8000/web/
 
 ### macOS（launchd）
 ```bash
-bash scripts/setup_launchd.sh 17 30   # 每天 17:30（A股/港股收盘后）采集
+bash scripts/setup_launchd.sh 17 30          # 每天 17:30（A股/港股收盘后）采集
+bash scripts/setup_volume_launchd.sh         # 成交额追踪：每天 11:35（上午）与 15:05（全天）各一次
 ```
-日志：`data/daily.log`；卸载：`launchctl unload ~/Library/LaunchAgents/com.weijin.finance-news-daily.plist`
+日志：`data/daily.log`、`data/volume.log`；卸载对应 plist：
+`launchctl unload ~/Library/LaunchAgents/com.weijin.finance-news-daily.plist`
+`launchctl unload ~/Library/LaunchAgents/com.weijin.finance-volume-snapshot.plist`
 
 ### 任何系统（cron）
 ```bash
 30 17 * * * cd "/Users/weijin/Documents/ChatGPT/codex project1 finance news website" && python3 run_daily.py >> data/daily.log 2>&1
+35 11 * * 1-5 cd "/Users/weijin/Documents/ChatGPT/codex project1 finance news website" && python3 scripts/volume_snapshot.py >> data/volume.log 2>&1
+ 5 15 * * 1-5 cd "/Users/weijin/Documents/ChatGPT/codex project1 finance news website" && python3 scripts/volume_snapshot.py >> data/volume.log 2>&1
 ```
 
 ### GitHub Actions（可选，海外网络四源全开）
@@ -58,6 +64,7 @@ bash scripts/setup_launchd.sh 17 30   # 每天 17:30（A股/港股收盘后）�
 
 ```
 config/watchlist.json      # 观察清单（指数 + 各市场核心股）
+collector/volume.py        # A股成交额追踪（上午/下午/全天，每日两次快照）
 collector/                 # 采集：行情/新闻编排 + 各源适配器
   sources/tencent.py       #   腾讯证券（行情主源）
   sources/sina.py          #   新浪财经（行情交叉核实）
@@ -70,8 +77,12 @@ digest/digester.py         # 提炼：Top5 打分 + 按时间排序 + 涨跌榜
 run_daily.py               # 主入口
 data/daily/YYYY-MM-DD.json # 每日报告
 data/latest.json           # 最新报告（前端读取）
+data/volume/YYYY-MM-DD.json# 成交额快照（上午/全天 + 自动算下午）
+data/latest_volume.json    # 最新成交额数据（前端读取）
 web/                       # 前端（design-tokens + 模板）
 design-tokens.md           # 设计规范（CSS 变量唯一事实来源）
+scripts/volume_snapshot.py # 成交额快照（11:35 / 15:05 两次）
+scripts/setup_volume_launchd.sh  # 成交额定时任务安装
 scripts/                   # 运行/预览/定时任务脚本
 ```
 

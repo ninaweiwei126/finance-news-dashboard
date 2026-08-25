@@ -302,10 +302,10 @@
         ]
       },
       {
-        "secid": "105.CIRC",
-        "symbol": "CIRC",
+        "secid": "106.CRCL",
+        "symbol": "CRCL",
         "name_cn": "Circle",
-        "name_en": "Circle Internet Group",
+        "name_en": "Circle Internet Group (CRCL)",
         "currency": "USD",
         "tags": [
           "金融科技"

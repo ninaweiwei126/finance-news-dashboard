@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "信号看板历史数据配置",
+    "updated": "2026-08-25",
+    "note": "CRCL 即 Circle Internet Group（稳定币发行方）；CIRC 是另一家公司，勿混淆。"
+  },
+  "symbols": [
+    {"symbol": "NVDA", "secid": "105.NVDA", "market": "us", "name_cn": "英伟达", "start": "20180101", "group": "holdings"},
+    {"symbol": "GOOGL", "secid": "105.GOOGL", "market": "us", "name_cn": "谷歌", "start": "20180101", "group": "holdings"},
+    {"symbol": "CRCL", "secid": "106.CRCL", "market": "us", "name_cn": "Circle", "start": "20250201", "group": "holdings"},
+    {"symbol": "SNDK", "secid": "105.SNDK", "market": "us", "name_cn": "闪迪", "start": "20250201", "group": "holdings"},
+    {"symbol": "SPX", "secid": "100.SPX", "market": "us", "name_cn": "标普500", "start": "20180101", "group": "benchmark"},
+    {"symbol": "NDX", "secid": "100.NDX", "market": "us", "name_cn": "纳斯达克100", "start": "20180101", "group": "benchmark"}
+  ]
+}

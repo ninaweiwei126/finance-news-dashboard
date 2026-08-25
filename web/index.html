@@ -26,6 +26,18 @@
   <!-- 指数横条 -->
   <section id="indicesStrip" aria-label="主要指数"></section>
 
+  <!-- A股成交额追踪 -->
+  <section class="card volume-card" id="volumeCard" aria-label="A股成交额追踪">
+    <div class="card-head">
+      <div>
+        <div class="card-title">A股成交额追踪</div>
+        <div class="card-sub" id="volumeSub">上午 / 下午 / 全天 · 每日两次更新</div>
+      </div>
+      <span class="date-chip" id="volumeDateChip">--</span>
+    </div>
+    <div id="volumeBody"><div class="loading"><div class="spinner"></div>加载中…</div></div>
+  </section>
+
   <div class="grid-main">
     <!-- 左：每日 Top5 时间线 -->
     <section class="card" id="top5Card">

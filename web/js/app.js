@@ -114,7 +114,7 @@
   function renderSources(data) {
     const grid = $("#srcGrid");
     const st = data.sources_status || {};
-    const names = { tencent: "腾讯证券", eastmoney: "东方财富", yahoo: "雅虎财经", investing: "Investing.com", tradingview: "TradingView" };
+    const names = { tencent: "腾讯证券", sina: "新浪财经", eastmoney: "东方财富", yahoo: "雅虎财经", investing: "Investing.com", tradingview: "TradingView", ust_treasury: "美国财政部", cboe_vix: "Cboe VIX" };
     const entries = Object.entries(st);
     if (!entries.length) { grid.innerHTML = '<div class="empty">无状态</div>'; return; }
     grid.innerHTML = entries.map(([k, v]) => {
@@ -131,6 +131,78 @@
     $("#sourceNote").textContent = `${stats.news_verified}/${stats.news_total} 条新闻通过核实`;
     const ts = data.generated_at ? `生成于 ${data.generated_at}` : "";
     $("#footNote").textContent = `数据由本地脚本每日采集，信息经过多源交叉核实与合理性检查；部分公开渠道（如雅虎财经/Investing.com/TradingView）在境内网络可能受限而自动降级。${ts}`;
+  }
+
+
+  /* ---------- A股成交额追踪 ---------- */
+  const fmtYi = (v) => (v == null ? "—" : Number(v).toLocaleString("en-US", { maximumFractionDigits: 0 }) + " 亿");
+
+  function renderVolume(d) {
+    const el = $("#volumeBody");
+    const dateChip = $("#volumeDateChip");
+    if (!d || !d.date) {
+      el.innerHTML = '<div class="empty">暂无成交额数据 — 每日 11:35 / 15:05 自动采集</div>';
+      dateChip.textContent = "--";
+      return;
+    }
+    dateChip.textContent = d.date;
+    const m = d.morning || {};
+    const c = d.close || {};
+    const a = d.afternoon || {};
+    const row = (label, src, cls) => `<tr${cls ? ` class="${cls}"` : ""}>
+      <td>${label}</td>
+      <td class="num">${src && src.sh_turnover_yi != null ? fmtYi(src.sh_turnover_yi) : '<span class="vol-null">待更新</span>'}</td>
+      <td class="num">${src && src.sz_turnover_yi != null ? fmtYi(src.sz_turnover_yi) : '<span class="vol-null">待更新</span>'}</td>
+      <td class="num">${src && src.cyb_turnover_yi != null ? fmtYi(src.cyb_turnover_yi) : '<span class="vol-null">待更新</span>'}</td>
+      <td class="num">${src && src.total_yi != null ? fmtYi(src.total_yi) : '<span class="vol-null">待更新</span>'}</td>
+    </tr>`;
+
+    // 下午段 = close - morning（后端算好放 afternoon）
+    const hasAfternoon = a && a.total_yi != null;
+    const totalFull = c.total_yi;
+    const morningTotal = m.total_yi;
+    const afternoonTotal = hasAfternoon ? a.total_yi : null;
+
+    let bar = "";
+    if (morningTotal != null && (afternoonTotal != null || totalFull != null)) {
+      const pm = afternoonTotal != null ? afternoonTotal : Math.max(0, totalFull - morningTotal);
+      const sum = morningTotal + pm;
+      const pctM = sum > 0 ? (morningTotal / sum * 100) : 0;
+      bar = `
+        <div class="vol-bar-wrap">
+          <div class="vol-bar-label"><span>上午 ${fmtYi(morningTotal)}</span><span>下午 ${fmtYi(pm)}</span></div>
+          <div class="vol-bar"><div class="seg-morning" style="width:${pctM.toFixed(1)}%"></div><div class="seg-afternoon" style="width:${(100 - pctM).toFixed(1)}%"></div></div>
+          <div class="vol-legend"><span><span class="dot morning"></span>上午</span><span><span class="dot afternoon"></span>下午</span></div>
+        </div>`;
+    }
+
+    const notes = [];
+    if (m.time) notes.push(`上午快照 ${m.time}`);
+    if (c.time) notes.push(`全天快照 ${c.time}`);
+    if (!hasAfternoon) notes.push("下午 = 全天 − 上午，待 15:05 全天快照后自动计算");
+
+    el.innerHTML = `<div class="vol-grid">
+      <table class="vol-table">
+        <thead><tr><th>时段</th><th class="num">沪市</th><th class="num">深市</th><th class="num">创业板</th><th class="num">两市合计</th></tr></thead>
+        <tbody>
+          ${row("上午", m)}
+          ${row("下午", hasAfternoon ? a : null)}
+          ${row("全天", c, "vol-total")}
+        </tbody>
+      </table>
+      ${bar}
+      <div class="vol-update-note">${esc(notes.join(" · "))}</div>
+    </div>`;
+  }
+
+  async function loadVolume() {
+    try {
+      const res = await fetch("../data/latest_volume.json", { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      renderVolume(await res.json());
+    } catch (e) {
+      renderVolume(null);
+    }
   }
 
   /* ---------- 加载数据 ---------- */
@@ -167,4 +239,5 @@
 
   initTheme();
   load();
+  loadVolume();
 })();

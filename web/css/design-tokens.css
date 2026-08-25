@@ -23,6 +23,12 @@
   --color-accent: #3b82f6;        /* 品牌主色 */
   --color-accent-soft: rgba(59, 130, 246, 0.14);
 
+  /* 时段色（A股成交额追踪：上午/下午） */
+  --color-morning: #3b82f6;       /* 上午 */
+  --color-morning-soft: rgba(59, 130, 246, 0.16);
+  --color-afternoon: #8b5cf6;     /* 下午 */
+  --color-afternoon-soft: rgba(139, 92, 246, 0.18);
+
   /* 涨跌色：遵循 A 股习惯（红涨绿跌） */
   --color-up: #ef4444;            /* 涨 */
   --color-up-soft: rgba(239, 68, 68, 0.12);

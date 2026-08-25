@@ -184,3 +184,26 @@ td.num, th.num { text-align: right; font-family: var(--font-mono); }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .hidden { display: none !important; }
+
+/* ---------- A股成交额追踪 ---------- */
+.volume-card { margin-bottom: var(--space-5); }
+.vol-grid { padding: var(--space-4) var(--space-5); }
+.vol-table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+.vol-table th { text-align: right; }
+.vol-table th:first-child, .vol-table td:first-child { text-align: left; }
+.vol-table tr:last-child td { border-bottom: none; }
+.vol-total td { font-weight: 700; }
+.vol-null { color: var(--color-text-faint); }
+.vol-bar-wrap { margin-top: var(--space-4); }
+.vol-bar-label { display: flex; justify-content: space-between; font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-2); }
+.vol-bar {
+  height: 16px; border-radius: var(--radius-pill); overflow: hidden;
+  display: flex; background: var(--color-surface-2); border: 1px solid var(--color-border);
+}
+.vol-bar .seg-morning { background: var(--color-morning); }
+.vol-bar .seg-afternoon { background: var(--color-afternoon); }
+.vol-legend { display: flex; gap: var(--space-4); margin-top: var(--space-3); font-size: var(--text-xs); color: var(--color-text-muted); }
+.vol-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 4px; vertical-align: -1px; }
+.dot.morning { background: var(--color-morning); }
+.dot.afternoon { background: var(--color-afternoon); }
+.vol-update-note { margin-top: var(--space-3); font-size: var(--text-xs); color: var(--color-text-faint); }
