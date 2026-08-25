@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>持仓信号看板</title>
+<link rel="stylesheet" href="css/design-tokens.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body data-theme="dark">
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <span class="logo">🎯</span>
+      <span>持仓信号看板</span>
+    </div>
+    <div class="topbar-right">
+      <a class="nav-link" href="index.html">📰 资讯日报</a>
+      <span class="date-chip" id="dateChip">加载中…</span>
+      <button class="icon-btn" id="themeBtn" title="切换深浅色主题">🌙 / ☀️</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- 宏观仪表盘 -->
+  <section class="card" aria-label="宏观环境">
+    <div class="card-head">
+      <div>
+        <div class="card-title">宏观环境 · 市场情绪</div>
+        <div class="card-sub" id="macroSub">美债收益率 + VIX · 官方数据源</div>
+      </div>
+      <span class="risk-badge" id="macroRiskBadge">--</span>
+    </div>
+    <div class="macro-grid" id="macroGrid">
+      <div class="loading"><div class="spinner"></div>加载中…</div>
+    </div>
+  </section>
+
+  <!-- 美债收益率 + 曲线 -->
+  <section class="card" aria-label="美债收益率">
+    <div class="card-head">
+      <div>
+        <div class="card-title">美债收益率</div>
+        <div class="card-sub" id="yieldSub">美国财政部官方每日收益率曲线</div>
+      </div>
+    </div>
+    <div class="yield-body" id="yieldBody">
+      <div class="loading"><div class="spinner"></div>加载中…</div>
+    </div>
+  </section>
+
+  <!-- 持仓信号 -->
+  <section class="card" aria-label="持仓信号">
+    <div class="card-head">
+      <div>
+        <div class="card-title">持仓买卖信号</div>
+        <div class="card-sub" id="signalSub">8 个子指标加权 + 宏观风险叠加 · 点开看明细</div>
+      </div>
+    </div>
+    <div class="holdings-grid" id="holdingsGrid">
+      <div class="loading"><div class="spinner"></div>加载中…</div>
+    </div>
+  </section>
+
+  <!-- 回测准确率 -->
+  <section class="card" aria-label="回测验证">
+    <div class="card-head">
+      <div>
+        <div class="card-title">指标回测准确率</div>
+        <div class="card-sub" id="btSub">滚动样本外 · 含交易成本 · 无未来函数</div>
+      </div>
+    </div>
+    <div id="btBody">
+      <div class="loading"><div class="spinner"></div>加载中…</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="foot-note" id="footNote">数据来自公开渠道，仅供个人研究参考，不构成投资建议。</p>
+  </footer>
+</main>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>

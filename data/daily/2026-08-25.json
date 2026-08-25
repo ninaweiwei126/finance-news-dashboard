@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-08-25 15:28:28",
+  "generated_at": "2026-08-25 16:06:20",
   "title": "2026-08-25 全球市场金融资讯日报",
   "market_overview": [
     {
@@ -46,9 +46,9 @@
       "symbol": "^HSI",
       "name_cn": "恒生指数",
       "name_en": "Hang Seng",
-      "price": 25505.14,
-      "change_pct": -0.05,
-      "change": -12.19,
+      "price": 25501.8,
+      "change_pct": -0.06,
+      "change": -15.53,
       "verified": true,
       "sources": [
         "tencent",
@@ -59,9 +59,9 @@
       "symbol": "^HSCE",
       "name_cn": "国企指数",
       "name_en": "HSCEI",
-      "price": 8446.81,
-      "change_pct": -0.29,
-      "change": -24.55,
+      "price": 8443.52,
+      "change_pct": -0.33,
+      "change": -27.84,
       "verified": true,
       "sources": [
         "tencent",
@@ -108,6 +108,35 @@
       ]
     }
   ],
+  "macro": {
+    "treasury": {
+      "date": "2026-08-24",
+      "yields": {
+        "2Y": 4.24,
+        "5Y": 4.41,
+        "10Y": 4.7,
+        "30Y": 5.23
+      },
+      "change_1d_bp": {
+        "2Y": 0.0,
+        "5Y": -2.0,
+        "10Y": -4.0,
+        "30Y": -4.0
+      },
+      "change_5d_bp": {
+        "2Y": 0.0,
+        "5Y": -2.0,
+        "10Y": -4.0,
+        "30Y": -4.0
+      },
+      "spread_10y_2y": 0.46
+    },
+    "vix": {
+      "date": "2026-08-24",
+      "close": 15.85,
+      "change_1d": 0.72
+    }
+  },
   "top5": [
     {
       "rank": 1,
@@ -123,56 +152,11 @@
       "related_names": [
         "英伟达"
       ],
-      "score": 6.32,
+      "score": 6.29,
       "verified": true
     },
     {
       "rank": 2,
-      "title": "午后美联储突传利好！亚太股市集体反攻",
-      "summary": "【午后美联储突传利好！亚太股市集体反攻】午后，日韩股市集体翻红。A股市场亦显著反弹，上证指数由早盘下跌30点到午后上涨超10点，科创50、创业板指等近期调整幅度较大的指数午后亦大举反攻。美股纳指期货午后反弹幅度超0.4%。分析人士认为，全球市场午后的反攻可能与市场对美联储主席沃什的讲话预期有关。午后有消息称，沃什可能会在杰克逊霍尔会议讲话中就美联储如何应对通胀问题提供重要更新，并为市场提供确定性。这种确定性或可缓解近期股债的压力。",
-      "time": "2026-08-25 14:15:00",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202608253852713971.html",
-      "related_symbols": [
-        "000001.SS",
-        "399006.SZ"
-      ],
-      "related_names": [
-        "上证指数",
-        "创业板指"
-      ],
-      "score": 9.45,
-      "verified": true
-    },
-    {
-      "rank": 3,
-      "title": "药明合联上半年利润同比增长37.4%，港股通医药ETF鹏华涨超2%",
-      "summary": "【药明合联上半年利润同比增长37.4%，港股通医药ETF鹏华涨超2%】消息面上，8月24日，药明合联发布了2026年中期业绩，财报显示，2026年上半年药明合联实现综合收益37.01亿元人民币，按实际汇率（AER）计算同比增长37.0%，按固定汇率（CER）计算同比增长41.5%；毛利同比增长40.6%至13.71亿元，毛利率进一步提升至37.0%；经调整归属母公司净利润同比增长37.4%至10.27亿元，经调整净利润率稳定在27.8%。",
-      "time": "2026-08-25 14:58:54",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202608253852752843.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 8.48,
-      "verified": true
-    },
-    {
-      "rank": 4,
-      "title": "1-7月我国企业在共建“一带一路”国家非金融类直接投资1519.9亿元 同比下降5.5%",
-      "summary": "【1-7月我国企业在共建“一带一路”国家非金融类直接投资1519.9亿元 同比下降5.5%】商务部数据显示，2026年1-7月，我国企业在共建“一带一路”国家非金融类直接投资1519.9亿元人民币，同比下降5.5%（以美元计为221亿美元，下降1.4%）。",
-      "time": "2026-08-25 15:00:42",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202608253852753543.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 5.48,
-      "verified": true
-    },
-    {
-      "rank": 5,
       "title": "A股三大指数涨跌不一 成交额不足1.9万亿 逾4200只股上涨",
       "summary": "【收盘播报】沪指涨0.19%，深证成指跌0.35%，创业板指跌1%。成交额仅1.84万亿，地面兵装、装修装饰、酒店餐饮、房地产服务、零售板块涨幅居前，贵金属、能源金属、稀土板块跌幅居前。",
       "time": "2026-08-25 15:00:44",
@@ -187,7 +171,72 @@
         "深证成指",
         "创业板指"
       ],
-      "score": 7.48,
+      "score": 7.45,
+      "verified": true
+    },
+    {
+      "rank": 3,
+      "title": "A股成交额下半年新低！三大指数午后一度翻红 调整已近尾声？",
+      "summary": "8月25日，市场午后震荡回升，沪指小幅飘红。截至收盘，沪指涨0.19%，深成指跌0.35%，创业板指跌1.00%。板块来看，创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹，零售、旅游等消费股强势。下跌方面，贵金属、锂矿等资源股大幅回调。全市场超4200股上涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿。",
+      "time": "2026-08-25 15:31:54",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202608253852768611.html",
+      "related_symbols": [
+        "399006.SZ"
+      ],
+      "related_names": [
+        "创业板指"
+      ],
+      "score": 5.48,
+      "verified": true
+    },
+    {
+      "rank": 4,
+      "title": "亚马逊在美大幅上调多款硬件设备售价 部分产品涨幅达60%",
+      "summary": "【亚马逊在美大幅上调多款硬件设备售价 部分产品涨幅达60%】据悉，亚马逊旗下流媒体设备Fire TV、智能音响Echo、电子书阅读器Kindle和路由器品牌Eero等多款产品调价，其中平价智能音响Echo Dot的价格从49.99美元上涨至79.99美元，涨幅高达60%。",
+      "time": "2026-08-25 15:34:05",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202608253852770253.html",
+      "related_symbols": [
+        "AMZN"
+      ],
+      "related_names": [
+        "亚马逊"
+      ],
+      "score": 6.48,
+      "verified": true
+    },
+    {
+      "rank": 5,
+      "title": "美股大型科技股盘前普涨 SK海力士涨2%",
+      "summary": "【美股大型科技股盘前普涨 SK海力士涨2%】美股大型科技股盘前普涨，SK海力士涨2%，美光科技涨1%，英伟达涨0.9%，SpaceX涨0.8%，特斯拉涨0.6%，Meta涨0.4%，亚马逊涨0.2%，谷歌A持平，微软跌0.1%，苹果跌0.3%。",
+      "time": "2026-08-25 16:02:39",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202608253852801030.html",
+      "related_symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "TSLA"
+      ],
+      "related_names": [
+        "苹果",
+        "亚马逊",
+        "谷歌",
+        "meta",
+        "微软",
+        "美光",
+        "英伟达",
+        "特斯拉"
+      ],
+      "score": 9.5,
       "verified": true
     }
   ],
@@ -222,6 +271,11 @@
       ],
       "top_losers": [
         {
+          "symbol": "SNDK",
+          "name_cn": "闪迪",
+          "change_pct": -6.45
+        },
+        {
           "symbol": "MU",
           "name_cn": "美光",
           "change_pct": -5.83
@@ -240,11 +294,6 @@
           "symbol": "INTC",
           "name_cn": "英特尔",
           "change_pct": -3.12
-        },
-        {
-          "symbol": "NVDA",
-          "name_cn": "英伟达",
-          "change_pct": -2.91
         }
       ]
     },
@@ -253,44 +302,39 @@
         {
           "symbol": "9999.HK",
           "name_cn": "网易-S",
-          "change_pct": 1.85
+          "change_pct": 1.9
         },
         {
           "symbol": "9988.HK",
           "name_cn": "阿里巴巴-W",
-          "change_pct": 1.33
+          "change_pct": 1.16
         },
         {
           "symbol": "0941.HK",
           "name_cn": "中国移动",
-          "change_pct": 1.01
+          "change_pct": 0.88
         },
         {
           "symbol": "1024.HK",
           "name_cn": "快手-W",
-          "change_pct": 0.79
+          "change_pct": 0.85
         },
         {
           "symbol": "0700.HK",
           "name_cn": "腾讯控股",
-          "change_pct": 0.18
+          "change_pct": 0.32
         }
       ],
       "top_losers": [
         {
           "symbol": "3690.HK",
           "name_cn": "美团-W",
-          "change_pct": -6.05
+          "change_pct": -6.47
         },
         {
           "symbol": "2020.HK",
           "name_cn": "安踏体育",
-          "change_pct": -1.03
-        },
-        {
-          "symbol": "1299.HK",
-          "name_cn": "友邦保险",
-          "change_pct": -0.6
+          "change_pct": -0.96
         },
         {
           "symbol": "2318.HK",
@@ -298,9 +342,14 @@
           "change_pct": -0.44
         },
         {
+          "symbol": "1299.HK",
+          "name_cn": "友邦保险",
+          "change_pct": -0.34
+        },
+        {
           "symbol": "9618.HK",
           "name_cn": "京东集团-SW",
-          "change_pct": -0.35
+          "change_pct": -0.26
         }
       ]
     },
@@ -1031,6 +1080,64 @@
         ]
       },
       {
+        "symbol": "CRCL",
+        "secid": "106.CRCL",
+        "name_cn": "Circle",
+        "name_en": "Circle Internet Group (CRCL)",
+        "market": "us",
+        "currency": "USD",
+        "tags": [
+          "金融科技"
+        ],
+        "price": 87.72,
+        "change": -0.26,
+        "change_pct": -0.3,
+        "high": 92.31,
+        "low": 86.64,
+        "open": 89.93,
+        "prev_close": 87.98,
+        "mkt_cap": null,
+        "pe": null,
+        "sources": [
+          "tencent",
+          "sina"
+        ],
+        "verified": true,
+        "cross_checked": true,
+        "verification_notes": [
+          "多源一致(2个源)"
+        ]
+      },
+      {
+        "symbol": "SNDK",
+        "secid": "105.SNDK",
+        "name_cn": "闪迪",
+        "name_en": "SanDisk",
+        "market": "us",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ],
+        "price": 1493.12,
+        "change": -102.96,
+        "change_pct": -6.45,
+        "high": 1517.0,
+        "low": 1416.56,
+        "open": 1494.09,
+        "prev_close": 1596.08,
+        "mkt_cap": null,
+        "pe": null,
+        "sources": [
+          "tencent",
+          "sina"
+        ],
+        "verified": true,
+        "cross_checked": true,
+        "verification_notes": [
+          "多源一致(2个源)"
+        ]
+      },
+      {
         "symbol": "^NDX",
         "secid": "100.NDX",
         "name_cn": "纳斯达克100",
@@ -1129,9 +1236,9 @@
         "tags": [
           "科技"
         ],
-        "price": 440.8,
-        "change": 0.8,
-        "change_pct": 0.18,
+        "price": 441.4,
+        "change": 1.4,
+        "change_pct": 0.32,
         "high": 444.6,
         "low": 438.0,
         "open": 440.0,
@@ -1158,9 +1265,9 @@
         "tags": [
           "科技"
         ],
-        "price": 114.0,
-        "change": 1.5,
-        "change_pct": 1.33,
+        "price": 113.8,
+        "change": 1.3,
+        "change_pct": 1.16,
         "high": 115.0,
         "low": 112.2,
         "open": 114.8,
@@ -1187,9 +1294,9 @@
         "tags": [
           "科技"
         ],
-        "price": 77.7,
-        "change": -5.0,
-        "change_pct": -6.05,
+        "price": 77.35,
+        "change": -5.35,
+        "change_pct": -6.47,
         "high": 83.2,
         "low": 77.1,
         "open": 82.9,
@@ -1216,9 +1323,9 @@
         "tags": [
           "科技"
         ],
-        "price": 27.76,
-        "change": -0.06,
-        "change_pct": -0.22,
+        "price": 27.78,
+        "change": -0.04,
+        "change_pct": -0.14,
         "high": 28.48,
         "low": 27.64,
         "open": 28.32,
@@ -1245,9 +1352,9 @@
         "tags": [
           "通信"
         ],
-        "price": 80.25,
-        "change": 0.8,
-        "change_pct": 1.01,
+        "price": 80.15,
+        "change": 0.7,
+        "change_pct": 0.88,
         "high": 80.7,
         "low": 79.9,
         "open": 80.0,
@@ -1274,9 +1381,9 @@
         "tags": [
           "金融"
         ],
-        "price": 74.15,
-        "change": -0.45,
-        "change_pct": -0.6,
+        "price": 74.35,
+        "change": -0.25,
+        "change_pct": -0.34,
         "high": 75.75,
         "low": 73.55,
         "open": 75.75,
@@ -1332,9 +1439,9 @@
         "tags": [
           "科技"
         ],
-        "price": 198.5,
-        "change": 3.6,
-        "change_pct": 1.85,
+        "price": 198.6,
+        "change": 3.7,
+        "change_pct": 1.9,
         "high": 200.4,
         "low": 193.2,
         "open": 194.8,
@@ -1361,9 +1468,9 @@
         "tags": [
           "科技"
         ],
-        "price": 112.9,
-        "change": -0.4,
-        "change_pct": -0.35,
+        "price": 113.0,
+        "change": -0.3,
+        "change_pct": -0.26,
         "high": 115.4,
         "low": 112.8,
         "open": 114.5,
@@ -1390,9 +1497,9 @@
         "tags": [
           "科技"
         ],
-        "price": 33.28,
-        "change": 0.26,
-        "change_pct": 0.79,
+        "price": 33.3,
+        "change": 0.28,
+        "change_pct": 0.85,
         "high": 33.52,
         "low": 33.04,
         "open": 33.2,
@@ -1419,9 +1526,9 @@
         "tags": [
           "金融"
         ],
-        "price": 417.0,
-        "change": -0.8,
-        "change_pct": -0.19,
+        "price": 417.4,
+        "change": -0.4,
+        "change_pct": -0.1,
         "high": 420.4,
         "low": 415.6,
         "open": 418.2,
@@ -1448,9 +1555,9 @@
         "tags": [
           "消费"
         ],
-        "price": 71.95,
-        "change": -0.75,
-        "change_pct": -1.03,
+        "price": 72.0,
+        "change": -0.7,
+        "change_pct": -0.96,
         "high": 73.2,
         "low": 71.35,
         "open": 72.7,
@@ -1477,9 +1584,9 @@
         "tags": [
           "指数"
         ],
-        "price": 25505.14,
-        "change": -12.19,
-        "change_pct": -0.05,
+        "price": 25501.8,
+        "change": -15.53,
+        "change_pct": -0.06,
         "high": 25676.77,
         "low": 25403.44,
         "open": 25634.22,
@@ -1506,9 +1613,9 @@
         "tags": [
           "指数"
         ],
-        "price": 8446.81,
-        "change": -24.55,
-        "change_pct": -0.29,
+        "price": 8443.52,
+        "change": -27.84,
+        "change_pct": -0.33,
         "high": 8508.28,
         "low": 8415.95,
         "open": 8500.51,
@@ -2220,16 +2327,353 @@
     "investing": {
       "ok": false,
       "error": null
+    },
+    "ust_treasury": {
+      "ok": true,
+      "error": null
+    },
+    "cboe_vix": {
+      "ok": true,
+      "error": null
+    }
+  },
+  "signals": {
+    "generated_at": "2026-08-25 16:07:14",
+    "date": "2026-08-24",
+    "macro_overlay": {
+      "risk": 0.483,
+      "risk_level": "中高",
+      "components": {
+        "treasury_10y": {
+          "value": 4.7,
+          "risk": 0.75
+        },
+        "curve_spread": {
+          "value": 0.46,
+          "risk": 0.0
+        },
+        "vix": {
+          "value": 15.85,
+          "risk": 0.2
+        }
+      },
+      "active": true
+    },
+    "holdings": [
+      {
+        "symbol": "NVDA",
+        "name_cn": "英伟达",
+        "bars": 2172,
+        "history_note": null,
+        "valid": true,
+        "date": "2026-08-24",
+        "price": 208.48,
+        "change_pct": -2.91,
+        "sub_scores": {
+          "trend_ma": {
+            "score": 0.047,
+            "d20": -2.48,
+            "d50": 0.4,
+            "d200": 6.83
+          },
+          "ma_alignment": {
+            "score": 0.5,
+            "sma50": 207.65,
+            "sma200": 195.15,
+            "cross": null,
+            "cross_days": null
+          },
+          "macd": {
+            "score": -0.222,
+            "macd_line": 2.65,
+            "signal": 3.779,
+            "hist": -1.128,
+            "hist_change": -0.724
+          },
+          "rsi": {
+            "score": 0.214,
+            "rsi": 44.7
+          },
+          "position": {
+            "score": -0.009,
+            "pos52": 0.617,
+            "pct_b": 0.374,
+            "high52": 235.49,
+            "low52": 164.92
+          },
+          "volume": {
+            "score": -0.032,
+            "vol_ratio": 0.91,
+            "obv_trend": -0.063
+          },
+          "relative_strength": {
+            "score": 0.098,
+            "rs20": 2.86,
+            "rs60": -3.76
+          },
+          "atr": {
+            "score": -0.13,
+            "atr_pct": 2.82
+          }
+        },
+        "composite": {
+          "raw": 0.045,
+          "adjusted": 0.034,
+          "signal": "观望",
+          "confidence": 0.034,
+          "action_tip": "信号中性：多空不明显，等待方向明朗"
+        },
+        "signal": "观望",
+        "score": 0.034,
+        "confidence": 0.034,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
+      },
+      {
+        "symbol": "GOOGL",
+        "name_cn": "谷歌",
+        "bars": 2172,
+        "history_note": null,
+        "valid": true,
+        "date": "2026-08-24",
+        "price": 348.06,
+        "change_pct": 0.94,
+        "sub_scores": {
+          "trend_ma": {
+            "score": 0.038,
+            "d20": -0.4,
+            "d50": -1.0,
+            "d200": 4.49
+          },
+          "ma_alignment": {
+            "score": 0.5,
+            "sma50": 351.57,
+            "sma200": 333.11,
+            "cross": null,
+            "cross_days": null
+          },
+          "macd": {
+            "score": 0.01,
+            "macd_line": -1.982,
+            "signal": -1.753,
+            "hist": -0.229,
+            "hist_change": 0.368
+          },
+          "rsi": {
+            "score": 0.019,
+            "rsi": 49.5
+          },
+          "position": {
+            "score": 0.194,
+            "pos52": 0.724,
+            "pct_b": 0.469,
+            "high52": 402.4,
+            "low52": 205.24
+          },
+          "volume": {
+            "score": 0.263,
+            "vol_ratio": 0.79,
+            "obv_trend": 0.526
+          },
+          "relative_strength": {
+            "score": -0.165,
+            "rs20": 3.35,
+            "rs60": -11.91
+          },
+          "atr": {
+            "score": 0.079,
+            "atr_pct": 2.3
+          }
+        },
+        "composite": {
+          "raw": 0.09,
+          "adjusted": 0.068,
+          "signal": "观望",
+          "confidence": 0.068,
+          "action_tip": "信号中性：多空不明显，等待方向明朗"
+        },
+        "signal": "观望",
+        "score": 0.068,
+        "confidence": 0.068,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
+      },
+      {
+        "symbol": "CRCL",
+        "name_cn": "Circle",
+        "bars": 306,
+        "history_note": "东财 K 线自 2025-06-05 起（约 14 个月），样本偏短",
+        "valid": true,
+        "date": "2026-08-24",
+        "price": 87.72,
+        "change_pct": -0.3,
+        "sub_scores": {
+          "trend_ma": {
+            "score": 0.661,
+            "d20": 24.42,
+            "d50": 26.07,
+            "d200": 3.05
+          },
+          "ma_alignment": {
+            "score": -0.5,
+            "sma50": 69.58,
+            "sma200": 85.12,
+            "cross": null,
+            "cross_days": null
+          },
+          "macd": {
+            "score": 0.524,
+            "macd_line": 4.214,
+            "signal": 1.618,
+            "hist": 2.596,
+            "hist_change": 0.085
+          },
+          "rsi": {
+            "score": -0.761,
+            "rsi": 69.0
+          },
+          "position": {
+            "score": 0.374,
+            "pos52": 0.374,
+            "pct_b": 1.015,
+            "high52": 150.48,
+            "low52": 50.23
+          },
+          "volume": {
+            "score": 0.25,
+            "vol_ratio": 1.46,
+            "obv_trend": 1.0
+          },
+          "relative_strength": {
+            "score": 0.0,
+            "rs20": 30.34,
+            "rs60": -20.14
+          },
+          "atr": {
+            "score": -1.0,
+            "atr_pct": 6.37
+          }
+        },
+        "composite": {
+          "raw": 0.047,
+          "adjusted": 0.036,
+          "signal": "观望",
+          "confidence": 0.036,
+          "action_tip": "信号中性：多空不明显，等待方向明朗"
+        },
+        "signal": "观望",
+        "score": 0.036,
+        "confidence": 0.036,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
+      },
+      {
+        "symbol": "SNDK",
+        "name_cn": "闪迪",
+        "bars": 377,
+        "history_note": "2025-02-24 自西部数据分拆上市，样本偏短",
+        "valid": true,
+        "date": "2026-08-24",
+        "price": 1493.12,
+        "change_pct": -6.45,
+        "sub_scores": {
+          "trend_ma": {
+            "score": 0.324,
+            "d20": 7.27,
+            "d50": -9.31,
+            "d200": 57.88
+          },
+          "ma_alignment": {
+            "score": 0.5,
+            "sma50": 1646.41,
+            "sma200": 945.71,
+            "cross": null,
+            "cross_days": null
+          },
+          "macd": {
+            "score": 0.289,
+            "macd_line": 16.817,
+            "signal": -18.254,
+            "hist": 35.071,
+            "hist_change": -12.601
+          },
+          "rsi": {
+            "score": 0.014,
+            "rsi": 49.7
+          },
+          "position": {
+            "score": 0.259,
+            "pos52": 0.632,
+            "pct_b": 0.627,
+            "high52": 2335.0,
+            "low52": 46.37
+          },
+          "volume": {
+            "score": -0.116,
+            "vol_ratio": 0.81,
+            "obv_trend": -0.232
+          },
+          "relative_strength": {
+            "score": 0.0,
+            "rs20": 13.58,
+            "rs60": -10.23
+          },
+          "atr": {
+            "score": -1.0,
+            "atr_pct": 9.0
+          }
+        },
+        "composite": {
+          "raw": 0.074,
+          "adjusted": 0.056,
+          "signal": "观望",
+          "confidence": 0.056,
+          "action_tip": "信号中性：多空不明显，等待方向明朗"
+        },
+        "signal": "观望",
+        "score": 0.056,
+        "confidence": 0.056,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
+      }
+    ]
+  },
+  "history_status": {
+    "NVDA": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "GOOGL": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "CRCL": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "SNDK": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "SPX": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "NDX": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
     }
   },
   "verification_stats": {
-    "quotes_total": 63,
-    "quotes_verified": 63,
-    "news_total": 53,
-    "news_verified": 53
+    "quotes_total": 65,
+    "quotes_verified": 65,
+    "news_total": 54,
+    "news_verified": 54
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
-    "updated": "2026-08-24"
+    "updated": "2026-08-25"
   }
 }

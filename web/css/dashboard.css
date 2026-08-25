@@ -1,0 +1,126 @@
+/* ============================================================
+   信号看板样式：只引用 design-tokens.css 的变量
+   ============================================================ */
+
+.nav-link {
+  font-size: var(--text-sm); color: var(--color-text-muted);
+  border: 1px solid var(--color-border); border-radius: var(--radius-pill);
+  padding: 4px 12px; transition: all var(--transition);
+}
+.nav-link:hover { color: var(--color-accent); border-color: var(--color-accent); text-decoration: none; }
+
+/* ---------- 宏观仪表盘 ---------- */
+.macro-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-4); padding: var(--space-5);
+}
+.macro-card {
+  background: var(--color-surface-2); border: 1px solid var(--color-border);
+  border-radius: var(--radius-md); padding: var(--space-4);
+}
+.macro-card .label { font-size: var(--text-sm); color: var(--color-text-muted); }
+.macro-card .value { font-size: var(--text-2xl); font-weight: 800; font-family: var(--font-mono); margin-top: 4px; }
+.macro-card .unit { font-size: var(--text-sm); color: var(--color-text-muted); font-weight: 400; }
+.macro-card .delta { font-size: var(--text-sm); font-family: var(--font-mono); margin-top: 2px; }
+.macro-card .extra { font-size: var(--text-xs); color: var(--color-text-faint); margin-top: 6px; line-height: 1.6; }
+
+.risk-badge {
+  font-size: var(--text-sm); font-weight: 700;
+  border-radius: var(--radius-pill); padding: 4px 14px;
+}
+.risk-low      { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.4); }
+.risk-mid      { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.4); }
+.risk-high     { background: rgba(239,68,68,0.15);  color: #ef4444; border: 1px solid rgba(239,68,68,0.4); }
+.risk-extreme  { background: rgba(139,92,246,0.18); color: #a78bfa; border: 1px solid rgba(139,92,246,0.5); }
+[data-theme="light"] .risk-low     { color: #15803d; }
+[data-theme="light"] .risk-mid     { color: #b45309; }
+[data-theme="light"] .risk-high    { color: #dc2626; }
+[data-theme="light"] .risk-extreme { color: #7c3aed; }
+
+/* 风险条 */
+.risk-bar-wrap { margin-top: 10px; }
+.risk-bar { height: 8px; border-radius: 4px; background: linear-gradient(90deg,#22c55e,#84cc16,#f59e0b,#ef4444,#8b5cf6); position: relative; }
+.risk-bar .marker { position: absolute; top: -3px; width: 3px; height: 14px; background: var(--color-text); border-radius: 2px; transform: translateX(-50%); }
+
+/* ---------- 美债面板 ---------- */
+.yield-body { padding: var(--space-5); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--space-5); }
+@media (max-width: 900px) { .yield-body { grid-template-columns: 1fr; } }
+.yield-table { width: 100%; border-collapse: collapse; }
+.yield-table th, .yield-table td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--color-border); }
+.yield-table th { font-size: var(--text-xs); color: var(--color-text-faint); font-weight: 600; }
+.yield-table td:first-child, .yield-table th:first-child { text-align: left; }
+.yield-table .tenor { font-weight: 700; }
+.yield-table .num { font-family: var(--font-mono); }
+.chart-box { display: flex; flex-direction: column; gap: var(--space-4); }
+.chart-title { font-size: var(--text-sm); color: var(--color-text-muted); }
+.chart-title b { color: var(--color-text); font-family: var(--font-mono); }
+.chart svg { width: 100%; height: 120px; display: block; }
+.chart-legend { display: flex; gap: var(--space-4); font-size: var(--text-xs); color: var(--color-text-faint); }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+
+/* ---------- 持仓卡片 ---------- */
+.holdings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: var(--space-4); padding: var(--space-5); }
+.holding-card { background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
+.holding-head { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-4) var(--space-3); }
+.holding-head .sym { font-size: var(--text-lg); font-weight: 800; font-family: var(--font-mono); }
+.holding-head .cn { font-size: var(--text-sm); color: var(--color-text-muted); }
+.holding-head .price { margin-left: auto; text-align: right; }
+.holding-head .price .p { font-family: var(--font-mono); font-weight: 700; font-size: var(--text-md); }
+.holding-head .price .chg { font-family: var(--font-mono); font-size: var(--text-sm); }
+.signal-badge { font-size: var(--text-sm); font-weight: 700; border-radius: var(--radius-pill); padding: 4px 14px; }
+.sig-buy       { background: rgba(239,68,68,0.16);  color: #ef4444; border: 1px solid rgba(239,68,68,0.45); }
+.sig-hold-long { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.4); }
+.sig-watch     { background: rgba(148,163,184,0.14); color: #94a3b8; border: 1px solid rgba(148,163,184,0.35); }
+.sig-hold-short{ background: rgba(34,197,94,0.15);  color: #22c55e; border: 1px solid rgba(34,197,94,0.4); }
+.sig-sell      { background: rgba(34,197,94,0.20);  color: #22c55e; border: 1px solid rgba(34,197,94,0.55); }
+[data-theme="light"] .sig-buy        { color: #dc2626; }
+[data-theme="light"] .sig-hold-long  { color: #b45309; }
+[data-theme="light"] .sig-hold-short { color: #15803d; }
+[data-theme="light"] .sig-sell       { color: #15803d; }
+
+.holding-score { padding: 0 var(--space-4); }
+.score-row { display: flex; align-items: center; gap: var(--space-2); font-size: var(--text-xs); color: var(--color-text-faint); }
+.score-bar { flex: 1; height: 6px; border-radius: 3px; background: linear-gradient(90deg,#22c55e,#94a3b8,#ef4444); position: relative; }
+.score-bar .marker { position: absolute; top: -2px; width: 2px; height: 10px; background: var(--color-text); border-radius: 1px; transform: translateX(-50%); }
+.holding-tip { font-size: var(--text-sm); color: var(--color-text-muted); padding: var(--space-3) var(--space-4); line-height: 1.6; border-top: 1px dashed var(--color-border); }
+.holding-note { font-size: var(--text-xs); color: var(--color-warn); padding: 0 var(--space-4) var(--space-3); }
+
+.sub-list { padding: var(--space-2) var(--space-4) var(--space-4); }
+.sub-item { border-top: 1px solid var(--color-border); }
+.sub-head { width: 100%; display: flex; align-items: center; gap: var(--space-2); padding: 10px 0; background: none; border: none; color: var(--color-text); cursor: pointer; font-size: var(--text-sm); text-align: left; }
+.sub-head:hover { color: var(--color-accent); }
+.sub-name { font-weight: 600; min-width: 88px; }
+.sub-bar { flex: 1; height: 5px; border-radius: 3px; background: var(--color-surface-3); position: relative; overflow: hidden; }
+.sub-bar .fill { position: absolute; top: 0; bottom: 0; left: 50%; }
+.sub-bar .fill.pos { background: var(--color-up); transform: translateX(0); }
+.sub-bar .fill.neg { background: var(--color-down); right: 50%; left: auto; }
+.sub-val { font-family: var(--font-mono); font-size: var(--text-xs); width: 46px; text-align: right; color: var(--color-text-muted); }
+.sub-detail { display: none; font-size: var(--text-xs); color: var(--color-text-muted); padding: 0 0 10px; line-height: 1.8; font-family: var(--font-mono); }
+.sub-item.open .sub-detail { display: block; }
+.sub-item.open .sub-head .chev { transform: rotate(180deg); }
+.chev { transition: transform var(--transition); }
+
+/* ---------- 回测面板 ---------- */
+.bt-block { padding: var(--space-5); border-top: 1px solid var(--color-border); }
+.bt-block:first-child { border-top: none; }
+.bt-head { display: flex; align-items: baseline; gap: var(--space-3); margin-bottom: var(--space-3); flex-wrap: wrap; }
+.bt-head h3 { font-size: var(--text-md); }
+.bt-head .bt-note { font-size: var(--text-xs); color: var(--color-warn); }
+.metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--space-3); }
+.metric { background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 10px 12px; }
+.metric .m-label { font-size: var(--text-xs); color: var(--color-text-faint); }
+.metric .m-val { font-size: var(--text-lg); font-weight: 700; font-family: var(--font-mono); margin-top: 2px; }
+.metric .m-sub { font-size: var(--text-xs); color: var(--color-text-muted); }
+.attr-table { width: 100%; border-collapse: collapse; margin-top: var(--space-2); }
+.attr-table th, .attr-table td { padding: 7px 10px; text-align: right; border-bottom: 1px solid var(--color-border); font-size: var(--text-sm); }
+.attr-table th { font-size: var(--text-xs); color: var(--color-text-faint); font-weight: 600; }
+.attr-table td:first-child, .attr-table th:first-child { text-align: left; }
+.attr-table .num { font-family: var(--font-mono); }
+.hit-chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
+.hit-chip { font-size: var(--text-xs); border: 1px solid var(--color-border); border-radius: var(--radius-pill); padding: 3px 10px; color: var(--color-text-muted); }
+.hit-chip b { color: var(--color-text); font-family: var(--font-mono); }
+.bt-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
+@media (max-width: 900px) { .bt-grid2 { grid-template-columns: 1fr; } }
+.bt-method { font-size: var(--text-xs); color: var(--color-text-faint); line-height: 1.8; padding: var(--space-3) var(--space-5); border-top: 1px solid var(--color-border); }
+
+.foot-note { text-align: center; font-size: var(--text-xs); color: var(--color-text-faint); padding: var(--space-5) 0; }

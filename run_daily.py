@@ -20,6 +20,7 @@ from collector.news import collect_news              # noqa: E402
 from collector.macro import collect_macro            # noqa: E402
 from collector.volume import ensure_snapshot          # noqa: E402
 from collector.klines import update_history          # noqa: E402
+from signals.engine import compute_signals, save_signals  # noqa: E402
 from verify.verifier import verify_quotes, verify_news, summarize  # noqa: E402
 from digest.digester import build_digest, market_movers  # noqa: E402
 
@@ -88,10 +89,21 @@ def run(day=None, out_dir=None):
         else:
             print(f"   {symbol}: 失败 {info.get('error')}")
 
-    # 6) 指数快照
+    # 6) 计算持仓信号
+    print(">> 计算持仓信号 ...")
+    signals = compute_signals(macro_summary=macro["summary"])
+    for h in signals["holdings"]:
+        if h.get("valid"):
+            print(f"   {h['symbol']} {h['name_cn']}: {h['signal']} "
+                  f"(评分 {h['score']})  置信 {h['confidence']}")
+        else:
+            print(f"   {h['symbol']}: {h.get('signal')}")
+    save_signals(signals)
+
+    # 7) 指数快照
     indices = [q for q in quotes if q.get("is_index")]
 
-    # 7) 汇总报告
+    # 8) 汇总报告
     report = {
         "date": day,
         "generated_at": now_str,
@@ -104,12 +116,13 @@ def run(day=None, out_dir=None):
                    for m in ("us", "hk", "cn")},
         "sources_status": {**quotes_res["status"], **news_res["status"],
                            **macro["status"]},
+        "signals": signals,
         "history_status": history,
         "verification_stats": summarize(quotes, news_items),
         "watchlist_meta": watchlist.get("meta"),
     }
 
-    # 8) 写文件
+    # 9) 写文件
     out_dir = out_dir or DATA_DIR
     os.makedirs(out_dir, exist_ok=True)
     daily_path = os.path.join(out_dir, f"{day}.json")

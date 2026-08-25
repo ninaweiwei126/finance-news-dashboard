@@ -1,0 +1,1275 @@
+{
+ "generated_at": "2026-08-25 16:07:40",
+ "methodology": {
+  "warmup_days": 205,
+  "execution": "信号于收盘后产生、次日 close→close 生效（无未来函数）",
+  "position": "买入=100% / 持有偏多=50% / 观望·偏空·卖出=空仓（不做空）",
+  "cost": "每次调仓 5bp（另附 0/5/10bp 敏感性）",
+  "hit_rate_horizon": "信号命中率按未来 5 个交易日方向判定",
+  "macro_overlay": "回测逐日套用当日宏观风险（10Y/VIX/曲线），与实时一致",
+  "weights": "子指标权重为事前固定设定，未在历史数据上调参",
+  "caveats": [
+   "CRCL/SNDK 样本偏短，结论仅供参考",
+   "仅做多/空仓，未包含做空与融资成本",
+   "未包含跳空冲击与滑点（仅固定成本率）"
+  ]
+ },
+ "holdings": [
+  {
+   "symbol": "NVDA",
+   "name_cn": "英伟达",
+   "bars": 2172,
+   "period": "2018-01-02 ~ 2026-08-24",
+   "sample_note": null,
+   "valid": true,
+   "strategy": {
+    "total_return_pct": 306.11,
+    "cagr_pct": 19.68,
+    "sharpe": 1.12,
+    "max_drawdown_pct": -23.14,
+    "win_rate_daily": 0.262,
+    "avg_win_pct": 1.19,
+    "avg_loss_pct": -0.85,
+    "profit_factor": 1.33,
+    "trades": 208
+   },
+   "buy_hold": {
+    "total_return_pct": 4464.92,
+    "cagr_pct": 63.19,
+    "sharpe": 1.19,
+    "max_drawdown_pct": -67.06,
+    "win_rate_daily": 0.54,
+    "avg_win_pct": 2.48,
+    "avg_loss_pct": -2.38,
+    "profit_factor": 1.23
+   },
+   "vs_buy_hold_pp": -4158.81,
+   "signal_stats": {
+    "卖出": {
+     "days": 107,
+     "hit_rate": 0.458
+    },
+    "持有偏空": {
+     "days": 279,
+     "hit_rate": 0.427
+    },
+    "持有偏多": {
+     "days": 914,
+     "hit_rate": 0.59
+    },
+    "买入": {
+     "days": 59,
+     "hit_rate": 0.729
+    }
+   },
+   "cost_sensitivity": {
+    "0bp": {
+     "total_return_pct": 327.77,
+     "trades": 208
+    },
+    "5bp": {
+     "total_return_pct": 306.11,
+     "trades": 208
+    },
+    "10bp": {
+     "total_return_pct": 285.54,
+     "trades": 208
+    }
+   },
+   "regimes": {
+    "vix<20": {
+     "days": 1215,
+     "strategy_return_pct": 163.18,
+     "buy_hold_return_pct": 322.47
+    },
+    "vix>=20": {
+     "days": 751,
+     "strategy_return_pct": 54.31,
+     "buy_hold_return_pct": 980.53
+    },
+    "10Y<4.3": {
+     "days": 1600,
+     "strategy_return_pct": 225.9,
+     "buy_hold_return_pct": 1763.99
+    },
+    "10Y>=4.3": {
+     "days": 366,
+     "strategy_return_pct": 24.61,
+     "buy_hold_return_pct": 144.9
+    }
+   },
+   "indicator_attribution": [
+    {
+     "total_return_pct": 1041.11,
+     "cagr_pct": 36.62,
+     "sharpe": 1.06,
+     "max_drawdown_pct": -39.64,
+     "win_rate_daily": 0.365,
+     "avg_win_pct": 1.99,
+     "avg_loss_pct": -1.63,
+     "profit_factor": 1.26,
+     "trades": 271,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 287,
+       "hit_rate": 0.439
+      },
+      "持有偏空": {
+       "days": 132,
+       "hit_rate": 0.432
+      },
+      "持有偏多": {
+       "days": 293,
+       "hit_rate": 0.573
+      },
+      "买入": {
+       "days": 1054,
+       "hit_rate": 0.583
+      }
+     },
+     "indicator": "trend_ma"
+    },
+    {
+     "total_return_pct": 4386.02,
+     "cagr_pct": 62.83,
+     "sharpe": 1.32,
+     "max_drawdown_pct": -39.54,
+     "win_rate_daily": 0.419,
+     "avg_win_pct": 2.41,
+     "avg_loss_pct": -2.2,
+     "profit_factor": 1.3,
+     "trades": 7,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 1510,
+       "hit_rate": 0.589
+      },
+      "卖出": {
+       "days": 452,
+       "hit_rate": 0.44
+      }
+     },
+     "indicator": "ma_alignment"
+    },
+    {
+     "total_return_pct": 9.52,
+     "cagr_pct": 1.17,
+     "sharpe": 0.16,
+     "max_drawdown_pct": -34.97,
+     "win_rate_daily": 0.157,
+     "avg_win_pct": 1.37,
+     "avg_loss_pct": -1.11,
+     "profit_factor": 1.05,
+     "trades": 256,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 96,
+       "hit_rate": 0.385
+      },
+      "持有偏空": {
+       "days": 407,
+       "hit_rate": 0.418
+      },
+      "持有偏多": {
+       "days": 482,
+       "hit_rate": 0.604
+      },
+      "买入": {
+       "days": 92,
+       "hit_rate": 0.478
+      }
+     },
+     "indicator": "macd"
+    },
+    {
+     "total_return_pct": 154.84,
+     "cagr_pct": 12.74,
+     "sharpe": 0.6,
+     "max_drawdown_pct": -41.75,
+     "win_rate_daily": 0.135,
+     "avg_win_pct": 2.25,
+     "avg_loss_pct": -1.61,
+     "profit_factor": 1.25,
+     "trades": 279,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 183,
+       "hit_rate": 0.585
+      },
+      "持有偏多": {
+       "days": 288,
+       "hit_rate": 0.597
+      },
+      "持有偏空": {
+       "days": 422,
+       "hit_rate": 0.438
+      },
+      "卖出": {
+       "days": 643,
+       "hit_rate": 0.379
+      }
+     },
+     "indicator": "rsi"
+    },
+    {
+     "total_return_pct": 537.63,
+     "cagr_pct": 26.8,
+     "sharpe": 0.92,
+     "max_drawdown_pct": -42.94,
+     "win_rate_daily": 0.332,
+     "avg_win_pct": 1.83,
+     "avg_loss_pct": -1.42,
+     "profit_factor": 1.23,
+     "trades": 364,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 177,
+       "hit_rate": 0.412
+      },
+      "持有偏空": {
+       "days": 223,
+       "hit_rate": 0.368
+      },
+      "持有偏多": {
+       "days": 362,
+       "hit_rate": 0.572
+      },
+      "买入": {
+       "days": 874,
+       "hit_rate": 0.584
+      }
+     },
+     "indicator": "position"
+    },
+    {
+     "total_return_pct": 205.28,
+     "cagr_pct": 15.38,
+     "sharpe": 0.71,
+     "max_drawdown_pct": -39.16,
+     "win_rate_daily": 0.263,
+     "avg_win_pct": 1.58,
+     "avg_loss_pct": -1.12,
+     "profit_factor": 1.2,
+     "trades": 425,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 148,
+       "hit_rate": 0.405
+      },
+      "持有偏空": {
+       "days": 326,
+       "hit_rate": 0.371
+      },
+      "持有偏多": {
+       "days": 494,
+       "hit_rate": 0.581
+      },
+      "买入": {
+       "days": 499,
+       "hit_rate": 0.601
+      }
+     },
+     "indicator": "volume"
+    },
+    {
+     "total_return_pct": 1098.19,
+     "cagr_pct": 37.48,
+     "sharpe": 1.07,
+     "max_drawdown_pct": -41.77,
+     "win_rate_daily": 0.311,
+     "avg_win_pct": 2.17,
+     "avg_loss_pct": -1.71,
+     "profit_factor": 1.29,
+     "trades": 264,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 420,
+       "hit_rate": 0.412
+      },
+      "持有偏空": {
+       "days": 146,
+       "hit_rate": 0.459
+      },
+      "持有偏多": {
+       "days": 196,
+       "hit_rate": 0.49
+      },
+      "买入": {
+       "days": 943,
+       "hit_rate": 0.603
+      }
+     },
+     "indicator": "relative_strength"
+    },
+    {
+     "total_return_pct": 1.02,
+     "cagr_pct": 0.13,
+     "sharpe": 0.15,
+     "max_drawdown_pct": -1.57,
+     "win_rate_daily": 0.004,
+     "avg_win_pct": 0.52,
+     "avg_loss_pct": -0.45,
+     "profit_factor": 1.34,
+     "trades": 6,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 1080,
+       "hit_rate": 0.443
+      },
+      "持有偏空": {
+       "days": 598,
+       "hit_rate": 0.371
+      },
+      "持有偏多": {
+       "days": 12,
+       "hit_rate": 0.667
+      }
+     },
+     "indicator": "atr"
+    }
+   ],
+   "latest_signal": {
+    "i": 2171,
+    "date": "2026-08-24",
+    "score": 0.034,
+    "raw": 0.045,
+    "signal": "观望",
+    "overlay_risk": 0.483
+   }
+  },
+  {
+   "symbol": "GOOGL",
+   "name_cn": "谷歌",
+   "bars": 2172,
+   "period": "2018-01-02 ~ 2026-08-24",
+   "sample_note": null,
+   "valid": true,
+   "strategy": {
+    "total_return_pct": 63.89,
+    "cagr_pct": 6.54,
+    "sharpe": 0.66,
+    "max_drawdown_pct": -15.96,
+    "win_rate_daily": 0.266,
+    "avg_win_pct": 0.63,
+    "avg_loss_pct": -0.55,
+    "profit_factor": 1.19,
+    "trades": 171
+   },
+   "buy_hold": {
+    "total_return_pct": 582.52,
+    "cagr_pct": 27.91,
+    "sharpe": 0.93,
+    "max_drawdown_pct": -44.88,
+    "win_rate_daily": 0.537,
+    "avg_win_pct": 1.45,
+    "avg_loss_pct": -1.43,
+    "profit_factor": 1.18
+   },
+   "vs_buy_hold_pp": -518.63,
+   "signal_stats": {
+    "持有偏空": {
+     "days": 290,
+     "hit_rate": 0.414
+    },
+    "持有偏多": {
+     "days": 915,
+     "hit_rate": 0.574
+    },
+    "买入": {
+     "days": 44,
+     "hit_rate": 0.568
+    },
+    "卖出": {
+     "days": 27,
+     "hit_rate": 0.407
+    }
+   },
+   "cost_sensitivity": {
+    "0bp": {
+     "total_return_pct": 71.09,
+     "trades": 171
+    },
+    "5bp": {
+     "total_return_pct": 63.89,
+     "trades": 171
+    },
+    "10bp": {
+     "total_return_pct": 56.99,
+     "trades": 171
+    }
+   },
+   "regimes": {
+    "vix<20": {
+     "days": 1215,
+     "strategy_return_pct": 31.89,
+     "buy_hold_return_pct": 192.28
+    },
+    "vix>=20": {
+     "days": 751,
+     "strategy_return_pct": 24.26,
+     "buy_hold_return_pct": 133.52
+    },
+    "10Y<4.3": {
+     "days": 1600,
+     "strategy_return_pct": 47.7,
+     "buy_hold_return_pct": 460.84
+    },
+    "10Y>=4.3": {
+     "days": 366,
+     "strategy_return_pct": 10.96,
+     "buy_hold_return_pct": 21.7
+    }
+   },
+   "indicator_attribution": [
+    {
+     "total_return_pct": 121.0,
+     "cagr_pct": 10.7,
+     "sharpe": 0.62,
+     "max_drawdown_pct": -24.77,
+     "win_rate_daily": 0.346,
+     "avg_win_pct": 1.04,
+     "avg_loss_pct": -0.93,
+     "profit_factor": 1.15,
+     "trades": 297,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 252,
+       "hit_rate": 0.409
+      },
+      "持有偏空": {
+       "days": 190,
+       "hit_rate": 0.521
+      },
+      "持有偏多": {
+       "days": 406,
+       "hit_rate": 0.601
+      },
+      "买入": {
+       "days": 856,
+       "hit_rate": 0.556
+      }
+     },
+     "indicator": "trend_ma"
+    },
+    {
+     "total_return_pct": 386.03,
+     "cagr_pct": 22.47,
+     "sharpe": 0.9,
+     "max_drawdown_pct": -31.64,
+     "win_rate_daily": 0.408,
+     "avg_win_pct": 1.35,
+     "avg_loss_pct": -1.36,
+     "profit_factor": 1.21,
+     "trades": 11,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 1456,
+       "hit_rate": 0.577
+      },
+      "卖出": {
+       "days": 506,
+       "hit_rate": 0.443
+      }
+     },
+     "indicator": "ma_alignment"
+    },
+    {
+     "total_return_pct": -3.95,
+     "cagr_pct": -0.52,
+     "sharpe": -0.04,
+     "max_drawdown_pct": -17.06,
+     "win_rate_daily": 0.086,
+     "avg_win_pct": 0.76,
+     "avg_loss_pct": -0.56,
+     "profit_factor": 0.98,
+     "trades": 138,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 327,
+       "hit_rate": 0.437
+      },
+      "持有偏多": {
+       "days": 328,
+       "hit_rate": 0.537
+      },
+      "卖出": {
+       "days": 13,
+       "hit_rate": 0.462
+      },
+      "买入": {
+       "days": 7,
+       "hit_rate": 0.714
+      }
+     },
+     "indicator": "macd"
+    },
+    {
+     "total_return_pct": 84.39,
+     "cagr_pct": 8.16,
+     "sharpe": 0.58,
+     "max_drawdown_pct": -19.2,
+     "win_rate_daily": 0.134,
+     "avg_win_pct": 1.42,
+     "avg_loss_pct": -0.92,
+     "profit_factor": 1.23,
+     "trades": 279,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 205,
+       "hit_rate": 0.615
+      },
+      "持有偏多": {
+       "days": 295,
+       "hit_rate": 0.539
+      },
+      "持有偏空": {
+       "days": 476,
+       "hit_rate": 0.395
+      },
+      "卖出": {
+       "days": 594,
+       "hit_rate": 0.456
+      }
+     },
+     "indicator": "rsi"
+    },
+    {
+     "total_return_pct": 84.75,
+     "cagr_pct": 8.19,
+     "sharpe": 0.51,
+     "max_drawdown_pct": -33.91,
+     "win_rate_daily": 0.329,
+     "avg_win_pct": 1.03,
+     "avg_loss_pct": -0.87,
+     "profit_factor": 1.13,
+     "trades": 386,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 193,
+       "hit_rate": 0.44
+      },
+      "持有偏空": {
+       "days": 208,
+       "hit_rate": 0.404
+      },
+      "持有偏多": {
+       "days": 372,
+       "hit_rate": 0.559
+      },
+      "买入": {
+       "days": 841,
+       "hit_rate": 0.565
+      }
+     },
+     "indicator": "position"
+    },
+    {
+     "total_return_pct": 47.91,
+     "cagr_pct": 5.15,
+     "sharpe": 0.38,
+     "max_drawdown_pct": -34.97,
+     "win_rate_daily": 0.266,
+     "avg_win_pct": 0.98,
+     "avg_loss_pct": -0.86,
+     "profit_factor": 1.11,
+     "trades": 387,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 265,
+       "hit_rate": 0.438
+      },
+      "持有偏空": {
+       "days": 324,
+       "hit_rate": 0.417
+      },
+      "持有偏多": {
+       "days": 421,
+       "hit_rate": 0.603
+      },
+      "买入": {
+       "days": 546,
+       "hit_rate": 0.54
+      }
+     },
+     "indicator": "volume"
+    },
+    {
+     "total_return_pct": 78.98,
+     "cagr_pct": 7.75,
+     "sharpe": 0.48,
+     "max_drawdown_pct": -31.27,
+     "win_rate_daily": 0.275,
+     "avg_win_pct": 1.13,
+     "avg_loss_pct": -0.96,
+     "profit_factor": 1.13,
+     "trades": 296,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 426,
+       "hit_rate": 0.432
+      },
+      "持有偏空": {
+       "days": 254,
+       "hit_rate": 0.465
+      },
+      "持有偏多": {
+       "days": 294,
+       "hit_rate": 0.619
+      },
+      "买入": {
+       "days": 724,
+       "hit_rate": 0.552
+      }
+     },
+     "indicator": "relative_strength"
+    },
+    {
+     "total_return_pct": 10.35,
+     "cagr_pct": 1.27,
+     "sharpe": 0.21,
+     "max_drawdown_pct": -21.41,
+     "win_rate_daily": 0.152,
+     "avg_win_pct": 0.58,
+     "avg_loss_pct": -0.54,
+     "profit_factor": 1.07,
+     "trades": 110,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 393,
+       "hit_rate": 0.45
+      },
+      "卖出": {
+       "days": 202,
+       "hit_rate": 0.45
+      },
+      "持有偏多": {
+       "days": 477,
+       "hit_rate": 0.597
+      },
+      "买入": {
+       "days": 82,
+       "hit_rate": 0.671
+      }
+     },
+     "indicator": "atr"
+    }
+   ],
+   "latest_signal": {
+    "i": 2171,
+    "date": "2026-08-24",
+    "score": 0.068,
+    "raw": 0.09,
+    "signal": "观望",
+    "overlay_risk": 0.483
+   }
+  },
+  {
+   "symbol": "CRCL",
+   "name_cn": "Circle",
+   "bars": 306,
+   "period": "2025-06-05 ~ 2026-08-24",
+   "sample_note": "东财 K 线自 2025-06-05 起（约 14 个月），有效信号日仅约百个，统计结论仅供参考",
+   "valid": true,
+   "strategy": {
+    "total_return_pct": -3.75,
+    "cagr_pct": -9.19,
+    "sharpe": -0.46,
+    "max_drawdown_pct": -8.68,
+    "win_rate_daily": 0.04,
+    "avg_win_pct": 3.16,
+    "avg_loss_pct": -1.76,
+    "profit_factor": 0.8,
+    "trades": 4
+   },
+   "buy_hold": {
+    "total_return_pct": -8.06,
+    "cagr_pct": -19.08,
+    "sharpe": 0.24,
+    "max_drawdown_pct": -54.2,
+    "win_rate_daily": 0.49,
+    "avg_win_pct": 4.67,
+    "avg_loss_pct": -4.4,
+    "profit_factor": 1.04
+   },
+   "vs_buy_hold_pp": 4.31,
+   "signal_stats": {
+    "持有偏空": {
+     "days": 56,
+     "hit_rate": 0.5
+    },
+    "持有偏多": {
+     "days": 11,
+     "hit_rate": 0.455
+    },
+    "卖出": {
+     "days": 7,
+     "hit_rate": 0.429
+    }
+   },
+   "cost_sensitivity": {
+    "0bp": {
+     "total_return_pct": -3.65,
+     "trades": 4
+    },
+    "5bp": {
+     "total_return_pct": -3.75,
+     "trades": 4
+    },
+    "10bp": {
+     "total_return_pct": -3.85,
+     "trades": 4
+    }
+   },
+   "regimes": {
+    "vix<20": {
+     "days": 91,
+     "strategy_return_pct": -3.75,
+     "buy_hold_return_pct": -8.52
+    },
+    "vix>=20": {
+     "days": 9,
+     "strategy_return_pct": 0.0,
+     "buy_hold_return_pct": 0.5
+    },
+    "10Y<4.3": {
+     "days": 6,
+     "strategy_return_pct": 0.0,
+     "buy_hold_return_pct": -13.9
+    },
+    "10Y>=4.3": {
+     "days": 94,
+     "strategy_return_pct": -3.75,
+     "buy_hold_return_pct": 6.79
+    }
+   },
+   "indicator_attribution": [
+    {
+     "total_return_pct": -21.49,
+     "cagr_pct": -45.65,
+     "sharpe": -1.29,
+     "max_drawdown_pct": -28.08,
+     "win_rate_daily": 0.1,
+     "avg_win_pct": 3.67,
+     "avg_loss_pct": -2.51,
+     "profit_factor": 0.64,
+     "trades": 18,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 13,
+       "hit_rate": 0.538
+      },
+      "卖出": {
+       "days": 52,
+       "hit_rate": 0.481
+      },
+      "持有偏多": {
+       "days": 10,
+       "hit_rate": 0.2
+      },
+      "买入": {
+       "days": 14,
+       "hit_rate": 0.357
+      }
+     },
+     "indicator": "trend_ma"
+    },
+    {
+     "total_return_pct": -49.4,
+     "cagr_pct": -82.03,
+     "sharpe": -3.04,
+     "max_drawdown_pct": -50.54,
+     "win_rate_daily": 0.12,
+     "avg_win_pct": 3.49,
+     "avg_loss_pct": -4.74,
+     "profit_factor": 0.4,
+     "trades": 2,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 63,
+       "hit_rate": 0.333
+      },
+      "买入": {
+       "days": 33,
+       "hit_rate": 0.091
+      }
+     },
+     "indicator": "ma_alignment"
+    },
+    {
+     "total_return_pct": 7.66,
+     "cagr_pct": 20.45,
+     "sharpe": 0.65,
+     "max_drawdown_pct": -19.31,
+     "win_rate_daily": 0.24,
+     "avg_win_pct": 3.18,
+     "avg_loss_pct": -3.12,
+     "profit_factor": 1.17,
+     "trades": 15,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 15,
+       "hit_rate": 0.667
+      },
+      "持有偏空": {
+       "days": 26,
+       "hit_rate": 0.577
+      },
+      "持有偏多": {
+       "days": 23,
+       "hit_rate": 0.652
+      },
+      "买入": {
+       "days": 17,
+       "hit_rate": 0.647
+      }
+     },
+     "indicator": "macd"
+    },
+    {
+     "total_return_pct": -4.78,
+     "cagr_pct": -11.62,
+     "sharpe": -0.02,
+     "max_drawdown_pct": -26.48,
+     "win_rate_daily": 0.28,
+     "avg_win_pct": 3.11,
+     "avg_loss_pct": -2.57,
+     "profit_factor": 1.0,
+     "trades": 22,
+     "signal_hit_rates": {
+      "持有偏多": {
+       "days": 30,
+       "hit_rate": 0.567
+      },
+      "持有偏空": {
+       "days": 15,
+       "hit_rate": 0.533
+      },
+      "卖出": {
+       "days": 4,
+       "hit_rate": 0.25
+      },
+      "买入": {
+       "days": 27,
+       "hit_rate": 0.407
+      }
+     },
+     "indicator": "rsi"
+    },
+    {
+     "total_return_pct": -13.54,
+     "cagr_pct": -30.69,
+     "sharpe": -1.29,
+     "max_drawdown_pct": -18.21,
+     "win_rate_daily": 0.08,
+     "avg_win_pct": 2.66,
+     "avg_loss_pct": -2.3,
+     "profit_factor": 0.62,
+     "trades": 16,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 20,
+       "hit_rate": 0.55
+      },
+      "持有偏多": {
+       "days": 12,
+       "hit_rate": 0.583
+      },
+      "买入": {
+       "days": 3,
+       "hit_rate": 0.667
+      },
+      "卖出": {
+       "days": 37,
+       "hit_rate": 0.514
+      }
+     },
+     "indicator": "position"
+    },
+    {
+     "total_return_pct": 30.13,
+     "cagr_pct": 94.19,
+     "sharpe": 1.55,
+     "max_drawdown_pct": -13.49,
+     "win_rate_daily": 0.14,
+     "avg_win_pct": 5.43,
+     "avg_loss_pct": -1.95,
+     "profit_factor": 1.69,
+     "trades": 25,
+     "signal_hit_rates": {
+      "持有偏多": {
+       "days": 15,
+       "hit_rate": 0.8
+      },
+      "持有偏空": {
+       "days": 24,
+       "hit_rate": 0.583
+      },
+      "买入": {
+       "days": 11,
+       "hit_rate": 0.727
+      },
+      "卖出": {
+       "days": 16,
+       "hit_rate": 0.688
+      }
+     },
+     "indicator": "volume"
+    },
+    {
+     "total_return_pct": -1.05,
+     "cagr_pct": -2.63,
+     "sharpe": 0.18,
+     "max_drawdown_pct": -22.1,
+     "win_rate_daily": 0.09,
+     "avg_win_pct": 5.94,
+     "avg_loss_pct": -3.56,
+     "profit_factor": 1.07,
+     "trades": 5,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 18,
+       "hit_rate": 0.333
+      },
+      "持有偏空": {
+       "days": 2,
+       "hit_rate": 0.0
+      },
+      "持有偏多": {
+       "days": 3,
+       "hit_rate": 0.0
+      },
+      "卖出": {
+       "days": 47,
+       "hit_rate": 0.532
+      }
+     },
+     "indicator": "relative_strength"
+    },
+    {
+     "total_return_pct": 0.0,
+     "cagr_pct": 0.0,
+     "sharpe": 0.0,
+     "max_drawdown_pct": 0.0,
+     "win_rate_daily": 0.0,
+     "avg_win_pct": 0.0,
+     "avg_loss_pct": 0.0,
+     "profit_factor": "n/a",
+     "trades": 0,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 96,
+       "hit_rate": 0.531
+      }
+     },
+     "indicator": "atr"
+    }
+   ],
+   "latest_signal": {
+    "i": 305,
+    "date": "2026-08-24",
+    "score": 0.036,
+    "raw": 0.047,
+    "signal": "观望",
+    "overlay_risk": 0.483
+   }
+  },
+  {
+   "symbol": "SNDK",
+   "name_cn": "闪迪",
+   "bars": 377,
+   "period": "2025-02-24 ~ 2026-08-24",
+   "sample_note": "2025-02-24 分拆上市，有效信号日约 170 个，统计结论仅供参考",
+   "valid": true,
+   "strategy": {
+    "total_return_pct": 151.88,
+    "cagr_pct": 290.15,
+    "sharpe": 3.02,
+    "max_drawdown_pct": -18.47,
+    "win_rate_daily": 0.427,
+    "avg_win_pct": 3.07,
+    "avg_loss_pct": -2.1,
+    "profit_factor": 1.81,
+    "trades": 10
+   },
+   "buy_hold": {
+    "total_return_pct": 613.35,
+    "cagr_pct": 1709.26,
+    "sharpe": 3.04,
+    "max_drawdown_pct": -56.49,
+    "win_rate_daily": 0.567,
+    "avg_win_pct": 6.37,
+    "avg_loss_pct": -5.06,
+    "profit_factor": 1.65
+   },
+   "vs_buy_hold_pp": -461.47,
+   "signal_stats": {
+    "持有偏多": {
+     "days": 127,
+     "hit_rate": 0.685
+    },
+    "持有偏空": {
+     "days": 16,
+     "hit_rate": 0.438
+    }
+   },
+   "cost_sensitivity": {
+    "0bp": {
+     "total_return_pct": 152.51,
+     "trades": 10
+    },
+    "5bp": {
+     "total_return_pct": 151.88,
+     "trades": 10
+    },
+    "10bp": {
+     "total_return_pct": 151.25,
+     "trades": 10
+    }
+   },
+   "regimes": {
+    "vix<20": {
+     "days": 134,
+     "strategy_return_pct": 106.86,
+     "buy_hold_return_pct": 211.35
+    },
+    "vix>=20": {
+     "days": 37,
+     "strategy_return_pct": 21.76,
+     "buy_hold_return_pct": 129.12
+    },
+    "10Y<4.3": {
+     "days": 69,
+     "strategy_return_pct": 65.48,
+     "buy_hold_return_pct": 219.27
+    },
+    "10Y>=4.3": {
+     "days": 102,
+     "strategy_return_pct": 52.21,
+     "buy_hold_return_pct": 123.43
+    }
+   },
+   "indicator_attribution": [
+    {
+     "total_return_pct": 480.18,
+     "cagr_pct": 1234.29,
+     "sharpe": 3.07,
+     "max_drawdown_pct": -39.21,
+     "win_rate_daily": 0.485,
+     "avg_win_pct": 5.93,
+     "avg_loss_pct": -4.14,
+     "profit_factor": 1.75,
+     "trades": 16,
+     "signal_hit_rates": {
+      "持有偏多": {
+       "days": 10,
+       "hit_rate": 0.7
+      },
+      "买入": {
+       "days": 133,
+       "hit_rate": 0.692
+      },
+      "持有偏空": {
+       "days": 15,
+       "hit_rate": 0.4
+      }
+     },
+     "indicator": "trend_ma"
+    },
+    {
+     "total_return_pct": 612.99,
+     "cagr_pct": 1707.91,
+     "sharpe": 3.04,
+     "max_drawdown_pct": -56.49,
+     "win_rate_daily": 0.567,
+     "avg_win_pct": 6.37,
+     "avg_loss_pct": -5.06,
+     "profit_factor": 1.65,
+     "trades": 1,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 167,
+       "hit_rate": 0.665
+      }
+     },
+     "indicator": "ma_alignment"
+    },
+    {
+     "total_return_pct": 74.97,
+     "cagr_pct": 128.07,
+     "sharpe": 1.7,
+     "max_drawdown_pct": -30.35,
+     "win_rate_daily": 0.246,
+     "avg_win_pct": 4.35,
+     "avg_loss_pct": -2.45,
+     "profit_factor": 1.59,
+     "trades": 42,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 40,
+       "hit_rate": 0.425
+      },
+      "卖出": {
+       "days": 22,
+       "hit_rate": 0.273
+      },
+      "持有偏多": {
+       "days": 46,
+       "hit_rate": 0.63
+      },
+      "买入": {
+       "days": 28,
+       "hit_rate": 0.643
+      }
+     },
+     "indicator": "macd"
+    },
+    {
+     "total_return_pct": 20.17,
+     "cagr_pct": 31.09,
+     "sharpe": 0.84,
+     "max_drawdown_pct": -24.96,
+     "win_rate_daily": 0.076,
+     "avg_win_pct": 5.2,
+     "avg_loss_pct": -2.72,
+     "profit_factor": 1.55,
+     "trades": 20,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 38,
+       "hit_rate": 0.342
+      },
+      "卖出": {
+       "days": 87,
+       "hit_rate": 0.299
+      },
+      "持有偏多": {
+       "days": 17,
+       "hit_rate": 0.529
+      },
+      "买入": {
+       "days": 4,
+       "hit_rate": 1.0
+      }
+     },
+     "indicator": "rsi"
+    },
+    {
+     "total_return_pct": 246.96,
+     "cagr_pct": 525.46,
+     "sharpe": 2.49,
+     "max_drawdown_pct": -33.69,
+     "win_rate_daily": 0.433,
+     "avg_win_pct": 5.25,
+     "avg_loss_pct": -3.53,
+     "profit_factor": 1.64,
+     "trades": 38,
+     "signal_hit_rates": {
+      "持有偏空": {
+       "days": 16,
+       "hit_rate": 0.438
+      },
+      "持有偏多": {
+       "days": 35,
+       "hit_rate": 0.8
+      },
+      "买入": {
+       "days": 94,
+       "hit_rate": 0.638
+      },
+      "卖出": {
+       "days": 2,
+       "hit_rate": 0.0
+      }
+     },
+     "indicator": "position"
+    },
+    {
+     "total_return_pct": 279.95,
+     "cagr_pct": 615.03,
+     "sharpe": 3.05,
+     "max_drawdown_pct": -23.02,
+     "win_rate_daily": 0.351,
+     "avg_win_pct": 5.09,
+     "avg_loss_pct": -2.89,
+     "profit_factor": 1.99,
+     "trades": 37,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 14,
+       "hit_rate": 0.286
+      },
+      "持有偏空": {
+       "days": 24,
+       "hit_rate": 0.542
+      },
+      "持有偏多": {
+       "days": 33,
+       "hit_rate": 0.697
+      },
+      "买入": {
+       "days": 70,
+       "hit_rate": 0.714
+      }
+     },
+     "indicator": "volume"
+    },
+    {
+     "total_return_pct": 562.87,
+     "cagr_pct": 1523.77,
+     "sharpe": 3.26,
+     "max_drawdown_pct": -30.77,
+     "win_rate_daily": 0.468,
+     "avg_win_pct": 6.16,
+     "avg_loss_pct": -4.26,
+     "profit_factor": 1.83,
+     "trades": 13,
+     "signal_hit_rates": {
+      "买入": {
+       "days": 135,
+       "hit_rate": 0.681
+      },
+      "持有偏多": {
+       "days": 2,
+       "hit_rate": 1.0
+      },
+      "卖出": {
+       "days": 11,
+       "hit_rate": 0.364
+      },
+      "持有偏空": {
+       "days": 1,
+       "hit_rate": 1.0
+      }
+     },
+     "indicator": "relative_strength"
+    },
+    {
+     "total_return_pct": 0.0,
+     "cagr_pct": 0.0,
+     "sharpe": 0.0,
+     "max_drawdown_pct": 0.0,
+     "win_rate_daily": 0.0,
+     "avg_win_pct": 0.0,
+     "avg_loss_pct": 0.0,
+     "profit_factor": "n/a",
+     "trades": 0,
+     "signal_hit_rates": {
+      "卖出": {
+       "days": 167,
+       "hit_rate": 0.335
+      }
+     },
+     "indicator": "atr"
+    }
+   ],
+   "latest_signal": {
+    "i": 376,
+    "date": "2026-08-24",
+    "score": 0.056,
+    "raw": 0.074,
+    "signal": "观望",
+    "overlay_risk": 0.483
+   }
+  }
+ ]
+}
