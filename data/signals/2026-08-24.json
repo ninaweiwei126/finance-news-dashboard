@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-25 16:16:20",
+  "generated_at": "2026-09-03 12:40:00",
   "date": "2026-08-24",
   "macro_overlay": {
     "risk": 0.483,
     "risk_level": "中高",
     "components": {
       "treasury_10y": {
-        "value": 4.7,
+        "value": 4.79,
         "risk": 0.75
       },
       "curve_spread": {
-        "value": 0.46,
+        "value": 0.4,
         "risk": 0.0
       },
       "vix": {
-        "value": 15.85,
+        "value": 15.2,
         "risk": 0.2
       }
     },
