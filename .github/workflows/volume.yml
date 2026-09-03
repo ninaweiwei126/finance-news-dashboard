@@ -1,0 +1,35 @@
+# A股成交额快照：北京时间 11:35（上午）与 15:05（全天）
+# 对应 UTC: 03:35 与 07:05（工作日）
+name: volume-snapshot
+
+on:
+  schedule:
+    - cron: "35 3 * * 1-5"
+    - cron: "5 7 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Take volume snapshot
+        run: python3 scripts/volume_snapshot.py
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no data changes"
+            exit 0
+          fi
+          git commit -m "chore(data): volume snapshot $(date -u +%F_%H-%M)"
+          git pull --rebase --autostash origin main || true
+          git push
