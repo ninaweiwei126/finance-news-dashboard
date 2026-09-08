@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07 22:04:57",
+  "generated_at": "2026-09-08 22:06:20",
   "date": "2026-09-04",
   "macro_overlay": {
-    "risk": 0.417,
+    "risk": 0.483,
     "risk_level": "中高",
     "components": {
       "treasury_10y": {
-        "value": 4.78,
+        "value": 4.8,
         "risk": 0.75
       },
       "curve_spread": {
@@ -14,8 +14,8 @@
         "risk": 0.0
       },
       "vix": {
-        "value": 14.53,
-        "risk": 0.0
+        "value": 15.3,
+        "risk": 0.2
       }
     },
     "active": true
@@ -79,14 +79,14 @@
       },
       "composite": {
         "raw": 0.354,
-        "adjusted": 0.28,
+        "adjusted": 0.269,
         "signal": "持有偏多",
-        "confidence": 0.28,
+        "confidence": 0.269,
         "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
       },
       "signal": "持有偏多",
-      "score": 0.28,
-      "confidence": 0.28,
+      "score": 0.269,
+      "confidence": 0.269,
       "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
     },
     {
@@ -147,14 +147,14 @@
       },
       "composite": {
         "raw": -0.116,
-        "adjusted": -0.092,
+        "adjusted": -0.088,
         "signal": "观望",
-        "confidence": 0.092,
+        "confidence": 0.088,
         "action_tip": "信号中性：多空不明显，等待方向明朗"
       },
       "signal": "观望",
-      "score": -0.092,
-      "confidence": 0.092,
+      "score": -0.088,
+      "confidence": 0.088,
       "action_tip": "信号中性：多空不明显，等待方向明朗"
     },
     {
@@ -215,14 +215,14 @@
       },
       "composite": {
         "raw": 0.288,
-        "adjusted": 0.228,
+        "adjusted": 0.218,
         "signal": "持有偏多",
-        "confidence": 0.228,
+        "confidence": 0.218,
         "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
       },
       "signal": "持有偏多",
-      "score": 0.228,
-      "confidence": 0.228,
+      "score": 0.218,
+      "confidence": 0.218,
       "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
     },
     {
@@ -283,14 +283,14 @@
       },
       "composite": {
         "raw": 0.357,
-        "adjusted": 0.283,
+        "adjusted": 0.271,
         "signal": "持有偏多",
-        "confidence": 0.283,
+        "confidence": 0.271,
         "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
       },
       "signal": "持有偏多",
-      "score": 0.283,
-      "confidence": 0.283,
+      "score": 0.271,
+      "confidence": 0.271,
       "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓"
     }
   ]
