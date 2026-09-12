@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11 22:05:33",
+  "generated_at": "2026-09-12 22:04:44",
   "date": "2026-09-11",
   "macro_overlay": {
     "risk": 0.483,
@@ -14,7 +14,7 @@
         "risk": 0.0
       },
       "vix": {
-        "value": 17.84,
+        "value": 15.84,
         "risk": 0.2
       }
     },
@@ -131,7 +131,7 @@
           "low52": 235.71
         },
         "volume": {
-          "score": -0.228,
+          "score": -0.227,
           "vol_ratio": 1.11,
           "obv_trend": -0.455
         },
@@ -269,7 +269,7 @@
         "volume": {
           "score": 0.154,
           "vol_ratio": 0.89,
-          "obv_trend": 0.309
+          "obv_trend": 0.308
         },
         "relative_strength": {
           "score": 0.0,
