@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-16 22:05:14",
+  "generated_at": "2026-09-17 22:05:26",
   "date": "2026-09-16",
   "macro_overlay": {
-    "risk": 0.622,
-    "risk_level": "高",
+    "risk": 0.483,
+    "risk_level": "中高",
     "components": {
       "treasury_10y": {
-        "value": 5.01,
-        "risk": 1.0
+        "value": 4.94,
+        "risk": 0.75
       },
       "curve_spread": {
         "value": 0.27,
         "risk": 0.0
       },
       "vix": {
-        "value": 17.2,
+        "value": 17.71,
         "risk": 0.2
       }
     },
@@ -79,15 +79,15 @@
       },
       "composite": {
         "raw": -0.008,
-        "adjusted": -0.005,
+        "adjusted": -0.006,
         "signal": "观望",
-        "confidence": 0.005,
-        "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+        "confidence": 0.006,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
       },
       "signal": "观望",
-      "score": -0.005,
-      "confidence": 0.005,
-      "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+      "score": -0.006,
+      "confidence": 0.006,
+      "action_tip": "信号中性：多空不明显，等待方向明朗"
     },
     {
       "symbol": "GOOGL",
@@ -147,15 +147,15 @@
       },
       "composite": {
         "raw": 0.084,
-        "adjusted": 0.058,
+        "adjusted": 0.064,
         "signal": "观望",
-        "confidence": 0.058,
-        "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+        "confidence": 0.064,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
       },
       "signal": "观望",
-      "score": 0.058,
-      "confidence": 0.058,
-      "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+      "score": 0.064,
+      "confidence": 0.064,
+      "action_tip": "信号中性：多空不明显，等待方向明朗"
     },
     {
       "symbol": "CRCL",
@@ -215,15 +215,15 @@
       },
       "composite": {
         "raw": -0.257,
-        "adjusted": -0.177,
+        "adjusted": -0.195,
         "signal": "持有偏空",
-        "confidence": 0.177,
-        "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
+        "confidence": 0.195,
+        "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
       },
       "signal": "持有偏空",
-      "score": -0.177,
-      "confidence": 0.177,
-      "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
+      "score": -0.195,
+      "confidence": 0.195,
+      "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
     },
     {
       "symbol": "SNDK",
@@ -283,15 +283,15 @@
       },
       "composite": {
         "raw": -0.196,
-        "adjusted": -0.135,
+        "adjusted": -0.149,
         "signal": "观望",
-        "confidence": 0.135,
-        "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+        "confidence": 0.149,
+        "action_tip": "信号中性：多空不明显，等待方向明朗"
       },
       "signal": "观望",
-      "score": -0.135,
-      "confidence": 0.135,
-      "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
+      "score": -0.149,
+      "confidence": 0.149,
+      "action_tip": "信号中性：多空不明显，等待方向明朗"
     }
   ]
 }
