@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19 22:05:16",
+  "generated_at": "2026-09-20 22:05:17",
   "date": "2026-09-18",
   "macro_overlay": {
     "risk": 0.556,
@@ -65,7 +65,7 @@
         "volume": {
           "score": 0.141,
           "vol_ratio": 0.89,
-          "obv_trend": 0.282
+          "obv_trend": 0.283
         },
         "relative_strength": {
           "score": 0.643,
@@ -199,9 +199,9 @@
           "low52": 50.23
         },
         "volume": {
-          "score": 0.32,
+          "score": 0.321,
           "vol_ratio": 1.31,
-          "obv_trend": 0.14
+          "obv_trend": 0.141
         },
         "relative_strength": {
           "score": 1.0,
@@ -267,9 +267,9 @@
           "low52": 94.29
         },
         "volume": {
-          "score": 0.056,
+          "score": 0.057,
           "vol_ratio": 0.93,
-          "obv_trend": 0.112
+          "obv_trend": 0.114
         },
         "relative_strength": {
           "score": 0.0,
