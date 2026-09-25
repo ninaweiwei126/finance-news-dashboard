@@ -1,19 +1,16 @@
 {
-  "generated_at": "2026-09-23 22:05:26",
+  "generated_at": "2026-09-25 00:15:19",
   "date": "2026-09-23",
   "macro_overlay": {
-    "risk": 0.55,
+    "risk": 0.556,
     "risk_level": "高",
     "components": {
       "treasury_10y": {
-        "value": 5.11,
+        "value": 5.18,
         "risk": 1.0
       },
-      "yield_speed": {
-        "risk": 0.5
-      },
       "curve_spread": {
-        "value": 0.26,
+        "value": 0.31,
         "risk": 0.0
       },
       "vix": {
@@ -82,14 +79,14 @@
       },
       "composite": {
         "raw": 0.379,
-        "adjusted": 0.275,
+        "adjusted": 0.274,
         "signal": "持有偏多",
-        "confidence": 0.275,
+        "confidence": 0.274,
         "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "持有偏多",
-      "score": 0.275,
-      "confidence": 0.275,
+      "score": 0.274,
+      "confidence": 0.274,
       "action_tip": "信号偏多但不强：持有为主，回踩不破关键均线可考虑加仓（宏观风险较高，建议控制整体仓位）"
     },
     {
@@ -150,14 +147,14 @@
       },
       "composite": {
         "raw": -0.085,
-        "adjusted": -0.062,
+        "adjusted": -0.061,
         "signal": "观望",
-        "confidence": 0.062,
+        "confidence": 0.061,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "观望",
-      "score": -0.062,
-      "confidence": 0.062,
+      "score": -0.061,
+      "confidence": 0.061,
       "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
     },
     {
