@@ -1,7 +1,7 @@
 {
  "symbol": "CRCL",
  "name": "Circle Internet Group Inc-A",
- "updated": "2026-10-05 00:24:49",
+ "updated": "2026-10-07 01:13:29",
  "bars": [
   {
    "date": "2025-06-05",
@@ -3342,6 +3342,26 @@
    "volume": 14423936.0,
    "amount": 1203145856.0,
    "change_pct": -2.0
+  },
+  {
+   "date": "2026-10-05",
+   "open": 83.175,
+   "close": 83.3,
+   "high": 85.48,
+   "low": 82.041,
+   "volume": 9517767.0,
+   "amount": 796823872.0,
+   "change_pct": 2.52
+  },
+  {
+   "date": "2026-10-06",
+   "open": 83.8,
+   "close": 84.13,
+   "high": 86.74,
+   "low": 83.112,
+   "volume": 7337879.0,
+   "amount": 622718080.0,
+   "change_pct": 1.0
   }
  ]
 }
