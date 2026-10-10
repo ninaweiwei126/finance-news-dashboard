@@ -32,10 +32,6 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Switch Pages source to GitHub Actions
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
