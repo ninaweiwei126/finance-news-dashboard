@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "15 22 * * 1-5"
   workflow_dispatch:
+    inputs:
+      send_test_email:
+        description: "Send a test email even if state did not change"
+        required: false
+        type: boolean
+        default: false
   push:
     paths:
       - "signal-dashboard/scripts/**"
@@ -27,8 +33,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Save previous status
+        run: cp signal-dashboard/docs/nvda_googl_status.json "$RUNNER_TEMP/previous_status.json"
       - name: Generate latest signal dashboard
         run: python signal-dashboard/scripts/run_github_update.py
+      - name: Send signal email
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          python signal-dashboard/scripts/email_notify.py             --previous "$RUNNER_TEMP/previous_status.json"             --current signal-dashboard/docs/nvda_googl_status.json             ${{ inputs.send_test_email && '--force' || '' }}
       - name: Commit updated dashboard
         run: |
           git config user.name "github-actions[bot]"
