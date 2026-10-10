@@ -1,4 +1,4 @@
-name: Deploy NVDA GOOGL Signal Dashboard
+name: Update NVDA GOOGL Signal Dashboard
 
 on:
   schedule:
@@ -6,44 +6,38 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "signal-dashboard/**"
+      - "signal-dashboard/scripts/**"
+      - "signal-dashboard/README.md"
       - ".github/workflows/signal-dashboard.yml"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: signal-dashboard-pages
+  group: signal-dashboard-update
   cancel-in-progress: true
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Generate latest signal dashboard
         run: python signal-dashboard/scripts/run_github_update.py
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: signal-dashboard/docs
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signal-dashboard/docs
+          if git diff --cached --quiet; then
+            echo "No dashboard changes"
+            exit 0
+          fi
+          git commit -m "chore(signal): update NVDA GOOGL dashboard"
+          git pull --rebase origin main
+          git push
