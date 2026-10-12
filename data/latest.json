@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11 00:35:12",
-  "title": "2026-10-11 全球市场金融资讯日报",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12 00:50:58",
+  "title": "2026-10-12 全球市场金融资讯日报",
   "market_overview": [
     {
       "symbol": "000001.SS",
@@ -140,71 +140,55 @@
   "top5": [
     {
       "rank": 1,
-      "title": "国家发改委召开民企座谈会 强化存量政策和增量政策协同发力",
-      "summary": "10月10日，国家发展改革委主任郑栅洁主持召开年内第9次民营企业座谈会。五家企业的负责人分别介绍了前三季度生产经营情况。此次座谈会围绕准确把握三季度经济形势、积极应对国际供需情况变化，来自石油化工、天然气供应、农业机械、人工智能应用等领域的盛虹控股、东明石化、新奥集团、吉峰三农、晶泰科技等企业负责人参会。",
-      "time": "2026-10-11 00:09:03",
+      "title": "全球首富出手了！马斯克盯上芯片制造产业",
+      "summary": "【全球首富出手了！马斯克盯上芯片制造产业】当地时间周六（10月10日），全球首富、特斯拉及SpaceX创始人马斯克表示，鉴于其公司在制造定制化设备方面的专长，他认为自己的公司很可能“摸索出比任何人都更好的芯片制造方法”。",
+      "time": "2026-10-12 00:14:29",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610103891972739.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 3.48,
+      "url": "https://finance.eastmoney.com/a/202610113892124519.html",
+      "related_symbols": [
+        "TSLA"
+      ],
+      "related_names": [
+        "特斯拉"
+      ],
+      "score": 5.47,
       "verified": true
     },
     {
       "rank": 2,
-      "title": "长鑫科技官宣 国产DRAM重大突破！4F架构产品年底亮相",
-      "summary": "第一财经记者了解到，长鑫科技（688825.SH）的核心子公司长鑫存储总裁曹堪宇在10月10日的第四届集成芯片和芯粒大会上透露了一项新的DRAM（动态随机存取存储器）技术进展。曹堪宇介绍了名为4F2的DRAM架构，并表示长鑫存储预计年底将推出采用这项技术的新一代DDR5RDIMM产品。",
-      "time": "2026-10-11 00:12:53",
+      "title": "万亿市值巨头回应美国337调查：对目前的生产、经营及业绩不造成实质性影响",
+      "summary": "【万亿市值巨头回应美国337调查：对目前的生产、经营及业绩不造成实质性影响】10月11日晚间，工业富联发布公告称，美国国际贸易委员会（简称“ITC”）就美国Vicor Corporation （简称“Vicor”）提出的相关专利侵权主张，正式启动337调查（调查编号：337-TA-1526）。工业富联表示，经公司内部核查，本次调查涉及相关产品处于内部验证评估阶段，对公司目前的生产、经营及业绩不造成实质性影响。此前，立讯精密已于10月10日晚间披露，目前调查涉及的产品处于客户验证阶段，尚未进入量产状态，预计不会对现阶段生产经营及当期经营业绩产生重大不利影响。（详见遭美国337调查，“果链”龙头紧急回应）",
+      "time": "2026-10-12 00:26:00",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610103891973332.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 3.48,
+      "url": "https://finance.eastmoney.com/a/202610113892105187.html",
+      "related_symbols": [
+        "002475.SZ",
+        "601138.SS"
+      ],
+      "related_names": [
+        "立讯精密",
+        "工业富联"
+      ],
+      "score": 8.48,
       "verified": true
     },
     {
       "rank": 3,
-      "title": "公司及子公司被列入美国337调查 立讯精密：将积极应诉 涉及产品尚未量产",
-      "summary": "10月10日晚间，立讯精密（002475）公告，近日，公司获悉，美国国际贸易委员会（以下简称“ITC”）于当地时间2026年10月9日宣布，就美国VicorCorporation（以下简称“Vicor”）提出的相关专利侵权主张，正式启动337调查（调查编号：337-TA-1526）。",
-      "time": "2026-10-11 00:33:32",
+      "title": "十大券商策略：市场积极信号逐渐累积 把握好四季度做多窗口期",
+      "summary": "【十大券商策略：市场积极信号逐渐累积 把握好四季度做多窗口期】中信证券：应对全球高利率常态，密切跟踪AI投资周期拐点；华泰证券：支撑因素逐渐积累，沿盈利与景气寻找性价比方向；中信建投：积极信号已开始累积，配置上防御优先；招商证券：由远期空间转向分子端景气兑现。",
+      "time": "2026-10-12 00:34:37",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610103891999230.html",
+      "url": "https://finance.eastmoney.com/a/202610113892124764.html",
       "related_symbols": [
-        "002475.SZ"
+        "600030.SS"
       ],
       "related_names": [
-        "立讯精密"
+        "中信证券"
       ],
-      "score": 5.5,
-      "verified": true
-    },
-    {
-      "rank": 4,
-      "title": "证监会问计市场！加强跨境风险监测应对 研究储备增量政策工具",
-      "summary": "中国证监会10月10日晚间发布消息称，证监会党委书记、主席吴清于当日在京召开座谈会，与部分上市公司负责人、证券基金机构专家深入交流，就当前资本市场和金融形势充分听取意见建议。",
-      "time": "2026-10-11 00:36:16",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610103891983853.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 3.5,
-      "verified": true
-    },
-    {
-      "rank": 5,
-      "title": "四部门征求意见！汽车禁止配备全隐藏式门把手 不得采用折叠显示屏",
-      "summary": "进一步加强汽车产品创新设计和研发测试验证有关管理。工业和信息化部等四部门10日公开发布《关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿）》。汽车产品创新设计技术指南围绕虚拟操纵件、门把手、新型人机交互系统、大角度座椅等方面提出具体测试验证要求。",
-      "time": "2026-10-11 00:58:42",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610103891960543.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 3.5,
+      "score": 6.49,
       "verified": true
     }
   ],
@@ -402,13 +386,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(4个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -433,13 +416,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(4个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1041,12 +1023,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1070,12 +1053,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1100,12 +1084,13 @@
         "sources": [
           "tencent",
           "sina",
+          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1129,12 +1114,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1247,12 +1233,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1276,12 +1263,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1305,12 +1293,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1334,12 +1323,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -2358,7 +2348,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-10-11 00:36:22",
+    "generated_at": "2026-10-12 00:53:06",
     "date": "2026-10-09",
     "macro_overlay": {
       "risk": 0.556,
@@ -2681,16 +2671,16 @@
       "latest": "2026-10-09"
     },
     "NDX": {
-      "ok": false,
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "bars": 0
+      "ok": true,
+      "bars": 2205,
+      "latest": "2026-10-09"
     }
   },
   "verification_stats": {
     "quotes_total": 65,
     "quotes_verified": 65,
-    "news_total": 71,
-    "news_verified": 5
+    "news_total": 75,
+    "news_verified": 3
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
