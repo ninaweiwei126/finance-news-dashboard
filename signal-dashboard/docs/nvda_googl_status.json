@@ -4,10 +4,10 @@
     "name": "NVIDIA",
     "asset": "stocks",
     "date": "2026-10-13",
-    "updated_at": "2026-10-14 01:11:32 UTC",
+    "updated_at": "2026-10-15 00:29:50 UTC",
     "price": 228.52,
-    "is_realtime": false,
-    "market_status": "Closed",
+    "is_realtime": true,
+    "market_status": "After-Hours",
     "lookback_days": 60,
     "reference_high": 243.37,
     "reference_high_date": "2026-10-06",
@@ -3595,7 +3595,7 @@
           }
         ]
       },
-      "period_start": "2021-10-13",
+      "period_start": "2021-10-14",
       "period_end": "2026-10-13"
     }
   },
@@ -3604,10 +3604,10 @@
     "name": "Google",
     "asset": "stocks",
     "date": "2026-10-13",
-    "updated_at": "2026-10-14 01:11:37 UTC",
+    "updated_at": "2026-10-15 00:29:53 UTC",
     "price": 353.78,
-    "is_realtime": false,
-    "market_status": "Closed",
+    "is_realtime": true,
+    "market_status": "After-Hours",
     "lookback_days": 252,
     "reference_high": 408.61,
     "reference_high_date": "2026-05-18",
@@ -4475,7 +4475,7 @@
           }
         ]
       },
-      "period_start": "2021-10-13",
+      "period_start": "2021-10-14",
       "period_end": "2026-10-13"
     }
   }
