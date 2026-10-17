@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17 00:05:15",
+  "generated_at": "2026-10-17 23:40:19",
   "date": "2026-10-16",
   "macro_overlay": {
     "risk": 0.622,
@@ -14,7 +14,7 @@
         "risk": 0.0
       },
       "vix": {
-        "value": 16.46,
+        "value": 19.99,
         "risk": 0.2
       }
     },
@@ -68,9 +68,9 @@
           "obv_trend": 0.219
         },
         "relative_strength": {
-          "score": -0.531,
-          "rs20": -4.56,
-          "rs60": -1.5
+          "score": -0.413,
+          "rs20": -3.78,
+          "rs60": -0.69
         },
         "atr": {
           "score": -0.076,
@@ -78,15 +78,15 @@
         }
       },
       "composite": {
-        "raw": -0.115,
-        "adjusted": -0.08,
+        "raw": -0.098,
+        "adjusted": -0.067,
         "signal": "观望",
-        "confidence": 0.08,
+        "confidence": 0.067,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "观望",
-      "score": -0.08,
-      "confidence": 0.08,
+      "score": -0.067,
+      "confidence": 0.067,
       "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
     },
     {
@@ -136,9 +136,9 @@
           "obv_trend": 0.511
         },
         "relative_strength": {
-          "score": -0.191,
-          "rs20": -3.46,
-          "rs60": 3.09
+          "score": -0.073,
+          "rs20": -2.68,
+          "rs60": 3.89
         },
         "atr": {
           "score": -0.052,
@@ -146,15 +146,15 @@
         }
       },
       "composite": {
-        "raw": 0.013,
-        "adjusted": 0.009,
+        "raw": 0.031,
+        "adjusted": 0.021,
         "signal": "观望",
-        "confidence": 0.009,
+        "confidence": 0.021,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "观望",
-      "score": 0.009,
-      "confidence": 0.009,
+      "score": 0.021,
+      "confidence": 0.021,
       "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
     },
     {
@@ -205,8 +205,8 @@
         },
         "relative_strength": {
           "score": 0.0,
-          "rs20": -11.31,
-          "rs60": 28.04
+          "rs20": -10.53,
+          "rs60": 28.84
         },
         "atr": {
           "score": -1.0,
@@ -273,8 +273,8 @@
         },
         "relative_strength": {
           "score": -1.0,
-          "rs20": -28.38,
-          "rs60": -23.51
+          "rs20": -27.6,
+          "rs60": -22.7
         },
         "atr": {
           "score": -1.0,

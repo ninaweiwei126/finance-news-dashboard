@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-17 00:03:53",
+  "generated_at": "2026-10-17 23:38:35",
   "title": "2026-10-17 全球市场金融资讯日报",
   "market_overview": [
     {
@@ -132,79 +132,81 @@
       "spread_10y_2y": 0.35
     },
     "vix": {
-      "date": "2026-10-15",
-      "close": 16.46,
-      "change_1d": -0.41
+      "date": "2026-10-16",
+      "close": 19.99,
+      "change_1d": 3.53
     }
   },
   "top5": [
     {
       "rank": 1,
-      "title": "潘功胜：中国人民银行将进一步支持全球投资者和发行人参与中国金融市场",
-      "summary": "【潘功胜：中国人民银行将进一步支持全球投资者和发行人参与中国金融市场】潘功胜指出，下一阶段，中国人民银行将进一步支持全球投资者和发行人参与中国金融市场，推动人民币债券成为全球广泛认可和使用的合格担保品，进一步丰富流动性管理和风险管理工具，持续提升投融资便利性。同时，加强境内外金融基础设施联通，支持离岸人民币市场发展，持续推进中国金融市场高水平开放。",
-      "time": "2026-10-16 15:23:03",
+      "title": "蓝色起源目标2030年实现每周多次新格伦发射",
+      "summary": "【蓝色起源目标2030年实现每周多次新格伦发射】蓝色起源计划在2030年前将其新格伦（NewGlenn）重型火箭的发射频率提升至每周多次，设定了雄心勃勃的产能与运营目标，以期挑战SpaceX在全球发射市场的主导地位。该计划要求大幅扩大制造能力、发射基础设施和运营可靠性。蓝色起源已在其位于美国佛罗里达州的生产与火箭集成设施上投入超过30亿美元，并计划再追加3.3亿美元扩建，以支持新格伦火箭的更强运力版本。蓝色起源运营高级副总裁伊恩·理查森在周五的一篇公司博文中概述了扩建计划，称该基础设施项目对提升发射频率和运营效率至关重要。",
+      "time": "2026-10-17 21:50:24",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610163898362829.html",
+      "url": "https://finance.eastmoney.com/a/202610173899075997.html",
       "related_symbols": [],
       "related_names": [],
-      "score": 4.14,
+      "score": 4.42,
       "verified": true
     },
     {
       "rank": 2,
-      "title": "国常会：不断深化拓展“人工智能+”行动 让人工智能技术更好转化为现实生产力",
-      "summary": "【国常会：不断深化拓展“人工智能+”行动 让人工智能技术更好转化为现实生产力】李强主持召开国务院常务会议，会议指出，人工智能是影响未来发展的关键变量，要从我国产业体系完备、应用场景丰富、工程化能力强等实际出发，注重以落地应用牵引技术创新，不断深化拓展“人工智能+”行动。要夯实发展底座，加强技术攻关和算法创新促进算电协同，增加高质量数据供给，着力补短板、锻长板。要突出赋能应用，以实体经济为重点强化供需衔接，鼓励联合研发，推进中试验证，加大场景培育力度，让人工智能技术更好转化为现实生产力。要统筹发展和安全，因业分级分类施策，加强风险研判评估，守牢人工智能安全底线。",
-      "time": "2026-10-16 19:10:55",
+      "title": "大幅减亏！晶科能源第三季度最多亏5亿元 储能业务开始贡献利润",
+      "summary": "10月17日，光伏巨头晶科能源（688223）发布前三季度业绩预告，财务部门初步测算，预计2026前三季度实现归母净利润为-35.76亿元到-29.76亿元，上年同期为-39.20亿元，同比减亏8.77%~24.08%；扣非净利润为-44.11亿元到-38.11亿元，同比减亏2.91%~16.11%。",
+      "time": "2026-10-18 00:00:00",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610163898520625.html",
+      "url": "https://finance.eastmoney.com/a/202610173899075321.html",
       "related_symbols": [],
       "related_names": [],
-      "score": 3.3,
+      "score": 4.5,
       "verified": true
     },
     {
       "rank": 3,
-      "title": "长鑫科技：预计前三季度净利润1310亿元-1325亿元 同比扭亏为盈",
-      "summary": "【长鑫科技：预计2026年前三季度净利润1310亿元-1325亿元 同比扭亏为盈】长鑫科技(688825.SH)公告称，预计2026年前三季度归属于上市公司股东的净利润为1310.00亿元-1325.00亿元，同比扭亏为盈。业绩变动主要系AI算力需求快速增长，全球DRAM行业景气度提升，产品供不应求，价格大幅上涨，公司产能利用率保持高位运行，整体业绩显著提升。注：公司Q3净利润预计533.95亿-548.95亿，Q2净利润528.43亿，据此计算，Q3净利润预计环比增长1%-3%。",
-      "time": "2026-10-16 21:43:27",
+      "title": "政策底已亮 市场底在哪？A股“抓狂”行情 何时绝处逢生",
+      "summary": "近一周，A股走出拉扯感极强的震荡行情，沪指持续下探至3674点，10月16日迎来修复反弹，但反弹伴随明显缩量，行情持续性存疑，市场关于底部的讨论再度升温。此前，证监会召开资本市场专家座谈会释放重磅维稳信号，专家建议研究储备更多增量政策工具，鼓励上市公司加大分红回购力度，市场普遍认为政策底轮廓已经确立。",
+      "time": "2026-10-18 00:00:32",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610163898662725.html",
+      "url": "https://finance.eastmoney.com/a/202610173899080555.html",
       "related_symbols": [],
       "related_names": [],
-      "score": 4.4,
+      "score": 3.5,
       "verified": true
     },
     {
       "rank": 4,
-      "title": "订货需等近两月！iPhone Duo预售秒售罄 产线协同爬坡制约初期供货",
-      "summary": "【订货需等近两月！iPhone Duo预售秒售罄 产线协同爬坡制约初期供货】在9月秋季发布会亮相一个多月后，苹果首款折叠屏手机iPhoneDuo已于今日晚8点正式开启预购，10月23日将正式发售。",
-      "time": "2026-10-16 21:58:52",
+      "title": "2%利率大额存单回归 中小行、外资行四季度揽储模式开启",
+      "summary": "沉寂一年有余的“2字头”大额存单，在四季度初重现市场。锡商银行手机银行App显示，该行3年期大额存单年化利率为2%，20万元起存，持有满90天可转让；众邦银行同期推出的3年期、5年期大额存单年化利率分别为2%和2.05%；华通银行也重新推出5年期定存产品，年化利率达2.1%。与此同时，部分外资银行也密集上架人民币大额存单产品。在市场整体利率下行的背景下，这一逆势操作引发关注。",
+      "time": "2026-10-18 00:00:33",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610163898688745.html",
-      "related_symbols": [
-        "AAPL"
-      ],
-      "related_names": [
-        "苹果"
-      ],
-      "score": 5.41,
+      "url": "https://finance.eastmoney.com/a/202610173899088040.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 5.5,
       "verified": true
     },
     {
       "rank": 5,
-      "title": "特朗普：为确保伊朗无法获得核武器 可能会对镐山核设施发动打击",
-      "summary": "【特朗普：为确保伊朗无法获得核武器 可能会对镐山核设施发动打击】据央视新闻报道，美国总统特朗普当地时间周四晚间在白宫接受采访时表示，为确保伊朗无法获得核武器，美国可能会对伊朗核设施再次发动打击，其中包括镐山的地下核设施。",
-      "time": "2026-10-17 00:14:26",
+      "title": "顶级富豪 集体成银幕“反派”！科技巨头 发生了什么？",
+      "summary": "好莱坞正将镜头对准硅谷。今年四季度，多部以科技行业掌门人为主角的电影和纪录片陆续亮相。从MetaCEO马克·扎克伯格、特斯拉首席执行官埃隆·马斯克到OpenAICEO萨姆·奥尔特曼，曾经被视为创新英雄的科技精英，如今接连成为好莱坞笔下的银幕“反派”，硅谷科技巨头的公众形象正在悄然转变。",
+      "time": "2026-10-18 00:18:03",
       "source": "eastmoney",
       "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610173898773571.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 3.5,
+      "url": "https://finance.eastmoney.com/a/202610173899081075.html",
+      "related_symbols": [
+        "META",
+        "TSLA"
+      ],
+      "related_names": [
+        "meta",
+        "特斯拉"
+      ],
+      "score": 7.5,
       "verified": true
     }
   ],
@@ -579,7 +581,7 @@
         "price": 354.72,
         "change": -7.72,
         "change_pct": -2.13,
-        "high": 370.58,
+        "high": 370.5,
         "low": 349.33,
         "open": 369.15,
         "prev_close": 362.44,
@@ -610,7 +612,7 @@
         "price": 328.75,
         "change": -15.58,
         "change_pct": -4.52,
-        "high": 339.55,
+        "high": 339.59,
         "low": 328.58,
         "open": 338.48,
         "prev_close": 344.33,
@@ -1011,12 +1013,13 @@
         "sources": [
           "tencent",
           "sina",
+          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1070,12 +1073,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1100,12 +1104,13 @@
         "sources": [
           "tencent",
           "sina",
+          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1129,12 +1134,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1247,12 +1253,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1305,12 +1312,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1363,12 +1371,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -2358,7 +2367,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-10-17 00:05:15",
+    "generated_at": "2026-10-17 23:40:19",
     "date": "2026-10-16",
     "macro_overlay": {
       "risk": 0.622,
@@ -2373,7 +2382,7 @@
           "risk": 0.0
         },
         "vix": {
-          "value": 16.46,
+          "value": 19.99,
           "risk": 0.2
         }
       },
@@ -2427,9 +2436,9 @@
             "obv_trend": 0.219
           },
           "relative_strength": {
-            "score": -0.531,
-            "rs20": -4.56,
-            "rs60": -1.5
+            "score": -0.413,
+            "rs20": -3.78,
+            "rs60": -0.69
           },
           "atr": {
             "score": -0.076,
@@ -2437,15 +2446,15 @@
           }
         },
         "composite": {
-          "raw": -0.115,
-          "adjusted": -0.08,
+          "raw": -0.098,
+          "adjusted": -0.067,
           "signal": "观望",
-          "confidence": 0.08,
+          "confidence": 0.067,
           "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "观望",
-        "score": -0.08,
-        "confidence": 0.08,
+        "score": -0.067,
+        "confidence": 0.067,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       {
@@ -2495,9 +2504,9 @@
             "obv_trend": 0.511
           },
           "relative_strength": {
-            "score": -0.191,
-            "rs20": -3.46,
-            "rs60": 3.09
+            "score": -0.073,
+            "rs20": -2.68,
+            "rs60": 3.89
           },
           "atr": {
             "score": -0.052,
@@ -2505,15 +2514,15 @@
           }
         },
         "composite": {
-          "raw": 0.013,
-          "adjusted": 0.009,
+          "raw": 0.031,
+          "adjusted": 0.021,
           "signal": "观望",
-          "confidence": 0.009,
+          "confidence": 0.021,
           "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "观望",
-        "score": 0.009,
-        "confidence": 0.009,
+        "score": 0.021,
+        "confidence": 0.021,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       {
@@ -2564,8 +2573,8 @@
           },
           "relative_strength": {
             "score": 0.0,
-            "rs20": -11.31,
-            "rs60": 28.04
+            "rs20": -10.53,
+            "rs60": 28.84
           },
           "atr": {
             "score": -1.0,
@@ -2632,8 +2641,8 @@
           },
           "relative_strength": {
             "score": -1.0,
-            "rs20": -28.38,
-            "rs60": -23.51
+            "rs20": -27.6,
+            "rs60": -22.7
           },
           "atr": {
             "score": -1.0,
@@ -2666,19 +2675,19 @@
       "latest": "2026-10-16"
     },
     "CRCL": {
-      "ok": true,
-      "bars": 344,
-      "latest": "2026-10-16"
-    },
-    "SNDK": {
-      "ok": true,
-      "bars": 415,
-      "latest": "2026-10-16"
-    },
-    "SPX": {
       "ok": false,
       "error": "Expecting value: line 1 column 1 (char 0)",
       "bars": 0
+    },
+    "SNDK": {
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "bars": 0
+    },
+    "SPX": {
+      "ok": true,
+      "bars": 2210,
+      "latest": "2026-10-16"
     },
     "NDX": {
       "ok": false,
@@ -2689,8 +2698,8 @@
   "verification_stats": {
     "quotes_total": 65,
     "quotes_verified": 65,
-    "news_total": 78,
-    "news_verified": 5
+    "news_total": 70,
+    "news_verified": 16
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
