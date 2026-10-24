@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-24 00:08:46",
+  "generated_at": "2026-10-24 23:51:58",
   "title": "2026-10-24 全球市场金融资讯日报",
   "market_overview": [
     {
@@ -132,12 +132,78 @@
       "spread_10y_2y": 0.31
     },
     "vix": {
-      "date": "2026-10-22",
-      "close": 19.03,
-      "change_1d": 2.35
+      "date": "2026-10-23",
+      "close": 19.45,
+      "change_1d": 0.42
     }
   },
-  "top5": [],
+  "top5": [
+    {
+      "rank": 1,
+      "title": "外资独资券商增至7家 能为A股带来什么？",
+      "summary": "10月23日，证监会核准设立花旗证券（中国）。该公司由花旗环球金融全资控股，业务范围涵盖证券经纪、证券投资咨询、证券承销与保荐、证券自营，正式成为国内第七家外资独资券商。花旗方面表示，设立独资券商，是其加大在华投入、推进本土化布局的重要举措。",
+      "time": "2026-10-25 00:00:15",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610243907118949.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 3.5,
+      "verified": true
+    },
+    {
+      "rank": 2,
+      "title": "国际大行发声：亚洲股市极度超卖！花旗：中国互联网板块估值仍具吸引力",
+      "summary": "亚洲股市技术面极度超卖！瑞银近日研报指出，亚洲股市技术面已进入极度超卖区间，欧洲部分市场则局部超买，建议投资者将策略重心从防御转向逢低吸纳；该机构还指出，半导体相对软件更具配置价值。花旗也在近期表示，市场情绪接近或已达到极度悲观水平，尽管如此，中国互联网板块的估值仍具有吸引力。",
+      "time": "2026-10-25 00:06:54",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610243907106779.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 4.5,
+      "verified": true
+    },
+    {
+      "rank": 3,
+      "title": "人民币汇率创4年新高！汇率风险管理需求飙升",
+      "summary": "10月23日，在岸人民币对美元即期汇率盘中触及6.6696，离岸人民币同步站上6.6688一线，双双刷新2022年7月以来高位。人民币汇率稳定升值已经一年多。按今年年初7.0附近测算，人民币对美元年内升值约4.6%；若从2025年低点7.3—7.4起算，累计升幅已逼近8%—10%。分析认为，汇兑损益成为影响出海企业盈利表现的重要财务变量，上市企业汇率风险管理需求急剧上升。",
+      "time": "2026-10-25 00:06:55",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610243907109451.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 6.5,
+      "verified": true
+    },
+    {
+      "rank": 4,
+      "title": "146亿富豪拟卖资产偿债！英国豪宅正在挤泡沫",
+      "summary": "近日，英国头部瓶装水公司HighlandSpring的所有者——阿联酋籍富豪MahdiAlTajir家族正寻求出售其英国优质房产资产。当前，英国5年期固定房贷平均利率约6%，创下自2023年9月以来的最高水平。随着更高的抵押贷款成本逐步传导至房地产市场，英国住房市场正在遭受“阵痛”。国际资本曾把伦敦房地产当作保值增值标的，推高市场泡沫，如今这类投资者纷纷撤离，带动房价快速下跌。",
+      "time": "2026-10-25 00:22:47",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610243907129539.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 4.5,
+      "verified": true
+    },
+    {
+      "rank": 5,
+      "title": "重磅会议来袭！美联储加息大消息！市场关注三大问题",
+      "summary": "美联储的动向备受市场关注！美联储将于10月27日至28日召开议息会议。随着会议临近，市场焦点已转向美联储是否会进一步加息，以及本次会议将为12月政策路径释放何种信号。美联储曾在9月进行自2023年以来的首次加息，以应对高于目标的通胀。但根据LSEG数据，联邦基金期货显示，美联储在10月28日（下周三）发布政策声明时再次加息的可能性不到10%。",
+      "time": "2026-10-25 00:40:01",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610243907098131.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 6.5,
+      "verified": true
+    }
+  ],
   "market_movers": {
     "us": {
       "top_gainers": [
@@ -425,12 +491,13 @@
         "sources": [
           "tencent",
           "sina",
+          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -940,13 +1007,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney",
           "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(4个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -970,13 +1036,12 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1059,13 +1124,12 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -2289,7 +2353,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-10-24 00:10:49",
+    "generated_at": "2026-10-24 23:53:10",
     "date": "2026-10-23",
     "macro_overlay": {
       "risk": 0.622,
@@ -2304,7 +2368,7 @@
           "risk": 0.0
         },
         "vix": {
-          "value": 19.03,
+          "value": 19.45,
           "risk": 0.2
         }
       },
@@ -2358,9 +2422,9 @@
             "obv_trend": -0.215
           },
           "relative_strength": {
-            "score": -0.237,
-            "rs20": -5.24,
-            "rs60": 5.27
+            "score": -0.182,
+            "rs20": -4.72,
+            "rs60": 5.8
           },
           "atr": {
             "score": -0.133,
@@ -2368,15 +2432,15 @@
           }
         },
         "composite": {
-          "raw": -0.104,
-          "adjusted": -0.072,
+          "raw": -0.096,
+          "adjusted": -0.066,
           "signal": "观望",
-          "confidence": 0.072,
+          "confidence": 0.066,
           "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "观望",
-        "score": -0.072,
-        "confidence": 0.072,
+        "score": -0.066,
+        "confidence": 0.066,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       {
@@ -2426,9 +2490,9 @@
             "obv_trend": -0.165
           },
           "relative_strength": {
-            "score": -0.85,
-            "rs20": -5.86,
-            "rs60": -7.0
+            "score": -0.823,
+            "rs20": -5.35,
+            "rs60": -6.47
           },
           "atr": {
             "score": -0.048,
@@ -2436,83 +2500,83 @@
           }
         },
         "composite": {
-          "raw": -0.235,
-          "adjusted": -0.162,
+          "raw": -0.231,
+          "adjusted": -0.159,
           "signal": "持有偏空",
-          "confidence": 0.162,
+          "confidence": 0.159,
           "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "持有偏空",
-        "score": -0.162,
-        "confidence": 0.162,
+        "score": -0.159,
+        "confidence": 0.159,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
       },
       {
         "symbol": "CRCL",
         "name_cn": "Circle",
-        "bars": 348,
+        "bars": 349,
         "history_note": "东财 K 线自 2025-06-05 起（约 14 个月），样本偏短",
         "valid": true,
-        "date": "2026-10-22",
-        "price": 86.62,
-        "change_pct": -3.44,
+        "date": "2026-10-23",
+        "price": 85.91,
+        "change_pct": -0.82,
         "sub_scores": {
           "trend_ma": {
-            "score": 0.139,
-            "d20": 3.19,
-            "d50": -0.15,
-            "d200": 0.56
+            "score": 0.057,
+            "d20": 2.53,
+            "d50": -1.2,
+            "d200": -0.29
           },
           "ma_alignment": {
             "score": 1.0,
-            "sma50": 86.75,
-            "sma200": 86.14,
+            "sma50": 86.96,
+            "sma200": 86.16,
             "cross": "golden",
-            "cross_days": 0
+            "cross_days": 1
           },
           "macd": {
-            "score": 0.155,
-            "macd_line": -0.128,
-            "signal": -0.608,
-            "hist": 0.481,
-            "hist_change": 0.056
+            "score": 0.122,
+            "macd_line": -0.045,
+            "signal": -0.495,
+            "hist": 0.451,
+            "hist_change": -0.03
           },
           "rsi": {
-            "score": -0.073,
-            "rsi": 51.8
+            "score": -0.038,
+            "rsi": 51.0
           },
           "position": {
-            "score": 0.141,
-            "pos52": 0.391,
-            "pct_b": 0.75,
+            "score": 0.099,
+            "pos52": 0.383,
+            "pct_b": 0.716,
             "high52": 143.29,
             "low52": 50.23
           },
           "volume": {
-            "score": -0.258,
-            "vol_ratio": 1.01,
-            "obv_trend": -0.516
+            "score": -0.236,
+            "vol_ratio": 0.96,
+            "obv_trend": -0.471
           },
           "relative_strength": {
-            "score": 0.0,
-            "rs20": -6.33,
-            "rs60": 36.42
+            "score": 0.307,
+            "rs20": -1.93,
+            "rs60": 31.23
           },
           "atr": {
             "score": -1.0,
-            "atr_pct": 6.3
+            "atr_pct": 6.27
           }
         },
         "composite": {
-          "raw": 0.032,
-          "adjusted": 0.022,
+          "raw": 0.058,
+          "adjusted": 0.04,
           "signal": "观望",
-          "confidence": 0.022,
+          "confidence": 0.04,
           "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "观望",
-        "score": 0.022,
-        "confidence": 0.022,
+        "score": 0.04,
+        "confidence": 0.04,
         "action_tip": "信号中性：多空不明显，等待方向明朗（宏观风险较高，建议控制整体仓位）"
       },
       {
@@ -2562,9 +2626,9 @@
             "obv_trend": -1.0
           },
           "relative_strength": {
-            "score": -0.816,
-            "rs20": -29.33,
-            "rs60": -6.31
+            "score": -0.789,
+            "rs20": -28.82,
+            "rs60": -5.78
           },
           "atr": {
             "score": -1.0,
@@ -2572,15 +2636,15 @@
           }
         },
         "composite": {
-          "raw": -0.38,
-          "adjusted": -0.262,
+          "raw": -0.376,
+          "adjusted": -0.259,
           "signal": "持有偏空",
-          "confidence": 0.262,
+          "confidence": 0.259,
           "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
         },
         "signal": "持有偏空",
-        "score": -0.262,
-        "confidence": 0.262,
+        "score": -0.259,
+        "confidence": 0.259,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
       }
     ]
@@ -2597,9 +2661,9 @@
       "latest": "2026-10-23"
     },
     "CRCL": {
-      "ok": false,
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "bars": 0
+      "ok": true,
+      "bars": 349,
+      "latest": "2026-10-23"
     },
     "SNDK": {
       "ok": true,
@@ -2607,21 +2671,21 @@
       "latest": "2026-10-23"
     },
     "SPX": {
-      "ok": false,
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "bars": 0
+      "ok": true,
+      "bars": 2215,
+      "latest": "2026-10-23"
     },
     "NDX": {
-      "ok": false,
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "bars": 0
+      "ok": true,
+      "bars": 2215,
+      "latest": "2026-10-23"
     }
   },
   "verification_stats": {
     "quotes_total": 65,
     "quotes_verified": 65,
-    "news_total": 76,
-    "news_verified": 0
+    "news_total": 75,
+    "news_verified": 8
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
