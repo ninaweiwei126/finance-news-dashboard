@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 23:42:15",
+  "generated_at": "2026-10-27 01:01:39",
   "date": "2026-10-23",
   "macro_overlay": {
     "risk": 0.622,
@@ -10,7 +10,7 @@
         "risk": 1.0
       },
       "curve_spread": {
-        "value": 0.31,
+        "value": 0.32,
         "risk": 0.0
       },
       "vix": {
