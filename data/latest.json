@@ -1,99 +1,93 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30 01:26:57",
-  "title": "2026-10-30 全球市场金融资讯日报",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31 01:15:20",
+  "title": "2026-10-31 全球市场金融资讯日报",
   "market_overview": [
     {
       "symbol": "000001.SS",
       "name_cn": "上证指数",
       "name_en": "SSE Composite",
-      "price": 3605.65,
-      "change_pct": -1.25,
-      "change": -45.78,
+      "price": 3599.02,
+      "change_pct": -1.44,
+      "change": -52.41,
       "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "399001.SZ",
       "name_cn": "深证成指",
       "name_en": "SZSE Component",
-      "price": 10871.13,
-      "change_pct": -2.4,
-      "change": -267.07,
+      "price": 10833.78,
+      "change_pct": -2.73,
+      "change": -304.42,
       "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "399006.SZ",
       "name_cn": "创业板指",
       "name_en": "ChiNext",
-      "price": 2434.8,
-      "change_pct": -3.29,
-      "change": -82.79,
+      "price": 2413.63,
+      "change_pct": -4.13,
+      "change": -103.96,
       "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "^HSI",
       "name_cn": "恒生指数",
       "name_en": "Hang Seng",
-      "price": 22958.65,
-      "change_pct": 0.0,
-      "change": 0.0,
+      "price": 23294.42,
+      "change_pct": 1.46,
+      "change": 335.77,
       "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "^HSCE",
       "name_cn": "国企指数",
       "name_en": "HSCEI",
-      "price": 7755.66,
-      "change_pct": 0.0,
-      "change": 0.0,
+      "price": 7862.22,
+      "change_pct": 1.37,
+      "change": 106.56,
       "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "^NDX",
       "name_cn": "纳斯达克100",
       "name_en": "Nasdaq 100",
-      "price": 29402.51,
-      "change_pct": -1.38,
-      "change": -410.65,
-      "verified": false,
+      "price": 28384.85,
+      "change_pct": -3.46,
+      "change": -1017.66,
+      "verified": true,
       "sources": [
         "tencent",
-        "sina",
-        "eastmoney"
+        "sina"
       ]
     },
     {
       "symbol": "^GSPC",
       "name_cn": "标普500",
       "name_en": "S&P 500",
-      "price": 7720.39,
-      "change_pct": -0.3,
-      "change": -23.59,
+      "price": 7580.07,
+      "change_pct": -1.82,
+      "change": -140.32,
       "verified": true,
       "sources": [
         "tencent",
@@ -104,9 +98,9 @@
       "symbol": "^DJI",
       "name_cn": "道琼斯",
       "name_en": "Dow Jones",
-      "price": 52342.56,
-      "change_pct": -0.25,
-      "change": -132.54,
+      "price": 51770.31,
+      "change_pct": -1.09,
+      "change": -572.25,
       "verified": true,
       "sources": [
         "tencent",
@@ -116,26 +110,26 @@
   ],
   "macro": {
     "treasury": {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "yields": {
-        "2Y": 4.61,
-        "5Y": 4.78,
-        "10Y": 4.98,
-        "30Y": 5.32
+        "2Y": 4.56,
+        "5Y": 4.71,
+        "10Y": 4.94,
+        "30Y": 5.31
       },
       "change_1d_bp": {
-        "2Y": -6.0,
+        "2Y": -5.0,
         "5Y": -7.0,
-        "10Y": -7.0,
-        "30Y": -5.0
+        "10Y": -4.0,
+        "30Y": -1.0
       },
       "change_5d_bp": {
-        "2Y": -6.0,
+        "2Y": -5.0,
         "5Y": -7.0,
-        "10Y": -7.0,
-        "30Y": -5.0
+        "10Y": -4.0,
+        "30Y": -1.0
       },
-      "spread_10y_2y": 0.37
+      "spread_10y_2y": 0.38
     },
     "vix": {
       "date": "2026-10-29",
@@ -143,75 +137,61 @@
       "change_1d": 0.29
     }
   },
-  "top5": [
-    {
-      "rank": 1,
-      "title": "礼来业绩超预期！减肥药需求再爆发 多股获双线资金关注(名单)",
-      "summary": "【礼来业绩超预期！减肥药需求再爆发 多股获双线资金关注(名单)】礼来第三季度营收同比增39%，并上调全年营收指引至910亿至920亿美元。减重药需求持续爆发，A股减肥药概念股获机构与融资客同步关注。",
-      "time": "2026-10-30 01:13:12",
-      "source": "eastmoney",
-      "sub_source": "东方财富",
-      "url": "https://finance.eastmoney.com/a/202610303915074444.html",
-      "related_symbols": [],
-      "related_names": [],
-      "score": 5.49,
-      "verified": true
-    }
-  ],
+  "top5": [],
   "market_movers": {
     "us": {
       "top_gainers": [
         {
-          "symbol": "V",
-          "name_cn": "维萨",
-          "change_pct": 2.48
+          "symbol": "XOM",
+          "name_cn": "埃克森美孚",
+          "change_pct": 2.16
         },
         {
           "symbol": "WMT",
           "name_cn": "沃尔玛",
-          "change_pct": 2.09
+          "change_pct": 1.86
         },
         {
-          "symbol": "META",
-          "name_cn": "Meta",
-          "change_pct": 1.96
+          "symbol": "KO",
+          "name_cn": "可口可乐",
+          "change_pct": 1.36
         },
         {
-          "symbol": "DIS",
-          "name_cn": "迪士尼",
-          "change_pct": 1.71
+          "symbol": "V",
+          "name_cn": "维萨",
+          "change_pct": 0.74
         },
         {
-          "symbol": "JNJ",
-          "name_cn": "强生",
-          "change_pct": 1.53
+          "symbol": "PG",
+          "name_cn": "宝洁",
+          "change_pct": 0.61
         }
       ],
       "top_losers": [
         {
-          "symbol": "GOOGL",
-          "name_cn": "谷歌",
-          "change_pct": -12.64
+          "symbol": "INTC",
+          "name_cn": "英特尔",
+          "change_pct": -28.58
         },
         {
           "symbol": "SNDK",
           "name_cn": "闪迪",
-          "change_pct": -5.32
+          "change_pct": -13.47
         },
         {
-          "symbol": "MU",
-          "name_cn": "美光",
-          "change_pct": -4.98
+          "symbol": "QCOM",
+          "name_cn": "高通",
+          "change_pct": -11.12
         },
         {
-          "symbol": "AMZN",
-          "name_cn": "亚马逊",
-          "change_pct": -4.25
+          "symbol": "AMD",
+          "name_cn": "超威半导体",
+          "change_pct": -10.88
         },
         {
-          "symbol": "INTC",
-          "name_cn": "英特尔",
-          "change_pct": -3.62
+          "symbol": "CRCL",
+          "name_cn": "Circle",
+          "change_pct": -9.31
         }
       ]
     },
@@ -220,110 +200,110 @@
         {
           "symbol": "1299.HK",
           "name_cn": "友邦保险",
-          "change_pct": 1.88
-        },
-        {
-          "symbol": "1810.HK",
-          "name_cn": "小米集团-W",
-          "change_pct": 0.0
-        },
-        {
-          "symbol": "0388.HK",
-          "name_cn": "香港交易所",
-          "change_pct": 0.0
-        },
-        {
-          "symbol": "3690.HK",
-          "name_cn": "美团-W",
-          "change_pct": -0.22
-        },
-        {
-          "symbol": "0941.HK",
-          "name_cn": "中国移动",
-          "change_pct": -0.25
-        }
-      ],
-      "top_losers": [
-        {
-          "symbol": "9999.HK",
-          "name_cn": "网易-S",
-          "change_pct": -4.99
-        },
-        {
-          "symbol": "9618.HK",
-          "name_cn": "京东集团-SW",
-          "change_pct": -1.78
+          "change_pct": 5.23
         },
         {
           "symbol": "2020.HK",
           "name_cn": "安踏体育",
-          "change_pct": -1.19
+          "change_pct": 4.06
+        },
+        {
+          "symbol": "3690.HK",
+          "name_cn": "美团-W",
+          "change_pct": 3.47
+        },
+        {
+          "symbol": "1810.HK",
+          "name_cn": "小米集团-W",
+          "change_pct": 3.12
+        },
+        {
+          "symbol": "9999.HK",
+          "name_cn": "网易-S",
+          "change_pct": 2.49
+        }
+      ],
+      "top_losers": [
+        {
+          "symbol": "2318.HK",
+          "name_cn": "中国平安",
+          "change_pct": 0.24
+        },
+        {
+          "symbol": "0388.HK",
+          "name_cn": "香港交易所",
+          "change_pct": 0.99
         },
         {
           "symbol": "9988.HK",
           "name_cn": "阿里巴巴-W",
-          "change_pct": -0.83
+          "change_pct": 0.99
         },
         {
           "symbol": "1024.HK",
           "name_cn": "快手-W",
-          "change_pct": -0.76
+          "change_pct": 1.14
+        },
+        {
+          "symbol": "0700.HK",
+          "name_cn": "腾讯控股",
+          "change_pct": 1.59
         }
       ]
     },
     "cn": {
       "top_gainers": [
         {
-          "symbol": "300059.SZ",
-          "name_cn": "东方财富",
-          "change_pct": 1.22
-        },
-        {
-          "symbol": "600036.SS",
-          "name_cn": "招商银行",
-          "change_pct": 0.82
-        },
-        {
-          "symbol": "300750.SZ",
-          "name_cn": "宁德时代",
-          "change_pct": 0.78
+          "symbol": "000858.SZ",
+          "name_cn": "五粮液",
+          "change_pct": 3.35
         },
         {
           "symbol": "600519.SS",
           "name_cn": "贵州茅台",
-          "change_pct": 0.66
+          "change_pct": 2.81
         },
         {
-          "symbol": "600276.SS",
-          "name_cn": "恒瑞医药",
-          "change_pct": 0.37
+          "symbol": "000651.SZ",
+          "name_cn": "格力电器",
+          "change_pct": 2.42
+        },
+        {
+          "symbol": "000333.SZ",
+          "name_cn": "美的集团",
+          "change_pct": 1.94
+        },
+        {
+          "symbol": "300750.SZ",
+          "name_cn": "宁德时代",
+          "change_pct": 1.68
         }
       ],
       "top_losers": [
         {
-          "symbol": "601138.SS",
-          "name_cn": "工业富联",
-          "change_pct": -4.91
-        },
-        {
           "symbol": "002475.SZ",
           "name_cn": "立讯精密",
-          "change_pct": -3.27
-        },
-        {
-          "symbol": "002594.SZ",
-          "name_cn": "比亚迪",
-          "change_pct": -2.44
-        },
-        {
-          "symbol": "601899.SS",
-          "name_cn": "紫金矿业",
-          "change_pct": -1.6
+          "change_pct": -5.14
         },
         {
           "symbol": "688981.SS",
           "name_cn": "中芯国际",
-          "change_pct": -1.04
+          "change_pct": -4.17
+        },
+        {
+          "symbol": "300059.SZ",
+          "name_cn": "东方财富",
+          "change_pct": -2.0
+        },
+        {
+          "symbol": "601899.SS",
+          "name_cn": "紫金矿业",
+          "change_pct": -1.57
+        },
+        {
+          "symbol": "601012.SS",
+          "name_cn": "隆基绿能",
+          "change_pct": -1.35
         }
       ]
     }
@@ -340,23 +320,25 @@
         "tags": [
           "科技"
         ],
-        "price": 348.91,
-        "change": 5.08,
-        "change_pct": 1.48,
-        "high": 351.43,
-        "low": 347.3,
-        "open": 348.0,
-        "prev_close": 343.83,
+        "price": 344.63,
+        "change": -4.28,
+        "change_pct": -1.23,
+        "high": 349.19,
+        "low": 334.35,
+        "open": 346.72,
+        "prev_close": 348.91,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -369,23 +351,25 @@
         "tags": [
           "科技"
         ],
-        "price": 530.14,
-        "change": -0.87,
-        "change_pct": -0.16,
-        "high": 541.29,
-        "low": 519.56,
-        "open": 540.22,
-        "prev_close": 531.01,
+        "price": 521.91,
+        "change": -8.23,
+        "change_pct": -1.55,
+        "high": 526.0,
+        "low": 514.35,
+        "open": 525.27,
+        "prev_close": 530.14,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -398,23 +382,25 @@
         "tags": [
           "科技"
         ],
-        "price": 213.66,
-        "change": -1.72,
-        "change_pct": -0.8,
-        "high": 215.33,
-        "low": 212.08,
-        "open": 214.36,
-        "prev_close": 215.38,
+        "price": 204.64,
+        "change": -9.02,
+        "change_pct": -4.22,
+        "high": 209.06,
+        "low": 200.92,
+        "open": 208.94,
+        "prev_close": 213.66,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -427,23 +413,25 @@
         "tags": [
           "科技"
         ],
-        "price": 283.82,
-        "change": -41.07,
-        "change_pct": -12.64,
-        "high": 288.33,
-        "low": 280.36,
-        "open": 286.88,
-        "prev_close": 324.89,
+        "price": 279.84,
+        "change": -3.98,
+        "change_pct": -1.4,
+        "high": 283.14,
+        "low": 276.92,
+        "open": 281.12,
+        "prev_close": 283.82,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -456,24 +444,25 @@
         "tags": [
           "科技"
         ],
-        "price": 243.79,
-        "change": -10.81,
-        "change_pct": -4.25,
-        "high": 249.14,
-        "low": 241.24,
-        "open": 246.95,
-        "prev_close": 254.6,
+        "price": 240.35,
+        "change": -3.44,
+        "change_pct": -1.41,
+        "high": 241.55,
+        "low": 229.36,
+        "open": 232.54,
+        "prev_close": 243.79,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -486,24 +475,25 @@
         "tags": [
           "科技"
         ],
-        "price": 624.52,
-        "change": 12.03,
-        "change_pct": 1.96,
-        "high": 634.68,
-        "low": 616.8,
-        "open": 621.29,
-        "prev_close": 612.49,
+        "price": 614.99,
+        "change": -9.53,
+        "change_pct": -1.53,
+        "high": 626.37,
+        "low": 610.13,
+        "open": 614.51,
+        "prev_close": 624.52,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -516,23 +506,25 @@
         "tags": [
           "科技"
         ],
-        "price": 403.3,
-        "change": -0.92,
-        "change_pct": -0.23,
-        "high": 406.98,
-        "low": 400.5,
-        "open": 405.63,
-        "prev_close": 404.22,
+        "price": 399.81,
+        "change": -3.49,
+        "change_pct": -0.87,
+        "high": 404.22,
+        "low": 387.52,
+        "open": 393.22,
+        "prev_close": 403.3,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -545,24 +537,25 @@
         "tags": [
           "科技"
         ],
-        "price": 345.0,
-        "change": -6.81,
-        "change_pct": -1.94,
-        "high": 346.15,
-        "low": 338.8,
-        "open": 342.0,
-        "prev_close": 351.81,
+        "price": 326.08,
+        "change": -18.92,
+        "change_pct": -5.48,
+        "high": 331.98,
+        "low": 319.3,
+        "open": 330.72,
+        "prev_close": 345.0,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -575,23 +568,24 @@
         "tags": [
           "科技"
         ],
-        "price": 139.56,
-        "change": -4.98,
-        "change_pct": -3.45,
-        "high": 144.61,
-        "low": 136.59,
-        "open": 144.14,
-        "prev_close": 144.54,
+        "price": 130.67,
+        "change": -8.89,
+        "change_pct": -6.37,
+        "high": 135.2,
+        "low": 129.0,
+        "open": 133.62,
+        "prev_close": 139.56,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -604,24 +598,25 @@
         "tags": [
           "科技"
         ],
-        "price": 62.05,
-        "change": 0.06,
-        "change_pct": 0.1,
-        "high": 62.59,
-        "low": 61.39,
-        "open": 62.48,
-        "prev_close": 61.99,
+        "price": 62.08,
+        "change": 0.03,
+        "change_pct": 0.05,
+        "high": 63.05,
+        "low": 61.64,
+        "open": 62.66,
+        "prev_close": 62.05,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -634,13 +629,13 @@
         "tags": [
           "科技"
         ],
-        "price": 566.42,
-        "change": -12.02,
-        "change_pct": -2.08,
-        "high": 575.1,
-        "low": 560.57,
-        "open": 562.27,
-        "prev_close": 578.44,
+        "price": 504.8,
+        "change": -61.62,
+        "change_pct": -10.88,
+        "high": 520.4,
+        "low": 492.21,
+        "open": 508.53,
+        "prev_close": 566.42,
         "mkt_cap": null,
         "pe": null,
         "sources": [
@@ -664,23 +659,24 @@
         "tags": [
           "科技"
         ],
-        "price": 431.81,
-        "change": -7.7,
-        "change_pct": -1.75,
-        "high": 436.24,
-        "low": 428.43,
-        "open": 431.69,
-        "prev_close": 439.51,
+        "price": 406.13,
+        "change": -25.68,
+        "change_pct": -5.95,
+        "high": 418.09,
+        "low": 400.12,
+        "open": 414.08,
+        "prev_close": 431.81,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -693,23 +689,24 @@
         "tags": [
           "金融"
         ],
-        "price": 410.54,
-        "change": 9.94,
-        "change_pct": 2.48,
-        "high": 412.13,
-        "low": 403.72,
-        "open": 404.88,
-        "prev_close": 400.6,
+        "price": 413.59,
+        "change": 3.05,
+        "change_pct": 0.74,
+        "high": 417.0,
+        "low": 411.82,
+        "open": 415.25,
+        "prev_close": 410.54,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -722,23 +719,24 @@
         "tags": [
           "金融"
         ],
-        "price": 343.58,
-        "change": 4.28,
-        "change_pct": 1.26,
-        "high": 345.75,
-        "low": 342.35,
-        "open": 344.51,
-        "prev_close": 339.3,
+        "price": 337.04,
+        "change": -6.54,
+        "change_pct": -1.9,
+        "high": 345.29,
+        "low": 335.12,
+        "open": 345.29,
+        "prev_close": 343.58,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -751,23 +749,24 @@
         "tags": [
           "消费"
         ],
-        "price": 121.25,
-        "change": 2.48,
-        "change_pct": 2.09,
-        "high": 121.72,
-        "low": 119.66,
-        "open": 120.74,
-        "prev_close": 118.77,
+        "price": 123.51,
+        "change": 2.26,
+        "change_pct": 1.86,
+        "high": 124.51,
+        "low": 122.75,
+        "open": 123.14,
+        "prev_close": 121.25,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "eastmoney"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -780,23 +779,24 @@
         "tags": [
           "能源"
         ],
-        "price": 183.29,
-        "change": 1.27,
-        "change_pct": 0.7,
-        "high": 184.39,
-        "low": 180.94,
-        "open": 183.77,
-        "prev_close": 182.02,
+        "price": 187.25,
+        "change": 3.96,
+        "change_pct": 2.16,
+        "high": 188.5,
+        "low": 184.68,
+        "open": 185.98,
+        "prev_close": 183.29,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -809,23 +809,24 @@
         "tags": [
           "医疗"
         ],
-        "price": 275.2,
-        "change": 4.16,
-        "change_pct": 1.53,
-        "high": 278.05,
-        "low": 273.6,
-        "open": 275.31,
-        "prev_close": 271.04,
+        "price": 273.2,
+        "change": -2.0,
+        "change_pct": -0.73,
+        "high": 282.02,
+        "low": 273.13,
+        "open": 280.0,
+        "prev_close": 275.2,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -838,23 +839,24 @@
         "tags": [
           "消费"
         ],
-        "price": 160.59,
-        "change": 2.33,
-        "change_pct": 1.47,
-        "high": 160.95,
-        "low": 158.66,
-        "open": 160.09,
-        "prev_close": 158.26,
+        "price": 161.57,
+        "change": 0.98,
+        "change_pct": 0.61,
+        "high": 165.36,
+        "low": 161.03,
+        "open": 164.62,
+        "prev_close": 160.59,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -867,23 +869,24 @@
         "tags": [
           "消费"
         ],
-        "price": 92.82,
-        "change": 1.09,
-        "change_pct": 1.19,
-        "high": 93.16,
-        "low": 92.03,
-        "open": 92.8,
-        "prev_close": 91.73,
+        "price": 94.08,
+        "change": 1.26,
+        "change_pct": 1.36,
+        "high": 95.08,
+        "low": 93.95,
+        "open": 94.52,
+        "prev_close": 92.82,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -896,23 +899,24 @@
         "tags": [
           "传媒"
         ],
-        "price": 110.91,
-        "change": 1.87,
-        "change_pct": 1.71,
-        "high": 111.05,
-        "low": 109.55,
-        "open": 110.01,
-        "prev_close": 109.04,
+        "price": 110.94,
+        "change": 0.03,
+        "change_pct": 0.03,
+        "high": 112.47,
+        "low": 110.76,
+        "open": 111.82,
+        "prev_close": 110.91,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -925,23 +929,24 @@
         "tags": [
           "科技"
         ],
-        "price": 92.07,
-        "change": -3.46,
-        "change_pct": -3.62,
-        "high": 93.5,
-        "low": 90.84,
-        "open": 92.97,
-        "prev_close": 95.53,
+        "price": 65.76,
+        "change": -26.31,
+        "change_pct": -28.58,
+        "high": 68.77,
+        "low": 63.2,
+        "open": 68.36,
+        "prev_close": 92.07,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -954,73 +959,13 @@
         "tags": [
           "科技"
         ],
-        "price": 185.41,
-        "change": 2.44,
-        "change_pct": 1.33,
-        "high": 185.59,
-        "low": 179.47,
-        "open": 180.49,
-        "prev_close": 182.97,
-        "mkt_cap": null,
-        "pe": null,
-        "sources": [
-          "tencent",
-          "sina",
-          "eastmoney"
-        ],
-        "verified": true,
-        "cross_checked": true,
-        "verification_notes": [
-          "多源一致(3个源)"
-        ]
-      },
-      {
-        "symbol": "MU",
-        "secid": "105.MU",
-        "name_cn": "美光",
-        "name_en": "Micron",
-        "market": "us",
-        "currency": "USD",
-        "tags": [
-          "科技"
-        ],
-        "price": 934.27,
-        "change": -48.96,
-        "change_pct": -4.98,
-        "high": 971.01,
-        "low": 927.24,
-        "open": 967.94,
-        "prev_close": 983.23,
-        "mkt_cap": null,
-        "pe": null,
-        "sources": [
-          "tencent",
-          "sina",
-          "eastmoney"
-        ],
-        "verified": true,
-        "cross_checked": true,
-        "verification_notes": [
-          "多源一致(3个源)"
-        ]
-      },
-      {
-        "symbol": "CRCL",
-        "secid": "106.CRCL",
-        "name_cn": "Circle",
-        "name_en": "Circle Internet Group (CRCL)",
-        "market": "us",
-        "currency": "USD",
-        "tags": [
-          "金融科技"
-        ],
-        "price": 79.99,
-        "change": -1.72,
-        "change_pct": -2.11,
-        "high": 81.2,
-        "low": 78.58,
-        "open": 79.74,
-        "prev_close": 81.71,
+        "price": 164.79,
+        "change": -20.62,
+        "change_pct": -11.12,
+        "high": 176.17,
+        "low": 161.72,
+        "open": 174.82,
+        "prev_close": 185.41,
         "mkt_cap": null,
         "pe": null,
         "sources": [
@@ -1034,6 +979,65 @@
         ]
       },
       {
+        "symbol": "MU",
+        "secid": "105.MU",
+        "name_cn": "美光",
+        "name_en": "Micron",
+        "market": "us",
+        "currency": "USD",
+        "tags": [
+          "科技"
+        ],
+        "price": 884.74,
+        "change": -49.53,
+        "change_pct": -5.3,
+        "high": 906.54,
+        "low": 861.59,
+        "open": 884.0,
+        "prev_close": 934.27,
+        "mkt_cap": null,
+        "pe": null,
+        "sources": [
+          "tencent",
+          "sina"
+        ],
+        "verified": true,
+        "cross_checked": true,
+        "verification_notes": [
+          "多源一致(2个源)"
+        ]
+      },
+      {
+        "symbol": "CRCL",
+        "secid": "106.CRCL",
+        "name_cn": "Circle",
+        "name_en": "Circle Internet Group (CRCL)",
+        "market": "us",
+        "currency": "USD",
+        "tags": [
+          "金融科技"
+        ],
+        "price": 72.54,
+        "change": -7.45,
+        "change_pct": -9.31,
+        "high": 74.8,
+        "low": 71.0,
+        "open": 74.66,
+        "prev_close": 79.99,
+        "mkt_cap": null,
+        "pe": null,
+        "sources": [
+          "tencent",
+          "sina",
+          "tradingview"
+        ],
+        "verified": true,
+        "cross_checked": true,
+        "verification_notes": [
+          "多源一致(3个源)"
+        ]
+      },
+      {
         "symbol": "SNDK",
         "secid": "105.SNDK",
         "name_cn": "闪迪",
@@ -1043,24 +1047,23 @@
         "tags": [
           "科技"
         ],
-        "price": 1330.05,
-        "change": -74.72,
-        "change_pct": -5.32,
-        "high": 1385.8,
-        "low": 1321.99,
-        "open": 1381.5,
-        "prev_close": 1404.77,
+        "price": 1150.89,
+        "change": -179.16,
+        "change_pct": -13.47,
+        "high": 1239.0,
+        "low": 1115.16,
+        "open": 1215.1,
+        "prev_close": 1330.05,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1073,24 +1076,23 @@
         "tags": [
           "指数"
         ],
-        "price": 29402.51,
-        "change": -410.65,
-        "change_pct": -1.38,
-        "high": 29517.8,
-        "low": 29257.05,
-        "open": 29421.18,
-        "prev_close": 29813.16,
+        "price": 28384.85,
+        "change": -1017.66,
+        "change_pct": -3.46,
+        "high": 28713.45,
+        "low": 28093.25,
+        "open": 28604.92,
+        "prev_close": 29402.51,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差12.29%超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1103,13 +1105,13 @@
         "tags": [
           "指数"
         ],
-        "price": 7720.39,
-        "change": -23.59,
-        "change_pct": -0.3,
-        "high": 7732.21,
-        "low": 7690.94,
-        "open": 7699.61,
-        "prev_close": 7743.98,
+        "price": 7580.07,
+        "change": -140.32,
+        "change_pct": -1.82,
+        "high": 7637.48,
+        "low": 7527.56,
+        "open": 7631.07,
+        "prev_close": 7720.39,
         "mkt_cap": null,
         "pe": null,
         "sources": [
@@ -1132,13 +1134,13 @@
         "tags": [
           "指数"
         ],
-        "price": 52342.56,
-        "change": -132.54,
-        "change_pct": -0.25,
-        "high": 52405.88,
-        "low": 52086.13,
-        "open": 52086.13,
-        "prev_close": 52475.1,
+        "price": 51770.31,
+        "change": -572.25,
+        "change_pct": -1.09,
+        "high": 52383.9,
+        "low": 51563.76,
+        "open": 52383.9,
+        "prev_close": 52342.56,
         "mkt_cap": null,
         "pe": null,
         "sources": [
@@ -1163,12 +1165,12 @@
         "tags": [
           "科技"
         ],
-        "price": 374.8,
-        "change": -2.8,
-        "change_pct": -0.74,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 383.6,
+        "change": 6.0,
+        "change_pct": 1.59,
+        "high": 387.6,
+        "low": 375.2,
+        "open": 376.4,
         "prev_close": 377.6,
         "mkt_cap": null,
         "pe": null,
@@ -1192,24 +1194,23 @@
         "tags": [
           "科技"
         ],
-        "price": 95.3,
-        "change": -0.8,
-        "change_pct": -0.83,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 97.05,
+        "change": 0.95,
+        "change_pct": 0.99,
+        "high": 98.5,
+        "low": 95.1,
+        "open": 95.45,
         "prev_close": 96.1,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1222,12 +1223,12 @@
         "tags": [
           "科技"
         ],
-        "price": 69.05,
-        "change": -0.15,
-        "change_pct": -0.22,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 71.6,
+        "change": 2.4,
+        "change_pct": 3.47,
+        "high": 73.3,
+        "low": 68.85,
+        "open": 69.0,
         "prev_close": 69.2,
         "mkt_cap": null,
         "pe": null,
@@ -1251,25 +1252,23 @@
         "tags": [
           "科技"
         ],
-        "price": 25.68,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 26.48,
+        "change": 0.8,
+        "change_pct": 3.12,
+        "high": 27.28,
+        "low": 26.02,
+        "open": 26.08,
         "prev_close": 25.68,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差2.96%超过容忍",
-          "多源涨跌幅偏差2.96pp超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1282,12 +1281,12 @@
         "tags": [
           "通信"
         ],
-        "price": 78.3,
-        "change": -0.2,
-        "change_pct": -0.25,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 80.0,
+        "change": 1.5,
+        "change_pct": 1.91,
+        "high": 80.25,
+        "low": 78.5,
+        "open": 78.55,
         "prev_close": 78.5,
         "mkt_cap": null,
         "pe": null,
@@ -1311,24 +1310,23 @@
         "tags": [
           "金融"
         ],
-        "price": 73.0,
-        "change": 1.35,
-        "change_pct": 1.88,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 75.4,
+        "change": 3.75,
+        "change_pct": 5.23,
+        "high": 75.45,
+        "low": 72.2,
+        "open": 72.55,
         "prev_close": 71.65,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差2.72%超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1341,24 +1339,23 @@
         "tags": [
           "金融"
         ],
-        "price": 49.26,
-        "change": -0.36,
-        "change_pct": -0.73,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 49.74,
+        "change": 0.12,
+        "change_pct": 0.24,
+        "high": 50.15,
+        "low": 49.06,
+        "open": 49.62,
         "prev_close": 49.62,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1371,25 +1368,23 @@
         "tags": [
           "科技"
         ],
-        "price": 163.8,
-        "change": -8.6,
-        "change_pct": -4.99,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 176.7,
+        "change": 4.3,
+        "change_pct": 2.49,
+        "high": 178.6,
+        "low": 172.5,
+        "open": 174.3,
         "prev_close": 172.4,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差5.68%超过容忍",
-          "多源涨跌幅偏差5.40pp超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1402,12 +1397,12 @@
         "tags": [
           "科技"
         ],
-        "price": 96.8,
-        "change": -1.75,
-        "change_pct": -1.78,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 100.4,
+        "change": 1.85,
+        "change_pct": 1.88,
+        "high": 101.6,
+        "low": 98.85,
+        "open": 99.55,
         "prev_close": 98.55,
         "mkt_cap": null,
         "pe": null,
@@ -1415,10 +1410,10 @@
           "tencent",
           "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.81%超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1431,24 +1426,23 @@
         "tags": [
           "科技"
         ],
-        "price": 26.02,
-        "change": -0.2,
-        "change_pct": -0.76,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 26.52,
+        "change": 0.3,
+        "change_pct": 1.14,
+        "high": 27.02,
+        "low": 25.88,
+        "open": 25.94,
         "prev_close": 26.22,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1461,24 +1455,23 @@
         "tags": [
           "金融"
         ],
-        "price": 363.8,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 367.4,
+        "change": 3.6,
+        "change_pct": 0.99,
+        "high": 368.4,
+        "low": 363.6,
+        "open": 364.2,
         "prev_close": 363.8,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1491,12 +1484,12 @@
         "tags": [
           "消费"
         ],
-        "price": 70.6,
-        "change": -0.85,
-        "change_pct": -1.19,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 74.35,
+        "change": 2.9,
+        "change_pct": 4.06,
+        "high": 75.25,
+        "low": 71.8,
+        "open": 72.0,
         "prev_close": 71.45,
         "mkt_cap": null,
         "pe": null,
@@ -1504,10 +1497,10 @@
           "tencent",
           "sina"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.20%超过容忍"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1520,24 +1513,23 @@
         "tags": [
           "指数"
         ],
-        "price": 22958.65,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 23294.42,
+        "change": 335.77,
+        "change_pct": 1.46,
+        "high": 23400.02,
+        "low": 22947.96,
+        "open": 23011.29,
         "prev_close": 22958.65,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -1550,24 +1542,23 @@
         "tags": [
           "指数"
         ],
-        "price": 7755.66,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "high": 0.0,
-        "low": 0.0,
-        "open": 0.0,
+        "price": 7862.22,
+        "change": 106.56,
+        "change_pct": 1.37,
+        "high": 7905.1,
+        "low": 7743.82,
+        "open": 7779.51,
         "prev_close": 7755.66,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       }
     ],
@@ -1582,11 +1573,11 @@
         "tags": [
           "消费"
         ],
-        "price": 1363.0,
-        "change": 9.0,
-        "change_pct": 0.66,
-        "high": 1363.0,
-        "low": 1363.0,
+        "price": 1392.05,
+        "change": 38.05,
+        "change_pct": 2.81,
+        "high": 1393.37,
+        "low": 1352.98,
         "open": 1363.0,
         "prev_close": 1354.0,
         "mkt_cap": null,
@@ -1594,7 +1585,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1612,11 +1603,11 @@
         "tags": [
           "金融"
         ],
-        "price": 53.2,
-        "change": 0.0,
-        "change_pct": 0.0,
+        "price": 52.8,
+        "change": -0.4,
+        "change_pct": -0.75,
         "high": 53.2,
-        "low": 53.2,
+        "low": 52.32,
         "open": 53.2,
         "prev_close": 53.2,
         "mkt_cap": null,
@@ -1624,7 +1615,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1642,11 +1633,11 @@
         "tags": [
           "金融"
         ],
-        "price": 43.29,
-        "change": 0.35,
-        "change_pct": 0.82,
-        "high": 43.29,
-        "low": 43.29,
+        "price": 43.55,
+        "change": 0.61,
+        "change_pct": 1.42,
+        "high": 43.55,
+        "low": 42.8,
         "open": 43.29,
         "prev_close": 42.94,
         "mkt_cap": null,
@@ -1654,7 +1645,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1672,11 +1663,11 @@
         "tags": [
           "新能源"
         ],
-        "price": 230.85,
-        "change": 1.78,
-        "change_pct": 0.78,
-        "high": 230.85,
-        "low": 230.85,
+        "price": 232.92,
+        "change": 3.85,
+        "change_pct": 1.68,
+        "high": 237.57,
+        "low": 228.02,
         "open": 230.85,
         "prev_close": 229.07,
         "mkt_cap": null,
@@ -1684,7 +1675,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1702,11 +1693,11 @@
         "tags": [
           "新能源"
         ],
-        "price": 80.49,
-        "change": -2.01,
-        "change_pct": -2.44,
-        "high": 80.49,
-        "low": 80.49,
+        "price": 81.65,
+        "change": -0.85,
+        "change_pct": -1.03,
+        "high": 82.7,
+        "low": 80.22,
         "open": 80.49,
         "prev_close": 82.5,
         "mkt_cap": null,
@@ -1714,7 +1705,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1732,11 +1723,11 @@
         "tags": [
           "消费"
         ],
-        "price": 71.7,
-        "change": -0.58,
-        "change_pct": -0.8,
-        "high": 71.7,
-        "low": 71.7,
+        "price": 74.7,
+        "change": 2.42,
+        "change_pct": 3.35,
+        "high": 75.15,
+        "low": 71.53,
         "open": 71.7,
         "prev_close": 72.28,
         "mkt_cap": null,
@@ -1744,7 +1735,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1762,11 +1753,11 @@
         "tags": [
           "资源"
         ],
-        "price": 27.59,
-        "change": -0.45,
-        "change_pct": -1.6,
-        "high": 27.59,
-        "low": 27.59,
+        "price": 27.6,
+        "change": -0.44,
+        "change_pct": -1.57,
+        "high": 28.0,
+        "low": 27.22,
         "open": 27.59,
         "prev_close": 28.04,
         "mkt_cap": null,
@@ -1774,7 +1765,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1792,11 +1783,11 @@
         "tags": [
           "新能源"
         ],
-        "price": 11.15,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "high": 11.15,
-        "low": 11.15,
+        "price": 11.0,
+        "change": -0.15,
+        "change_pct": -1.35,
+        "high": 11.23,
+        "low": 10.96,
         "open": 11.15,
         "prev_close": 11.15,
         "mkt_cap": null,
@@ -1804,13 +1795,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.27%超过容忍",
-          "多源涨跌幅偏差1.26pp超过容忍"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1823,11 +1813,11 @@
         "tags": [
           "金融"
         ],
-        "price": 24.36,
-        "change": -0.14,
-        "change_pct": -0.57,
-        "high": 24.36,
-        "low": 24.36,
+        "price": 24.3,
+        "change": -0.2,
+        "change_pct": -0.82,
+        "high": 24.49,
+        "low": 24.01,
         "open": 24.36,
         "prev_close": 24.5,
         "mkt_cap": null,
@@ -1835,13 +1825,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.08%超过容忍",
-          "多源涨跌幅偏差1.06pp超过容忍"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1854,11 +1843,11 @@
         "tags": [
           "消费"
         ],
-        "price": 87.5,
-        "change": 0.02,
-        "change_pct": 0.02,
-        "high": 87.5,
-        "low": 87.5,
+        "price": 89.18,
+        "change": 1.7,
+        "change_pct": 1.94,
+        "high": 89.49,
+        "low": 87.03,
         "open": 87.5,
         "prev_close": 87.48,
         "mkt_cap": null,
@@ -1866,7 +1855,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1884,11 +1873,11 @@
         "tags": [
           "科技"
         ],
-        "price": 34.45,
-        "change": -0.34,
-        "change_pct": -0.98,
-        "high": 34.45,
-        "low": 34.45,
+        "price": 34.55,
+        "change": -0.24,
+        "change_pct": -0.69,
+        "high": 35.1,
+        "low": 34.32,
         "open": 34.45,
         "prev_close": 34.79,
         "mkt_cap": null,
@@ -1896,7 +1885,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -1914,11 +1903,11 @@
         "tags": [
           "科技"
         ],
-        "price": 99.95,
-        "change": -1.05,
-        "change_pct": -1.04,
-        "high": 99.95,
-        "low": 99.95,
+        "price": 96.79,
+        "change": -4.21,
+        "change_pct": -4.17,
+        "high": 100.76,
+        "low": 96.36,
         "open": 99.95,
         "prev_close": 101.0,
         "mkt_cap": null,
@@ -1926,13 +1915,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.79%超过容忍",
-          "多源涨跌幅偏差1.74pp超过容忍"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1945,11 +1933,11 @@
         "tags": [
           "科技"
         ],
-        "price": 43.0,
-        "change": -2.22,
-        "change_pct": -4.91,
-        "high": 43.0,
-        "low": 43.0,
+        "price": 45.0,
+        "change": -0.22,
+        "change_pct": -0.49,
+        "high": 46.5,
+        "low": 42.99,
         "open": 43.0,
         "prev_close": 45.22,
         "mkt_cap": null,
@@ -1957,13 +1945,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差2.12%超过容忍",
-          "多源涨跌幅偏差2.01pp超过容忍"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -1976,11 +1963,11 @@
         "tags": [
           "金融"
         ],
-        "price": 18.18,
-        "change": 0.22,
-        "change_pct": 1.22,
+        "price": 17.6,
+        "change": -0.36,
+        "change_pct": -2.0,
         "high": 18.18,
-        "low": 18.18,
+        "low": 17.3,
         "open": 18.18,
         "prev_close": 17.96,
         "mkt_cap": null,
@@ -1988,13 +1975,12 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
-        "verified": false,
+        "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源价格偏差1.51%超过容忍",
-          "多源涨跌幅偏差1.50pp超过容忍"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -2007,11 +1993,11 @@
         "tags": [
           "公用"
         ],
-        "price": 29.76,
-        "change": -0.23,
-        "change_pct": -0.77,
-        "high": 29.76,
-        "low": 29.76,
+        "price": 29.74,
+        "change": -0.25,
+        "change_pct": -0.83,
+        "high": 30.0,
+        "low": 29.68,
         "open": 29.76,
         "prev_close": 29.99,
         "mkt_cap": null,
@@ -2019,7 +2005,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2037,11 +2023,11 @@
         "tags": [
           "能源"
         ],
-        "price": 51.41,
-        "change": -0.21,
-        "change_pct": -0.41,
-        "high": 51.41,
-        "low": 51.41,
+        "price": 51.99,
+        "change": 0.37,
+        "change_pct": 0.72,
+        "high": 51.99,
+        "low": 51.1,
         "open": 51.41,
         "prev_close": 51.62,
         "mkt_cap": null,
@@ -2049,7 +2035,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2067,11 +2053,11 @@
         "tags": [
           "能源"
         ],
-        "price": 13.6,
-        "change": -0.09,
-        "change_pct": -0.66,
-        "high": 13.6,
-        "low": 13.6,
+        "price": 13.84,
+        "change": 0.15,
+        "change_pct": 1.1,
+        "high": 13.88,
+        "low": 13.51,
         "open": 13.6,
         "prev_close": 13.69,
         "mkt_cap": null,
@@ -2079,7 +2065,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2097,11 +2083,11 @@
         "tags": [
           "医疗"
         ],
-        "price": 48.8,
-        "change": 0.18,
-        "change_pct": 0.37,
-        "high": 48.8,
-        "low": 48.8,
+        "price": 48.46,
+        "change": -0.16,
+        "change_pct": -0.33,
+        "high": 49.39,
+        "low": 48.35,
         "open": 48.8,
         "prev_close": 48.62,
         "mkt_cap": null,
@@ -2109,7 +2095,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2127,11 +2113,11 @@
         "tags": [
           "消费"
         ],
-        "price": 37.52,
-        "change": -0.06,
-        "change_pct": -0.16,
-        "high": 37.52,
-        "low": 37.52,
+        "price": 38.49,
+        "change": 0.91,
+        "change_pct": 2.42,
+        "high": 38.55,
+        "low": 37.47,
         "open": 37.52,
         "prev_close": 37.58,
         "mkt_cap": null,
@@ -2139,7 +2125,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2157,11 +2143,11 @@
         "tags": [
           "科技"
         ],
-        "price": 46.5,
-        "change": -1.57,
-        "change_pct": -3.27,
-        "high": 46.5,
-        "low": 46.5,
+        "price": 45.6,
+        "change": -2.47,
+        "change_pct": -5.14,
+        "high": 47.95,
+        "low": 45.6,
         "open": 46.5,
         "prev_close": 48.07,
         "mkt_cap": null,
@@ -2169,7 +2155,7 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
@@ -2187,24 +2173,23 @@
         "tags": [
           "指数"
         ],
-        "price": 3605.65,
-        "change": -45.78,
-        "change_pct": -1.25,
-        "high": 3605.65,
-        "low": 3605.65,
+        "price": 3599.02,
+        "change": -52.41,
+        "change_pct": -1.44,
+        "high": 3660.21,
+        "low": 3595.26,
         "open": 3605.65,
         "prev_close": 3651.43,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -2217,24 +2202,23 @@
         "tags": [
           "指数"
         ],
-        "price": 10871.13,
-        "change": -267.07,
-        "change_pct": -2.4,
-        "high": 10871.13,
-        "low": 10871.13,
+        "price": 10833.78,
+        "change": -304.42,
+        "change_pct": -2.73,
+        "high": 11171.58,
+        "low": 10833.78,
         "open": 10871.13,
         "prev_close": 11138.2,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       },
       {
@@ -2247,24 +2231,23 @@
         "tags": [
           "指数"
         ],
-        "price": 2434.8,
-        "change": -82.79,
-        "change_pct": -3.29,
-        "high": 2434.8,
-        "low": 2434.8,
+        "price": 2413.63,
+        "change": -103.96,
+        "change_pct": -4.13,
+        "high": 2518.24,
+        "low": 2413.63,
         "open": 2434.8,
         "prev_close": 2517.59,
         "mkt_cap": null,
         "pe": null,
         "sources": [
           "tencent",
-          "sina",
-          "eastmoney"
+          "sina"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(2个源)"
         ]
       }
     ]
@@ -2287,7 +2270,7 @@
       "error": null
     },
     "tradingview": {
-      "ok": false,
+      "ok": true,
       "error": null
     },
     "investing": {
@@ -2304,18 +2287,18 @@
     }
   },
   "signals": {
-    "generated_at": "2026-10-30 01:33:13",
-    "date": "2026-10-29",
+    "generated_at": "2026-10-31 01:16:37",
+    "date": "2026-10-30",
     "macro_overlay": {
       "risk": 0.483,
       "risk_level": "中高",
       "components": {
         "treasury_10y": {
-          "value": 4.98,
+          "value": 4.94,
           "risk": 0.75
         },
         "curve_spread": {
-          "value": 0.37,
+          "value": 0.38,
           "risk": 0.0
         },
         "vix": {
@@ -2329,273 +2312,273 @@
       {
         "symbol": "NVDA",
         "name_cn": "英伟达",
-        "bars": 2219,
+        "bars": 2220,
         "history_note": null,
         "valid": true,
-        "date": "2026-10-29",
-        "price": 213.66,
-        "change_pct": -0.8,
+        "date": "2026-10-30",
+        "price": 204.64,
+        "change_pct": -4.22,
         "sub_scores": {
           "trend_ma": {
-            "score": -0.208,
-            "d20": -4.16,
-            "d50": -3.72,
-            "d200": 4.76
+            "score": -0.513,
+            "d20": -7.59,
+            "d50": -7.69,
+            "d200": 0.28
           },
           "ma_alignment": {
             "score": 0.5,
-            "sma50": 221.92,
-            "sma200": 203.95,
+            "sma50": 221.68,
+            "sma200": 204.06,
             "cross": null,
             "cross_days": null
           },
           "macd": {
-            "score": -0.11,
-            "macd_line": -2.825,
-            "signal": -1.79,
-            "hist": -1.035,
-            "hist_change": 0.092
+            "score": -0.236,
+            "macd_line": -3.644,
+            "signal": -2.161,
+            "hist": -1.483,
+            "hist_change": -0.448
           },
           "rsi": {
-            "score": 0.309,
-            "rsi": 42.3
+            "score": 0.597,
+            "rsi": 35.1
           },
           "position": {
-            "score": -0.097,
-            "pos52": 0.657,
-            "pct_b": 0.246,
+            "score": -0.404,
+            "pos52": 0.536,
+            "pct_b": 0.06,
             "high52": 239.24,
             "low52": 164.67
           },
           "volume": {
-            "score": -0.371,
-            "vol_ratio": 0.86,
-            "obv_trend": -0.743
+            "score": -0.5,
+            "vol_ratio": 1.02,
+            "obv_trend": -1.0
           },
           "relative_strength": {
-            "score": -0.619,
-            "rs20": -8.15,
-            "rs60": -2.38
+            "score": -0.738,
+            "rs20": -10.68,
+            "rs60": -4.76
           },
           "atr": {
-            "score": -0.113,
-            "atr_pct": 2.78
+            "score": -0.278,
+            "atr_pct": 3.2
           }
         },
         "composite": {
-          "raw": -0.128,
-          "adjusted": -0.097,
-          "signal": "观望",
-          "confidence": 0.097,
-          "action_tip": "信号中性：多空不明显，等待方向明朗"
+          "raw": -0.257,
+          "adjusted": -0.195,
+          "signal": "持有偏空",
+          "confidence": 0.195,
+          "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
         },
-        "signal": "观望",
-        "score": -0.097,
-        "confidence": 0.097,
-        "action_tip": "信号中性：多空不明显，等待方向明朗"
+        "signal": "持有偏空",
+        "score": -0.195,
+        "confidence": 0.195,
+        "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
       },
       {
         "symbol": "GOOGL",
         "name_cn": "谷歌",
-        "bars": 2219,
+        "bars": 2220,
         "history_note": null,
         "valid": true,
-        "date": "2026-10-29",
-        "price": 283.82,
-        "change_pct": -12.64,
+        "date": "2026-10-30",
+        "price": 279.84,
+        "change_pct": -1.4,
         "sub_scores": {
           "trend_ma": {
-            "score": -0.933,
-            "d20": -15.8,
-            "d50": -16.58,
-            "d200": -16.67
+            "score": -0.956,
+            "d20": -16.19,
+            "d50": -17.46,
+            "d200": -17.78
           },
           "ma_alignment": {
-            "score": -0.5,
-            "sma50": 340.24,
-            "sma200": 340.61,
-            "cross": null,
-            "cross_days": null
+            "score": -1.0,
+            "sma50": 339.03,
+            "sma200": 340.33,
+            "cross": "death",
+            "cross_days": 0
           },
           "macd": {
-            "score": -0.621,
-            "macd_line": -9.409,
-            "signal": -4.449,
-            "hist": -4.959,
-            "hist_change": -2.096
+            "score": -0.613,
+            "macd_line": -12.232,
+            "signal": -6.006,
+            "hist": -6.226,
+            "hist_change": -1.267
           },
           "rsi": {
             "score": 1.0,
-            "rsi": 22.3
+            "rsi": 21.4
           },
           "position": {
-            "score": -0.917,
-            "pos52": 0.083,
-            "pct_b": -0.286,
+            "score": -0.947,
+            "pos52": 0.053,
+            "pct_b": -0.145,
             "high52": 402.18,
             "low52": 273.06
           },
           "volume": {
-            "score": -0.429,
-            "vol_ratio": 1.77,
-            "obv_trend": -0.357
+            "score": -0.688,
+            "vol_ratio": 1.95,
+            "obv_trend": -0.877
           },
           "relative_strength": {
             "score": -1.0,
-            "rs20": -16.79,
-            "rs60": -21.6
+            "rs20": -16.69,
+            "rs60": -20.04
           },
           "atr": {
-            "score": -0.519,
-            "atr_pct": 3.8
+            "score": -0.55,
+            "atr_pct": 3.87
           }
         },
         "composite": {
-          "raw": -0.566,
-          "adjusted": -0.43,
-          "signal": "持有偏空",
-          "confidence": 0.43,
-          "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
+          "raw": -0.652,
+          "adjusted": -0.494,
+          "signal": "卖出",
+          "confidence": 0.494,
+          "action_tip": "信号偏空：趋势/动量走弱，注意控制回撤风险"
         },
-        "signal": "持有偏空",
-        "score": -0.43,
-        "confidence": 0.43,
-        "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
+        "signal": "卖出",
+        "score": -0.494,
+        "confidence": 0.494,
+        "action_tip": "信号偏空：趋势/动量走弱，注意控制回撤风险"
       },
       {
         "symbol": "CRCL",
         "name_cn": "Circle",
-        "bars": 353,
+        "bars": 354,
         "history_note": "东财 K 线自 2025-06-05 起（约 14 个月），样本偏短",
         "valid": true,
-        "date": "2026-10-29",
-        "price": 79.99,
-        "change_pct": -2.11,
+        "date": "2026-10-30",
+        "price": 72.54,
+        "change_pct": -9.31,
         "sub_scores": {
           "trend_ma": {
-            "score": -0.604,
-            "d20": -3.88,
-            "d50": -8.57,
-            "d200": -7.12
+            "score": -0.914,
+            "d20": -12.37,
+            "d50": -16.88,
+            "d200": -15.71
           },
           "ma_alignment": {
             "score": 0.5,
-            "sma50": 87.49,
-            "sma200": 86.12,
+            "sma50": 87.27,
+            "sma200": 86.06,
             "cross": null,
             "cross_days": null
           },
           "macd": {
-            "score": -0.152,
-            "macd_line": -1.002,
-            "signal": -0.657,
-            "hist": -0.344,
-            "hist_change": -0.141
+            "score": -0.491,
+            "macd_line": -1.763,
+            "signal": -0.879,
+            "hist": -0.884,
+            "hist_change": -0.54
           },
           "rsi": {
-            "score": 0.221,
-            "rsi": 44.5
+            "score": 0.522,
+            "rsi": 37.0
           },
           "position": {
-            "score": -0.438,
-            "pos52": 0.36,
-            "pct_b": 0.201,
+            "score": -0.73,
+            "pos52": 0.27,
+            "pct_b": -0.221,
             "high52": 132.84,
             "low52": 50.23
           },
           "volume": {
-            "score": -0.111,
-            "vol_ratio": 0.83,
-            "obv_trend": -0.221
+            "score": -0.128,
+            "vol_ratio": 0.98,
+            "obv_trend": -0.256
           },
           "relative_strength": {
-            "score": 0.077,
-            "rs20": -4.23,
-            "rs60": 26.45
+            "score": 0.0,
+            "rs20": -8.87,
+            "rs60": 16.32
           },
           "atr": {
             "score": -1.0,
-            "atr_pct": 6.6
+            "atr_pct": 7.82
           }
         },
         "composite": {
-          "raw": -0.215,
-          "adjusted": -0.163,
+          "raw": -0.34,
+          "adjusted": -0.258,
           "signal": "持有偏空",
-          "confidence": 0.163,
+          "confidence": 0.258,
           "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
         },
         "signal": "持有偏空",
-        "score": -0.163,
-        "confidence": 0.163,
+        "score": -0.258,
+        "confidence": 0.258,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
       },
       {
         "symbol": "SNDK",
         "name_cn": "闪迪",
-        "bars": 424,
+        "bars": 425,
         "history_note": "2025-02-24 自西部数据分拆上市，样本偏短",
         "valid": true,
-        "date": "2026-10-29",
-        "price": 1330.05,
-        "change_pct": -5.32,
+        "date": "2026-10-30",
+        "price": 1150.89,
+        "change_pct": -13.47,
         "sub_scores": {
           "trend_ma": {
-            "score": -0.481,
-            "d20": -8.1,
-            "d50": -15.12,
-            "d200": 5.95
+            "score": -0.772,
+            "d20": -18.88,
+            "d50": -26.13,
+            "d200": -8.6
           },
           "ma_alignment": {
             "score": 0.5,
-            "sma50": 1566.91,
-            "sma200": 1255.35,
+            "sma50": 1557.91,
+            "sma200": 1259.17,
             "cross": null,
             "cross_days": null
           },
           "macd": {
-            "score": -0.021,
-            "macd_line": -87.427,
-            "signal": -81.528,
-            "hist": -5.898,
-            "hist_change": 4.756
+            "score": -0.45,
+            "macd_line": -98.152,
+            "signal": -84.853,
+            "hist": -13.299,
+            "hist_change": -7.4
           },
           "rsi": {
-            "score": 0.361,
-            "rsi": 41.0
+            "score": 0.691,
+            "rsi": 32.7
           },
           "position": {
-            "score": -0.157,
-            "pos52": 0.531,
-            "pct_b": 0.312,
+            "score": -0.483,
+            "pos52": 0.447,
+            "pct_b": 0.07,
             "high52": 2335.0,
             "low52": 194.38
           },
           "volume": {
             "score": -0.5,
-            "vol_ratio": 0.96,
+            "vol_ratio": 1.13,
             "obv_trend": -1.0
           },
           "relative_strength": {
-            "score": -0.574,
-            "rs20": -26.3,
-            "rs60": -1.47
+            "score": -0.844,
+            "rs20": -31.24,
+            "rs60": -6.87
           },
           "atr": {
             "score": -1.0,
-            "atr_pct": 6.89
+            "atr_pct": 8.57
           }
         },
         "composite": {
-          "raw": -0.265,
-          "adjusted": -0.201,
+          "raw": -0.428,
+          "adjusted": -0.324,
           "signal": "持有偏空",
-          "confidence": 0.201,
+          "confidence": 0.324,
           "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
         },
         "signal": "持有偏空",
-        "score": -0.201,
-        "confidence": 0.201,
+        "score": -0.324,
+        "confidence": 0.324,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓"
       }
     ]
@@ -2603,40 +2586,40 @@
   "history_status": {
     "NVDA": {
       "ok": true,
-      "bars": 2219,
-      "latest": "2026-10-29"
+      "bars": 2220,
+      "latest": "2026-10-30"
     },
     "GOOGL": {
       "ok": true,
-      "bars": 2219,
-      "latest": "2026-10-29"
+      "bars": 2220,
+      "latest": "2026-10-30"
     },
     "CRCL": {
       "ok": true,
-      "bars": 353,
-      "latest": "2026-10-29"
+      "bars": 354,
+      "latest": "2026-10-30"
     },
     "SNDK": {
       "ok": true,
-      "bars": 424,
-      "latest": "2026-10-29"
+      "bars": 425,
+      "latest": "2026-10-30"
     },
     "SPX": {
       "ok": true,
-      "bars": 2219,
-      "latest": "2026-10-29"
+      "bars": 2220,
+      "latest": "2026-10-30"
     },
     "NDX": {
       "ok": true,
-      "bars": 2219,
-      "latest": "2026-10-29"
+      "bars": 2220,
+      "latest": "2026-10-30"
     }
   },
   "verification_stats": {
     "quotes_total": 65,
-    "quotes_verified": 54,
-    "news_total": 78,
-    "news_verified": 1
+    "quotes_verified": 65,
+    "news_total": 77,
+    "news_verified": 0
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
