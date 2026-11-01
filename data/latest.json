@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31 01:15:20",
-  "title": "2026-10-31 全球市场金融资讯日报",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01 00:34:06",
+  "title": "2026-11-01 全球市场金融资讯日报",
   "market_overview": [
     {
       "symbol": "000001.SS",
@@ -132,12 +132,90 @@
       "spread_10y_2y": 0.38
     },
     "vix": {
-      "date": "2026-10-29",
-      "close": 17.2,
-      "change_1d": 0.29
+      "date": "2026-10-30",
+      "close": 19.42,
+      "change_1d": 2.22
     }
   },
-  "top5": [],
+  "top5": [
+    {
+      "rank": 1,
+      "title": "AI巨头融资压力显现！万亿AI巨头砍融资、砍估值",
+      "summary": "周末的AI圈，感觉全是坏消息，科技股一夜暴跌之后，风向全变了，一起关注一下OpenAI被砍估值、砍融资的消息。10月31日，据悉OpenAI的目标估值下调了1500亿美元，降幅约10.7%。原目标估值：1.4万亿美元最新目标估值：1.25万亿美元估值缩水：1500亿美元（约合人民币1.06万亿元）下调幅度：10.7%更值得关注的是，OpenAI连融资目标也大幅缩水了。",
+      "time": "2026-11-01 00:06:50",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611013917657943.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 5.48,
+      "verified": true
+    },
+    {
+      "rank": 2,
+      "title": "英伟达展示下一代CPO方案！取消光引擎独立的有机基板",
+      "summary": "在近期于美国旧金山举行的SEMICONWest2026（2026年旧金山半导体行业展览会）上，英伟达展示了下一代共封装光学（CPO）方案原型，并命名为OOI（Optics-on-Interposer，中介层上集成光学）。英伟达未公布任何OOI的商业化时间表，仅表示已经拿到原型样品。需要强调的是，中短期看，OOI不会对国内光通信产业产生影响。",
+      "time": "2026-11-01 00:07:45",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610313917651978.html",
+      "related_symbols": [
+        "NVDA"
+      ],
+      "related_names": [
+        "英伟达"
+      ],
+      "score": 6.48,
+      "verified": true
+    },
+    {
+      "rank": 3,
+      "title": "社保基金重仓股曝光！八大机构调仓一览",
+      "summary": "【社保基金重仓股曝光！八大机构调仓一览】重仓股方面，紫金矿业获公募、北向、QFII、社保四家机构一致增持；光模块龙头分歧明显，中际旭创、新易盛获公募加仓，北向资金与券商却同步减持，券商几乎清仓中际旭创。",
+      "time": "2026-11-01 00:16:01",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610313917618618.html",
+      "related_symbols": [
+        "601899.SS"
+      ],
+      "related_names": [
+        "紫金矿业"
+      ],
+      "score": 5.49,
+      "verified": true
+    },
+    {
+      "rank": 4,
+      "title": "长鑫科技业绩说明会释放信号：四季度毛利率预计保持稳定",
+      "summary": "10月31日，长鑫科技发布2026年三季报业绩交流会活动记录表。10月30日，公司举行2026年第三季度业绩说明会。会上，公司管理层表示，目前公司长协相关工作进展顺利，已与多家头部客户协商长期供货协议，从而锁定中长期确定性需求。在供求延续紧缺与精益制造的双重支撑下，公司预计第四季度毛利率将继续保持稳定。",
+      "time": "2026-11-01 00:20:28",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610313917640039.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 5.49,
+      "verified": true
+    },
+    {
+      "rank": 5,
+      "title": "人工智能支出持续增加 标普将Meta的评级展望下调至负面",
+      "summary": "周末，AI又有不好的消息出来。10月31日，标普全球评级迈出了可能下调Meta的信用评级的第一步。未来两年内，Meta的信用评级可能面临下调压力。原因是，该科技公司与人工智能相关的高额支出不断增加，正在给其资产负债表带来越来越大的压力。根据标普周五发布的一份声明，标普将Meta目前AA-级信用评级的展望从“稳定”下调至“负面”。",
+      "time": "2026-11-01 00:32:00",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202610313917617763.html",
+      "related_symbols": [
+        "META"
+      ],
+      "related_names": [
+        "meta"
+      ],
+      "score": 5.5,
+      "verified": true
+    }
+  ],
   "market_movers": {
     "us": {
       "top_gainers": [
@@ -2287,7 +2365,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-10-31 01:16:37",
+    "generated_at": "2026-11-01 00:35:17",
     "date": "2026-10-30",
     "macro_overlay": {
       "risk": 0.483,
@@ -2302,7 +2380,7 @@
           "risk": 0.0
         },
         "vix": {
-          "value": 17.2,
+          "value": 19.42,
           "risk": 0.2
         }
       },
@@ -2619,7 +2697,7 @@
     "quotes_total": 65,
     "quotes_verified": 65,
     "news_total": 77,
-    "news_verified": 0
+    "news_verified": 17
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
