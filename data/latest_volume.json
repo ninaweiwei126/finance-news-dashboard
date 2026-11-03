@@ -1,23 +1,10 @@
 {
   "morning": {
-    "time": "11:35:28",
-    "sh_turnover_yi": 8474.59,
-    "sz_turnover_yi": 9362.31,
-    "cyb_turnover_yi": 4667.84,
-    "total_yi": 17836.9
+    "time": "14:59:23",
+    "sh_turnover_yi": 8108.29,
+    "sz_turnover_yi": 8926.05,
+    "cyb_turnover_yi": 4464.56,
+    "total_yi": 17034.35
   },
-  "date": "2026-11-02",
-  "close": {
-    "time": "16:58:42",
-    "sh_turnover_yi": 8474.59,
-    "sz_turnover_yi": 9362.31,
-    "cyb_turnover_yi": 4667.84,
-    "total_yi": 17836.9
-  },
-  "afternoon": {
-    "sh_turnover_yi": 0.0,
-    "sz_turnover_yi": 0.0,
-    "cyb_turnover_yi": 0.0,
-    "total_yi": 0.0
-  }
+  "date": "2026-11-03"
 }
