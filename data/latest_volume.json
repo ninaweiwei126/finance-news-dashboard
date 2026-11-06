@@ -1,10 +1,10 @@
 {
-  "close": {
-    "time": "15:22:18",
-    "sh_turnover_yi": 9797.12,
-    "sz_turnover_yi": 11382.38,
-    "cyb_turnover_yi": 5761.1,
-    "total_yi": 21179.5
+  "morning": {
+    "time": "14:56:37",
+    "sh_turnover_yi": 7726.35,
+    "sz_turnover_yi": 8851.59,
+    "cyb_turnover_yi": 4410.68,
+    "total_yi": 16577.93
   },
-  "date": "2026-11-05"
+  "date": "2026-11-06"
 }
