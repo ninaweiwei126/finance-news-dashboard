@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07 01:27:19",
-  "title": "2026-11-07 全球市场金融资讯日报",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08 00:58:05",
+  "title": "2026-11-08 全球市场金融资讯日报",
   "market_overview": [
     {
       "symbol": "000001.SS",
@@ -138,12 +138,82 @@
       "spread_10y_2y": 0.35
     },
     "vix": {
-      "date": "2026-11-05",
-      "close": 28.18,
-      "change_1d": 11.57
+      "date": "2026-11-06",
+      "close": 25.64,
+      "change_1d": -2.54
     }
   },
-  "top5": [],
+  "top5": [
+    {
+      "rank": 1,
+      "title": "苹果研究团队披露机器人“大脑”研究进展 多家公司已布局机器人大脑领域",
+      "summary": "【苹果研究团队披露机器人“大脑”研究进展 大脑是具身智能从演示走向实用的核心变量之一 多家公司已布局机器人大脑领域】苹果研究团队披露机器人“大脑”研究进展。当地时间11月4日，苹果研究团队在预印本平台arXiv提交论文《PerceptiveHumanoidMotionfromSimulation》，披露了人形机器人自主控制系统HALO。研究团队将该系统部署在宇树科技的G1人形机器人上进行验证，让机器人将在仿真环境中学到的动作，带到陌生的现实房间中执行。",
+      "time": "2026-11-08 00:01:19",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611073925551457.html",
+      "related_symbols": [
+        "AAPL"
+      ],
+      "related_names": [
+        "苹果"
+      ],
+      "score": 5.46,
+      "verified": true
+    },
+    {
+      "rank": 2,
+      "title": "加码算力赛道！首都在线子公司甘肃宸融增资引入投资方：公司放弃优先认购权 持股降至16.67%仍并表 约定2027年8月前重新控股",
+      "summary": "【加码算力赛道！首都在线子公司甘肃宸融增资引入投资方：公司放弃优先认购权 持股降至16.67%仍并表 约定2027年8月前重新控股】11月6日晚间，北京首都在线科技股份有限公司（以下简称“首都在线”或“公司”）发布关于全资子公司增资扩股引入投资者暨公司放弃优先认缴出资权的公告。公告显示，公司全资子公司甘肃宸融智算科技拟新增1亿元注册资本并引入现服基金、国能日新、自然人林娟三名投资方，首都在线放弃优先认缴权，增资完成后公司持股降至16.67%，但凭借董事会委派、经营管控及一致行动安排仍将其纳入合并报表。交易附带股权回购条款、实控人提供股票质押担保，同时约定公司需在2027年8月31日前完成新一轮增资以重回控股地位。本次增资资金主要投向算力硬件采购，为公司智算转型布局算力资源。",
+      "time": "2026-11-08 01:02:30",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611073925561512.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 3.5,
+      "verified": true
+    },
+    {
+      "rank": 3,
+      "title": "初步计票结果：新西兰执政联盟获议会过半席位",
+      "summary": "【初步计票结果：新西兰执政联盟获议会过半席位】新西兰选举委员会11月8日凌晨公布的初步计票结果显示，在7日结束的新一届议会选举中，国家党主导的现执政联盟赢得超半数席位。",
+      "time": "2026-11-08 01:20:39",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611083925563285.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 3.5,
+      "verified": true
+    },
+    {
+      "rank": 4,
+      "title": "泰国强调粮食和能源安全 以多元供应体系应对外部风险",
+      "summary": "【泰国强调粮食和能源安全 以多元供应体系应对外部风险】泰国总理阿努廷7日表示，泰国目前粮食和能源供应总体稳定，民众无需担忧出现食品及生活必需品短缺。泰国将发挥本国农业生产优势，同时通过扩大生物燃料使用、推动能源来源多元化等措施，增强国家应对外部风险的能力。",
+      "time": "2026-11-08 01:40:58",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611073925562274.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 3.5,
+      "verified": true
+    },
+    {
+      "rank": 5,
+      "title": "环球下周看点：美国CPI与地缘风险接踵而至 AI交易能否走出抛售阴霾？",
+      "summary": "【环球下周看点：美国CPI与地缘风险接踵而至 AI交易能否走出抛售阴霾？】美国科技股本周遭遇猛烈抛售，AI投资热潮同时面临政策环境变化与资本市场信心动摇的双重考验。尽管芯片股周五出现反弹，但纳指仍处于技术性回调区间，市场对AI基础设施投资回报、融资能力和未来增长前景的疑虑尚未消散。",
+      "time": "2026-11-08 02:00:26",
+      "source": "eastmoney",
+      "sub_source": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611083925563342.html",
+      "related_symbols": [],
+      "related_names": [],
+      "score": 4.5,
+      "verified": true
+    }
+  ],
   "market_movers": {
     "us": {
       "top_gainers": [
@@ -338,12 +408,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -368,12 +439,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -398,12 +470,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -428,12 +501,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -458,12 +532,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -488,12 +563,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -518,12 +594,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -548,12 +625,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -577,12 +655,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -607,12 +686,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -666,12 +746,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -695,12 +776,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -724,12 +806,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -783,12 +866,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -812,12 +896,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -841,12 +926,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -870,12 +956,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -899,12 +986,13 @@
         "pe": null,
         "sources": [
           "tencent",
-          "sina"
+          "sina",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(2个源)"
+          "多源一致(3个源)"
         ]
       },
       {
@@ -929,12 +1017,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1019,12 +1108,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1591,12 +1681,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1621,12 +1712,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1651,12 +1743,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1681,12 +1774,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1711,12 +1805,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1741,12 +1836,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1771,12 +1867,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1801,12 +1898,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1831,12 +1929,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1861,12 +1960,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1891,12 +1991,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1921,12 +2022,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1951,12 +2053,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -1981,12 +2084,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2011,12 +2115,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2041,12 +2146,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2071,12 +2177,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2101,12 +2208,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2131,12 +2239,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2161,12 +2270,13 @@
         "sources": [
           "tencent",
           "sina",
-          "eastmoney"
+          "eastmoney",
+          "tradingview"
         ],
         "verified": true,
         "cross_checked": true,
         "verification_notes": [
-          "多源一致(3个源)"
+          "多源一致(4个源)"
         ]
       },
       {
@@ -2279,7 +2389,7 @@
       "error": null
     },
     "tradingview": {
-      "ok": false,
+      "ok": true,
       "error": null
     },
     "investing": {
@@ -2296,7 +2406,7 @@
     }
   },
   "signals": {
-    "generated_at": "2026-11-07 01:32:40",
+    "generated_at": "2026-11-08 01:01:52",
     "date": "2026-11-06",
     "macro_overlay": {
       "risk": 0.617,
@@ -2311,7 +2421,7 @@
           "risk": 0.0
         },
         "vix": {
-          "value": 28.18,
+          "value": 25.64,
           "risk": 0.6
         }
       },
@@ -2627,8 +2737,8 @@
   "verification_stats": {
     "quotes_total": 65,
     "quotes_verified": 64,
-    "news_total": 74,
-    "news_verified": 0
+    "news_total": 71,
+    "news_verified": 9
   },
   "watchlist_meta": {
     "title": "全球市场核心观察清单",
