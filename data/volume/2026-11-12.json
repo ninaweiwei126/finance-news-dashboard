@@ -6,5 +6,18 @@
     "cyb_turnover_yi": 5250.73,
     "total_yi": 19320.77
   },
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "close": {
+    "time": "15:55:05",
+    "sh_turnover_yi": 8795.37,
+    "sz_turnover_yi": 10525.4,
+    "cyb_turnover_yi": 5250.73,
+    "total_yi": 19320.77
+  },
+  "afternoon": {
+    "sh_turnover_yi": 0.0,
+    "sz_turnover_yi": 0.0,
+    "cyb_turnover_yi": 0.0,
+    "total_yi": 0.0
+  }
 }
