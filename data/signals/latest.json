@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-24 05:42:17",
-  "date": "2026-11-23",
+  "generated_at": "2026-11-25 04:44:27",
+  "date": "2026-11-24",
   "macro_overlay": {
     "risk": 0.617,
     "risk_level": "高",
     "components": {
       "treasury_10y": {
-        "value": 4.92,
+        "value": 4.91,
         "risk": 0.75
       },
       "curve_spread": {
-        "value": 0.29,
+        "value": 0.28,
         "risk": 0.0
       },
       "vix": {
-        "value": 26.62,
+        "value": 26.36,
         "risk": 0.6
       }
     },
@@ -24,137 +24,137 @@
     {
       "symbol": "NVDA",
       "name_cn": "英伟达",
-      "bars": 2236,
+      "bars": 2237,
       "history_note": null,
       "valid": true,
-      "date": "2026-11-23",
-      "price": 165.05,
-      "change_pct": 31.48,
+      "date": "2026-11-24",
+      "price": 155.38,
+      "change_pct": -5.86,
       "sub_scores": {
         "trend_ma": {
-          "score": -0.974,
-          "d20": -7.75,
-          "d50": -19.91,
-          "d200": -18.68
+          "score": -1.0,
+          "d20": -11.61,
+          "d50": -24.19,
+          "d200": -23.38
         },
         "ma_alignment": {
           "score": 0.5,
-          "sma50": 206.08,
-          "sma200": 202.96,
+          "sma50": 204.95,
+          "sma200": 202.79,
           "cross": null,
           "cross_days": null
         },
         "macd": {
-          "score": 0.005,
-          "macd_line": -18.072,
-          "signal": -15.773,
-          "hist": -2.299,
-          "hist_change": 2.331
+          "score": -0.013,
+          "macd_line": -17.262,
+          "signal": -16.071,
+          "hist": -1.191,
+          "hist_change": 1.108
         },
         "rsi": {
-          "score": 0.285,
-          "rsi": 42.9
+          "score": 0.421,
+          "rsi": 39.5
         },
         "position": {
-          "score": -0.288,
-          "pos52": 0.348,
-          "pct_b": 0.364,
+          "score": -0.447,
+          "pos52": 0.263,
+          "pct_b": 0.291,
           "high52": 239.24,
           "low52": 125.53
         },
         "volume": {
-          "score": -0.25,
-          "vol_ratio": 1.55,
+          "score": -0.75,
+          "vol_ratio": 1.47,
           "obv_trend": -1.0
         },
         "relative_strength": {
           "score": -1.0,
-          "rs20": -17.86,
-          "rs60": -17.89
+          "rs20": -22.42,
+          "rs60": -23.7
         },
         "atr": {
           "score": -1.0,
-          "atr_pct": 9.46
+          "atr_pct": 10.39
         }
       },
       "composite": {
-        "raw": -0.419,
-        "adjusted": -0.29,
+        "raw": -0.48,
+        "adjusted": -0.332,
         "signal": "持有偏空",
-        "confidence": 0.29,
+        "confidence": 0.332,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "持有偏空",
-      "score": -0.29,
-      "confidence": 0.29,
+      "score": -0.332,
+      "confidence": 0.332,
       "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
     },
     {
       "symbol": "GOOGL",
       "name_cn": "谷歌",
-      "bars": 2236,
+      "bars": 2237,
       "history_note": null,
       "valid": true,
-      "date": "2026-11-23",
-      "price": 282.1,
-      "change_pct": 6.34,
+      "date": "2026-11-24",
+      "price": 279.05,
+      "change_pct": -1.08,
       "sub_scores": {
         "trend_ma": {
-          "score": -0.755,
-          "d20": -1.95,
-          "d50": -12.11,
-          "d200": -16.17
+          "score": -0.786,
+          "d20": -2.31,
+          "d50": -12.7,
+          "d200": -17.02
         },
         "ma_alignment": {
           "score": -0.5,
-          "sma50": 320.95,
-          "sma200": 336.5,
+          "sma50": 319.64,
+          "sma200": 336.28,
           "cross": null,
           "cross_days": null
         },
         "macd": {
-          "score": 0.092,
-          "macd_line": -12.74,
-          "signal": -12.993,
-          "hist": 0.252,
-          "hist_change": 0.784
+          "score": 0.095,
+          "macd_line": -12.175,
+          "signal": -12.829,
+          "hist": 0.654,
+          "hist_change": 0.402
         },
         "rsi": {
-          "score": 0.358,
-          "rsi": 41.0
+          "score": 0.415,
+          "rsi": 39.6
         },
         "position": {
-          "score": -0.479,
-          "pos52": 0.123,
-          "pct_b": 0.398,
+          "score": -0.541,
+          "pos52": 0.101,
+          "pct_b": 0.358,
           "high52": 402.18,
           "low52": 265.29
         },
         "volume": {
-          "score": -0.339,
+          "score": -0.471,
           "vol_ratio": 0.92,
-          "obv_trend": -0.678
+          "obv_trend": -0.943
         },
         "relative_strength": {
           "score": -1.0,
-          "rs20": -5.23,
-          "rs60": -12.4
+          "rs20": -6.67,
+          "rs60": -11.87
         },
         "atr": {
-          "score": -0.776,
-          "atr_pct": 4.44
+          "score": -0.689,
+          "atr_pct": 4.22
         }
       },
       "composite": {
-        "raw": -0.461,
-        "adjusted": -0.319,
+        "raw": -0.472,
+        "adjusted": -0.326,
         "signal": "持有偏空",
-        "confidence": 0.319,
+        "confidence": 0.326,
         "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
       },
       "signal": "持有偏空",
-      "score": -0.319,
-      "confidence": 0.319,
+      "score": -0.326,
+      "confidence": 0.326,
       "action_tip": "信号偏空但不强：降低仓位，反弹至压力位可考虑减仓（宏观风险较高，建议控制整体仓位）"
     },
     {
